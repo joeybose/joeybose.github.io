@@ -16,15 +16,13 @@
 title: Joey Bose
 email: joey.bose@mail.utoronto.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm a Master's student at the University of Toronto where I'm currently
-  researching crafting Adversarial Attacks using GAN's. I'm also a research
-  intern at Borealis AI where I work on applying adversarial learning
-  principles to improve things like word embeddings.
+    Welcome to my personal site where I post my random musings
+    about Machine Learning, Research and perhaps even cute little
+    ideas that are parading my mind.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
 github_username:  joeybose
-linkedin: www.linkedin.com/in/avishek-joey-bose
+linkedin: avishek-joey-bose
 
 
 # Build settings
@@ -32,6 +30,12 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+sass:
+    sass_dir: _sass
+include: ['_pages']
+kramdown:
+    input: GFM
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
