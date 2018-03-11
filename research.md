@@ -16,16 +16,16 @@ looking to actively pursue as future research directions.
 
 ## Publications and Preprints
 * Adversarial Contrastive Estimation. \\
-(Work in Progress) \\
-[PDF]({{ "./assets/ace.pdf" | absolute_url }})
-* An Evaluation of 2D Face Alignment models under extreme lighting conditions and blur. \\
-(Under Review IEEE MIPR 2018 workshop) \\
-[PDF]({{ "./assets/evaluation-2d-face.pdf" | absolute_url }})
+(ACL 2018) \\
+[PDF]({{ "./assets/ace_final.pdf" | absolute_url }})
 * Walking through sight: Seeing the ability to see, in a 3-D augmediated reality environment. \\
 (Accepted at IEEE GEM 2014) \\
 [PDF]({{ "./assets/VeillanceAR_JanzenEtal2014.pdf" | absolute_url }})
 
-## Course Projects
+
+## Course Projects and other Projects
 * Crafting Adversarial Attacks with Adversarial Transformations\\
 CSC2541 Fall 2017 \\
 [PDF]({{ "./assets/atgan.pdf" | absolute_url }})
+* An Evaluation of 2D Face Alignment models under extreme lighting conditions and blur. \\
+[PDF]({{ "./assets/evaluation-2d-face.pdf" | absolute_url }})
