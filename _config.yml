@@ -16,9 +16,9 @@
 title: Joey Bose
 email: joey.bose@mail.utoronto.com
 description: >- # this means to ignore newlines until "baseurl:"
-    Welcome to my personal site where I post my random musings
-    about Machine Learning, Research and perhaps even cute little
-    ideas that are parading my mind.
+        Welcome to my personal site where I post my random musings
+        about Machine Learning, Research and perhaps even cute little
+        ideas that are parading my mind.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://joeybose.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  joeybose
