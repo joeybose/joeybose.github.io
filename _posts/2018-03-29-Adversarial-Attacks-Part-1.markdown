@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Adversarial Attacks Part1!"
+title:  "Adversarial Attacks Part 1: FGSM "
 date:   2018-03-29 10:08:27 -0500
 comments: True
 share: True
@@ -74,7 +74,7 @@ so obvious but its clearer if you write out the definition of the infinity
 norm. In words the infinity norm for a vector is the element which has the
 maximum absolute value, and as result its independent from the vector length. We can now let small refer
 to a value $$\epsilon$$ that would be discarded due to precision. With this in mind we can now
-let $$\Vert  \eta \Vert_{\infty} \Vert < \epsilon. Ok but you may ask why this
+let $$\Vert  \eta \Vert_{\infty} \Vert < \epsilon $$. Ok but you may ask why this
 is reasonable for Neural Nets which are much deeper and highly non-linear? Well
 there are a few assumptions that make the intuition a bit trickier to extend to
 the general Neural Net case. But imaging all our non-linearities are ReLu's,
@@ -136,7 +136,7 @@ but this post is getting rather long so I'll conclude with a small remark. The
 FGSM attack is not meant to be a strong attack but rather a fast one. There are
 other stronger attacks which are much harder to defend against such as
 Carlini-Wagner but they take much longer to construct. But i'll shelve that
-discussion for a future post. As a overall note, I'm hoping to dedicate each
+discussion for a future post. As an overall note, I'm hoping to dedicate each
 post to a specific attack or defense and really look at it under the hood and
 in the future talk more about the direction of adversarial attack research that
 I'm doing and most excited about. Feel free to reach out with questions,
