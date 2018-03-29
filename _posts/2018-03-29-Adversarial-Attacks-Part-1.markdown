@@ -26,7 +26,7 @@ Net misclassifies the central object in the image. If pictures are worth a
 thousand words then examples are worth a million right? Here's an illustrative example taken
 from the FGSM paper.
 
-![EX1]({{ "../assets/adv_attacks/adv_example1.png" | absolute_url }}){: style="display: block; margin: auto; max-width: 400px;"}
+![EX1]({{ "../assets/adv_attacks/adv_example1.png" | absolute_url }}){: style="display: block; margin: auto;"}
 
 By adding a small amount of noise to the original image the attack was able to
 change the classification of the original image of a panda with high confidence
