@@ -58,11 +58,14 @@ Small enough here can be a bit vague but one way to think about it is as
 follows. If we're working with only 8-bit precision that means perturbations
 smaller than $$1/255$$ per pixel would be discarded in terms of the data
 encoded. Now what happens when we do a dot product with the perturbed image?
+
+
 $$
 \begin{align*}
     w^T\tilde{x} = w^Tx + w^T\eta
 \end{align*}
 $$
+
 
 The perturbation causes the pre-activation to increase by $$w^T\eta$$. We can
 maximize this increase subject to a maxnorm constraint if we let $$\eta =
@@ -74,7 +77,7 @@ so obvious but its clearer if you write out the definition of the infinity
 norm. In words the infinity norm for a vector is the element which has the
 maximum absolute value, and as result its independent from the vector length. We can now let small refer
 to a value $$\epsilon$$ that would be discarded due to precision. With this in mind we can now
-let $$\Vert  \eta \Vert_{\infty} \Vert < \epsilon $$. Ok but you may ask why this
+let $$\Vert  \eta \Vert_{\infty} < \epsilon $$. Ok but you may ask why this
 is reasonable for Neural Nets which are much deeper and highly non-linear? Well
 there are a few assumptions that make the intuition a bit trickier to extend to
 the general Neural Net case. But imaging all our non-linearities are ReLu's,
@@ -100,7 +103,7 @@ the inputs. So our perturbation then becomes:
 
 $$
 \begin{align*}
-    \eta = \epsilon sign(\nabla_x J(\theta,x,y))
+    \eta = \epsilon \textrm{sign}(\nabla_x J(\theta,x,y))
 \end{align*}
 $$
 
