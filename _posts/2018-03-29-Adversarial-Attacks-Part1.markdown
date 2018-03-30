@@ -90,7 +90,7 @@ such a crazy idea.
 So the next logical question becomes how do we leverage our intuition to create
 an attack? Actually its not so hard, if you take the most typical scenario
 where you have a model parametrized by weights $$ \theta $$ and the goal is to
-minimize a cost function $$ J(\theta,x,y $$. For classification this would be
+minimize a cost function $$ J(\theta,x,y) $$. For classification this would be
 cross-entropy and $$x$$ are the inputs while $$y$$ are the labels. To construct
 an attack we have to go in the opposite direction of minimizing the cost. That
 is to say we want the weights to respond in a way that moves us in opposite
