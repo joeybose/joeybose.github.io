@@ -113,22 +113,22 @@ pytorch to compute these perturbations easily. In pytorch code this looks like:
 
 ~~~ python
 def attack(self, inputs, labels, model, *args):
-		"""
-		Given a set of inputs and epsilon, return the perturbed inputs (as Variable objects),
-		the predictions for the inputs from the model, and the percentage of inputs
-		unsucessfully perturbed (i.e., model accuracy).
-		The adversarial inputs is a python list of tensors.
-		The predictions is a numpy array of classes, with length equal to the number of inputs.
-		"""
-		adv_inputs = inputs.data + self.epsilon * torch.sign(inputs.grad.data)
-		adv_inputs = torch.clamp(adv_inputs, -1.0, 1.0)
-		adv_inputs = Variable(adv_inputs, requires_grad=False)
+    """
+    Given a set of inputs and epsilon, return the perturbed inputs (as Variable objects),
+    the predictions for the inputs from the model, and the percentage of inputs
+    unsucessfully perturbed (i.e., model accuracy).
+    The adversarial inputs is a python list of tensors.
+    The predictions is a numpy array of classes, with length equal to the number of inputs.
+    """
+    adv_inputs = inputs.data + self.epsilon * torch.sign(inputs.grad.data)
+    adv_inputs = torch.clamp(adv_inputs, -1.0, 1.0)
+    adv_inputs = Variable(adv_inputs, requires_grad=False)
 
-		predictions = torch.max(model(adv_inputs).data, 1)[1].cpu().numpy()
-		num_unperturbed = (predictions == labels.data.cpu().numpy()).sum()
-		adv_inputs = [ adv_inputs[i] for i in range(inputs.size(0)) ]
+    predictions = torch.max(model(adv_inputs).data, 1)[1].cpu().numpy()
+    num_unperturbed = (predictions == labels.data.cpu().numpy()).sum()
+    adv_inputs = [ adv_inputs[i] for i in range(inputs.size(0)) ]
 
-		return adv_inputs, predictions, num_unperturbed
+    return adv_inputs, predictions, num_unperturbed
 ~~~
 So how good is this attack? Well it's not too shabby as with an $$\epsilon=0.25$$ the attack can
 break a softmax classifier with an error rate of $$99.9\%$$. However, the main selling point is how easy it is to craft
