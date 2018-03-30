@@ -69,7 +69,7 @@ $$
 
 The perturbation causes the pre-activation to increase by $$w^T\eta$$. We can
 maximize this increase subject to a maxnorm constraint if we let $$\eta =
-sign(w) $$. Further, if $$w$$ is $$n$$ dimensional and the average magnitude of
+\textrm{sign}(w) $$. Further, if $$w$$ is $$n$$ dimensional and the average magnitude of
 a vector in $$w$$ is $$m$$ then the total increase caused by the perturbation
 is $$\epsilon m n$$. If we force $$\eta$$ to say an infinity norm constraint then it doesn't
 grow with the dimensionality of the weight matrix! Ok that might not have been
@@ -140,9 +140,9 @@ FGSM attack is not meant to be a strong attack but rather a fast one. There are
 other stronger attacks which are much harder to defend against such as
 Carlini-Wagner but they take much longer to construct. But i'll shelve that
 discussion for a future post. As an overall note, I'm hoping to dedicate each
-post to a specific attack or defense and really look at it under the hood and
-in the future talk more about the direction of adversarial attack research that
-I'm doing and most excited about. Feel free to reach out with questions,
+post to a specific attack or defense and really look at it in detail.
+In the future I hope to talk more about some of the research that I'm doing or research directions in
+that I'm most excited about. Feel free to reach out with questions,
 comments and especially mistakes I make along the way!
 
 {% if page.comments %}
