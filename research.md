@@ -15,9 +15,12 @@ curiosity, and the general Reinforcement Learning framework are areas that I'm
 looking to actively pursue as future research directions.
 
 ## Publications and Preprints
+* Adversarial Attacks on Face Detectors using Neural Net based Constrained Optimization \\
+[PDF]({{ "./assets/adversarial-attacks-face.pdf" | absolute_url }})
+(Under Review IEEE MMSP)
 * Adversarial Contrastive Estimation. \\
-(ACL 2018) \\
-[PDF]({{ "./assets/ace_final.pdf" | absolute_url }})
+(Association of Computational Linguistics 2018) ### ORAL \\
+[PDF]({{ "./assets/adversarial-contrastive-estimation.pdf" | absolute_url }})
 * Walking through sight: Seeing the ability to see, in a 3-D augmediated reality environment. \\
 (Accepted at IEEE GEM 2014) \\
 [PDF]({{ "./assets/VeillanceAR_JanzenEtal2014.pdf" | absolute_url }})
