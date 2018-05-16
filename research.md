@@ -19,7 +19,7 @@ looking to actively pursue as future research directions.
 [PDF]({{ "./assets/adversarial-attacks-face.pdf" | absolute_url }})
 (Under Review IEEE MMSP)
 * Adversarial Contrastive Estimation. \\
-(Association of Computational Linguistics 2018) ### ORAL \\
+(Association of Computational Linguistics 2018) ORAL \\
 [PDF]({{ "./assets/adversarial-contrastive-estimation.pdf" | absolute_url }})
 * Walking through sight: Seeing the ability to see, in a 3-D augmediated reality environment. \\
 (Accepted at IEEE GEM 2014) \\
