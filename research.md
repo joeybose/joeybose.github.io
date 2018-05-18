@@ -26,7 +26,13 @@ looking to actively pursue as future research directions.
 [PDF]({{ "./assets/VeillanceAR_JanzenEtal2014.pdf" | absolute_url }})
 
 
-## Course Projects and other Projects
+## Course and other Projects
+* Active Learning through Adversarial Exploration in Contrastive Objectives \\
+CSC2547 Winter 2018 \\
+[PDF]({{ "./assets/active-ace.pdf" | absolute_url }})
+* Improving Visual Semantic Embedding By Adversarial Contrastive Estimation \\
+CSC2548 Winter 2018 \\
+[PDF]({{ "./assets/vse--.pdf" | absolute_url }})
 * Crafting Adversarial Attacks with Adversarial Transformations\\
 CSC2541 Fall 2017 \\
 [PDF]({{ "./assets/atgan.pdf" | absolute_url }})
