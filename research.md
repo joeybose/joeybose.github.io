@@ -17,7 +17,7 @@ looking to actively pursue as future research directions.
 ## Publications and Preprints
 * Adversarial Attacks on Face Detectors using Neural Net based Constrained Optimization \\
 [PDF]({{ "./assets/adversarial-attacks-face.pdf" | absolute_url }})
-(Under Review IEEE MMSP)
+(Accepted IEEE MMSP)
 * Adversarial Contrastive Estimation. \\
 (Association of Computational Linguistics 2018) ORAL \\
 [PDF]({{ "./assets/adversarial-contrastive-estimation.pdf" | absolute_url }})
