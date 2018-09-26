@@ -14,6 +14,15 @@ interact with it as humans do. The nature of knowledge, computational
 curiosity, and the general Reinforcement Learning framework are areas that I'm
 looking to actively pursue as future research directions.
 
+## Invited talks
+* Adversarial Attacks on Face Detectors using Neural Net based Constrained Optimization \\
+[PDF]({{ "./assets/GeekPwn_Las_Vegas.pdf" | absolute_url }})
+(Best Paper Nominee IEEE MMSP)
+
+* Adversarial Contrastive Estimation. \\
+(Association of Computational Linguistics 2018) ORAL \\
+[PDF]({{ "./assets/adversarial-contrastive-slides.pdf" | absolute_url }})
+
 ## Publications and Preprints
 * Adversarial Attacks on Face Detectors using Neural Net based Constrained Optimization \\
 [PDF]({{ "./assets/adversarial-attacks-face.pdf" | absolute_url }})

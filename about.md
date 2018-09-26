@@ -3,7 +3,7 @@ layout: page
 title: About Me
 permalink: /about/
 ---
-![My helpful screenshot]({{ "./assets/fb_profile_pic.jpg" | absolute_url }})
+![My helpful screenshot]({{ "./assets/joey_final.jpg" | absolute_url }})
 
 I'm a PhD student at the RLLab at McGill/MILA where I work on Adversarial
 Machine Learning on Graphs. Previously, I was a Master's student at the University of Toronto where I researched
