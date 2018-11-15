@@ -24,9 +24,15 @@ looking to actively pursue as future research directions.
 [PDF]({{ "./assets/adversarial-contrastive-slides.pdf" | absolute_url }})
 
 ## Publications and Preprints
+* Compositional Hard Negative Mining for Visual Semantic Embeddings via an Adversary\\
+(Accepted NIPS 2018 Visually Grounded Language and Interaction Workshop)
+[PDF]({{ "./assets/compositional_fairness.pdf" | absolute_url }})
+* Compositional Fairness Constraints for Graph Embeddings \\
+(Accepted NIPS 2018 Relational Representational Learning Workshop)
+[PDF]({{ "./assets/compositional_fairness.pdf" | absolute_url }})
 * Adversarial Attacks on Face Detectors using Neural Net based Constrained Optimization \\
 [PDF]({{ "./assets/adversarial-attacks-face.pdf" | absolute_url }})
-(Accepted IEEE MMSP)
+(Accepted IEEE MMSP) Best Paper Nominee
 * Adversarial Contrastive Estimation. \\
 (Association of Computational Linguistics 2018) ORAL \\
 [PDF]({{ "./assets/adversarial-contrastive-estimation.pdf" | absolute_url }})
