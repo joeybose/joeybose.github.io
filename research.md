@@ -25,10 +25,10 @@ looking to actively pursue as future research directions.
 
 ## Publications and Preprints
 * Compositional Hard Negative Mining for Visual Semantic Embeddings via an Adversary\\
-(Accepted NIPS 2018 Visually Grounded Language and Interaction Workshop)
-[PDF]({{ "./assets/compositional_fairness.pdf" | absolute_url }})
+(Accepted NeurIPS 2018 Visually Grounded Language and Interaction Workshop)
+[PDF]({{ "./assets/adv-retrieval-nips.pdf" | absolute_url }})
 * Compositional Fairness Constraints for Graph Embeddings \\
-(Accepted NIPS 2018 Relational Representational Learning Workshop)
+(Accepted NeurIPS 2018 Relational Representational Learning Workshop)
 [PDF]({{ "./assets/compositional_fairness.pdf" | absolute_url }})
 * Adversarial Attacks on Face Detectors using Neural Net based Constrained Optimization \\
 [PDF]({{ "./assets/adversarial-attacks-face.pdf" | absolute_url }})
