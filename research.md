@@ -25,11 +25,12 @@ looking to actively pursue as future research directions.
 
 ## Publications and Preprints
 * Improving Exploration in Soft-Actor-Critic with Normalizing Flows Policies\\
-(ICML 2019 Invertible Neural Networks and Normalizing Flows Workshop)\
+(ICML 2019 Invertible Neural Networks and Normalizing Flows Workshop)\\
 Patrick Nadeem Ward, Ariella Smofsky, **Avishek Joey Bose**\\
 * A Cross-Domain Transferable Neural Coherence Model\\
 (Association of Computational Linguistics 2019)\\
-Xu Peng, Hamidreza Saghir, JinSung Kang, Teng Long, **Avishek Joey Bose**, Yanshuai Cao, Jackie Cheung\\
+Xu Peng, Hamidreza Saghir, JinSung Kang, Teng Long, **Avishek Joey Bose**,\\
+Yanshuai Cao, Jackie Cheung\\
 * Compositional Fairness Constraints for Graph Embeddings\\
 (International Conference on Machine Learning 2019)\\
 **Avishek Joey Bose**, William Hamilton\\
