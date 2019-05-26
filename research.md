@@ -41,7 +41,7 @@ Yanshuai Cao, Jackie Cheung
 * Discrete off-policy policy gradient using continuous relaxations\\
 (Reinforcement Learning and Decision Making 2019)\\
 Andre Cianflone, Zafarali Ahmed, Riashat Islam, **Avishek Joey Bose**, William Hamilton \\
-[PDF]({{ "./assets/Gradient_Estimator.pdf" | absolute_url }})
+[PDF]({{ "./assets/Gradient_estimator.pdf" | absolute_url }})
 * Compositional Hard Negative Mining for Visual Semantic Embeddings via an Adversary\\
 (NeurIPS 2018 Visually Grounded Language and Interaction Workshop)\\
 **Avishek Joey Bose**, Huan Ling, Yanshuai Cao \\
