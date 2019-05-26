@@ -4,15 +4,14 @@ title: Research
 permalink: /Research/
 ---
 
-My current research interests are primarily in Adversarial Machine Learning.
-Specifically, I'm interested in interpreting and improving contrastive learning techniques such as metric
-learning, triplet loss, and noise contrastive estimation through an adversarial
-lens. I'm also very interested in crafting and gaining a deeper understanding
-of Adversarial Attacks and their transferability properties. My long term
-research goal is to create artificial agents that can parse the world and
-interact with it as humans do. The nature of knowledge, computational
-curiosity, and the general Reinforcement Learning framework are areas that I'm
-looking to actively pursue as future research directions.
+My current research interests are primarily in Adversarial Machine Learning
+applied to different domains such as Images, Text and most recently Graphs.
+Specifically, I'm interested in all things related to GAN's, adversarial attacks and adversarial
+disentanglement. More broadly, I'm interested in understanding how to build
+better machine learning models that can operate in the world around us and
+serve humans better. This entails understanding the data generative process,
+the biases that are reflected within the data and most importantly
+understanding how these models fail.
 
 ## Invited talks
 * Adversarial Attacks on Face Detectors using Neural Net based Constrained Optimization \\
