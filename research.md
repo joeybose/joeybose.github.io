@@ -24,6 +24,10 @@ looking to actively pursue as future research directions.
 [PDF]({{ "./assets/adversarial-contrastive-slides.pdf" | absolute_url }})
 
 ## Publications and Preprints
+* Generalizable Adversarial Attacks using Generative Models \\
+(Submitted to NeurIPS 2019)\\
+**Avishek Joey Bose**, Andre Cianflone, William Hamilton \\
+[PDF]({{ "./assets/Dagaer.pdf" | absolute_url }})
 * Improving Exploration in Soft-Actor-Critic with Normalizing Flows Policies\\
 (ICML 2019 Invertible Neural Networks and Normalizing Flows Workshop)\\
 Patrick Nadeem Ward, Ariella Smofsky, **Avishek Joey Bose**
@@ -33,7 +37,7 @@ Xu Peng, Hamidreza Saghir, JinSung Kang, Teng Long, **Avishek Joey Bose**,\\
 Yanshuai Cao, Jackie Cheung
 * Compositional Fairness Constraints for Graph Embeddings\\
 (International Conference on Machine Learning 2019)\\
-**Avishek Joey Bose**, William Hamilton
+**Avishek Joey Bose**, William Hamilton \\
 [PDF]({{ "./assets/Final_Graph_Invariance.pdf" | absolute_url }})
 * Discrete off-policy policy gradient using continuous relaxations\\
 (Reinforcement Learning and Decision Making 2019)\\
