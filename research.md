@@ -37,18 +37,18 @@ Yanshuai Cao, Jackie Cheung
 [PDF]({{ "./assets/Final_Graph_Invariance.pdf" | absolute_url }}) \\
 * Discrete off-policy policy gradient using continuous relaxations\\
 (Reinforcement Learning and Decision Making 2019)\\
-Andre Cianflone, Zafarali Ahmed, Riashat Islam, **Avishek Joey Bose**, William Hamilton
+Andre Cianflone, Zafarali Ahmed, Riashat Islam, **Avishek Joey Bose**, William Hamilton \\
 [PDF]({{ "./assets/Gradient_Estimator.pdf" | absolute_url }})\\
 * Compositional Hard Negative Mining for Visual Semantic Embeddings via an Adversary\\
 (NeurIPS 2018 Visually Grounded Language and Interaction Workshop)\\
-**Avishek Joey Bose**, Huan Ling, Yanshuai Cao\\
+**Avishek Joey Bose**, Huan Ling, Yanshuai Cao \\
 [PDF]({{ "./assets/adv-retrieval-nips.pdf" | absolute_url }})
 * Compositional Fairness Constraints for Graph Embeddings \\
 (NeurIPS 2018 Relational Representational Learning Workshop)\\
 **Avishek Joey Bose**, William Hamilton\\
 [PDF]({{ "./assets/compositional_fairness.pdf" | absolute_url }})
 * Adversarial Attacks on Face Detectors using Neural Net based Constrained Optimization \\
-**Avishek Joey Bose**, Parham Aarabi\\
+**Avishek Joey Bose**, Parham Aarabi \\
 [PDF]({{ "./assets/adversarial-attacks-face.pdf" | absolute_url }})
 (IEEE MMSP) Best Paper Nominee
 * Adversarial Contrastive Estimation. \\
