@@ -5,12 +5,9 @@ permalink: /about/
 ---
 ![My helpful screenshot]({{ "./assets/joey_final.jpg" | absolute_url }})
 
-I'm a PhD student at the RLLab at McGill/MILA where I work on Adversarial
-Machine Learning on Graphs under Prof. Will Hamilton. Previously, I was a Master's student at the University of Toronto where I researched
-crafting Adversarial Attacks on Computer Vision models using GAN's. I
-also interned at Borealis AI where I was working on applying adversarial
-learning principles to learn better embeddings i.e. Word Embeddings for Machine
-Learning models.
+Last Updated: Oct 15, 2019
+
+Joey Bose is a second year PhD student at the RLLab at McGill/MILA under the supervision of Prof. Will Hamilton. His research interests are at the intersection of Graph Representation Learning, Generative Modelling and Adversarial Machine Learning with a current emphasis on structured latent spaces. Previously, he completed his Bachelors and Master’s degrees from the University of Toronto working on adversarial attacks against face detection and is the President and CEO of FaceShield Inc an educational platform for digital privacy for facial data. His work has been featuredForbes, CBC, VentureBeat and other media outlets and is generously supported by the IVADO PhD Fellowship.
 
 Quick Links
 ----------
