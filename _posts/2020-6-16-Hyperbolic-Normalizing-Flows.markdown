@@ -93,7 +93,7 @@ can really be understood in terms of 3 key desiderata:
 * Each function $$f_i$$￼ must be invertible.
 * We must be able to efficiently sample from the final distribution $$z_j = f_j
   \circ f_{j-1} \circ \dots \circ f_1(z_0)$$
-* We must be able to efficiently compute the associated change in volume
+* We must be able to efficiently compute the associated change in volume \\
 
 
 $$
@@ -101,12 +101,20 @@ $$
 \log p(z_j) = \log p(z_0) - \sum_{i=1}^k\log det\Big|\frac{\partial f_j}{\partial z_{j-1}} \Big|
 \end{align*}
 $$
+
 Thus normalizing flows compose several invertible simple functions to construct
 a arbitrarily complex function which allows one to sample from a simple base
 distribution but yields a sample from a significantly more complex
 distribution. All of this is hinged on the change in volume formula for
 probability distributions which can be extermely efficient to compute given
-certain types of $$f_i$$'s.
+certain types of $$f_i$$'s. A concrete instantiation of this is the now famous
+RealNVP or Affine coupling flow that basically partitions an input vector into
+two sets. The first set undergoes an identity map while the second set is
+pushed through a scale ($$s$$) and translation ($$t$$)  transformation conditioned on the first.
+In equations this is:
+![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.013.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}
+Notice how the Jacobian Matrix has a nice lower triangular form, which allows
+for an efficient calculation of the change in volume.
 
 # Quick Primer on Lorentz Model of hyperbolic geometry
 Hyperbolic geometry initself is a vast and rich topic that avid scholars can
@@ -151,82 +159,81 @@ vice-versa. Mapping a point from the tangent space to the manifold is known as
 the exponential map, while the inverse operation is called the logarithmic map.
 It's important to note that both maps may not have closed form solutions for
 arbitrary Riemannian manifolds, but luckily do have nice closed forms in the
-Lorentz model
+Lorentz model.
+![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.011.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}
 
 ## Distributions on Hyperbolic Spaces
+Now finally we can talk about one concrete way to define distributions on
+Hyperbolic spaces. This construction follows from the following papers
+[nagano_et_al_2019](http://proceedings.mlr.press/v97/nagano19a/nagano19a.pdf). I think this
+figure does a pretty good job at explaining the idea:
+
+![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.012.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}
+
+Essentially, we sample from a standard normal distribution with one less
+dimension. Afterwhich, we prepend a $$0$$ element to the sample $$\tilde{v}$$
+which allows us to reinterpret this as a sampled vector residing at the tangent
+space the origin. We can then use parallel transport to move this vector to a
+pre-learned "mean" parameter's tangent space ($$\mu$$), before finally applying
+the exponential map to get a vector on the hyperboloid.
+In the literature this is known as a Wrapped Normal Distribution.
+
+# Normalizing Flows on Hyperbolic Spaces: Tangent Coupling
+
+We're finally ready to define our first normalizing flow on hyperbolic spaces!
+Let's quickly recap the key challenges. First, $$\mathbb{H}^n_K$$ doesn't have
+vector space structure, making it hard to apply conventional deep learning
+techniques. However, the tangent space at the origin does so can liberally make
+use of it. Second, we want a final sample to reside on the actual manifold.
+Like the Wrapped Normal we simply use exponential and logarithmic maps to move
+between tangent spaces and the actual manifold.
+
+So given these ideas we can now define a new Normalizing Flow layer termed:
+"Tangent Coupling".
+
+![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.014.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}
+
+One might think that the change in volume due to a single Tangent Coupling
+layer might be expensive but as it turns out, just like regular Affine coupling
+it is $$\mathcal{O}(n)$$.
+
+![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.015.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}
+
+The proof for this requires is a bit too heavy handed for a blog post but at a
+high level the only two addition terms that affect the change in volume
+manifest themselves through the exp and log maps (blue and green) respetively.
+Remarkably, the remainder of the change in volume is exactly the same as Affine Coupling!
+
+# Normalizing Flows on Hyperbolic Spaces: Wrapped Hyperboloid Coupling
+One problem that can arise with Tangent Coupling is that we only use the
+tangent space at the origin. This could potentially limit the expressivity of
+the learned distributions as we don't explicitly use other regions of the
+hyperboloid. Intutively, this implies we need to move vectors to other tangent
+spaces and what better way than using parallel transport! The main idea in what
+I call "Wrapped Hyperboloid Coupling" is that instead of simply applying a
+translation transformation to a set of indices in one tangent space we can use
+$$t$$ to predict which tangent space we want to parallel transport to! This is
+all fine because parallel transport is an invertible operation, much like the
+exponential and logarithmic maps. In equations one $$\mathcal{W}\mathbb{H}C$$ layer
+is defined as:
+
+![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.016.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}
+
+The associated change in volume, while a bit more complex than a
+$$\mathcal{T}C$$ layer happens to be still $$\mathcal{O}(n)$$. The proof
+however is a lot more involved and I'll guide the interested reader back to the
+Appendix of the paper. In pictures however, the overall transformation is as
+follows:
 
 
+![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.018.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}
+Here, we move the second set of indices to the orange tangent space before
+using an exp map (green point).
 
-
-
-The perturbation causes the pre-activation to increase by $$w^T\eta$$. We can
-maximize this increase subject to a maxnorm constraint if we let $$\eta =
-\textrm{sign}(w) $$. Further, if $$w$$ is $$n$$ dimensional and the average magnitude of
-a vector in $$w$$ is $$m$$ then the total increase caused by the perturbation
-is $$\epsilon m n$$. If we force $$\eta$$ to say an infinity norm constraint then it doesn't
-grow with the dimensionality of the weight matrix! Ok that might not have been
-so obvious but its clearer if you write out the definition of the infinity
-norm. In words the infinity norm for a vector is the element which has the
-maximum absolute value, and as result its independent from the vector length. We can now let small refer
-to a value $$\epsilon$$ that would be discarded due to precision. With this in mind we can now
-let $$\Vert  \eta \Vert_{\infty} < \epsilon $$. Ok but you may ask why this
-is reasonable for Neural Nets which are much deeper and highly non-linear? Well
-there are a few assumptions that make the intuition a bit trickier to extend to
-the general Neural Net case. But imaging all our non-linearities are ReLu's,
-which are picewise linear and perhaps the most popular activation function
-then we're basically cutting up the input space linearly and then this is not
-such a crazy idea.
-
-# Fast Gradient Sign Attack
-So the next logical question becomes how do we leverage our intuition to create
-an attack? Actually its not so hard, if you take the most typical scenario
-where you have a model parametrized by weights $$ \theta $$ and the goal is to
-minimize a cost function $$ J(\theta,x,y) $$. For classification this would be
-cross-entropy and $$x$$ are the inputs while $$y$$ are the labels. To construct
-an attack we have to go in the opposite direction of minimizing the cost. That
-is to say we want the weights to respond in a way that moves us in opposite
-direction to the classification boundary until we hit another class and the
-perturbed input is misclassified. To do this we can take a first order
-approximation of the cost function with the current weights and with respect to
-a particular input $$x$$. This is perhaps the easiest thing we can do as this
-just amounts to taking the gradient of the cost function but with respect to
-the inputs. So our perturbation then becomes:
-
-
-$$
-\begin{align*}
-    \eta = \epsilon \textrm{sign}(\nabla_x J(\theta,x,y))
-\end{align*}
-$$
-
-Wow that was super easy as we can leverage modern libraries like tensorflow and
-pytorch to compute these perturbations easily. In pytorch code this looks like:
-
-~~~ python
-def attack(self, inputs, labels, model, *args):
-    """
-    Given a set of inputs and epsilon, return the perturbed inputs (as Variable objects),
-    the predictions for the inputs from the model, and the percentage of inputs
-    unsucessfully perturbed (i.e., model accuracy).
-    The adversarial inputs is a python list of tensors.
-    The predictions is a numpy array of classes, with length equal to the number of inputs.
-    """
-    adv_inputs = inputs.data + self.epsilon * torch.sign(inputs.grad.data)
-    adv_inputs = torch.clamp(adv_inputs, -1.0, 1.0)
-    adv_inputs = Variable(adv_inputs, requires_grad=False)
-
-    predictions = torch.max(model(adv_inputs).data, 1)[1].cpu().numpy()
-    num_unperturbed = (predictions == labels.data.cpu().numpy()).sum()
-    adv_inputs = [ adv_inputs[i] for i in range(inputs.size(0)) ]
-
-    return adv_inputs, predictions, num_unperturbed
-~~~
-So how good is this attack? Well it's not too shabby as with an $$\epsilon=0.25$$ the attack can
-break a softmax classifier with an error rate of $$99.9\%$$. However, the main selling point is how easy it is to craft
-an adversarial sample.
+# Density Estimation
+![EX1]({{ "../assets/HyperFlow_15min/hyperflow_animation.gif" | absolute_url }}){: style="display: block; margin: auto;"}
 
 # Conclusion
-There are many other cool things to consider like the generalization of this attack and possible defences but this post is getting rather long so I’ll conclude with a small remark. The FGSM attack is not meant to be a strong attack but rather a fast one. There are other stronger attacks which are much harder to defend against such as Carlini-Wagner but they take much longer to construct. But i’ll shelve that discussion for a future post. As an overall note, I’m hoping to dedicate each post to a specific attack or defense and really look at it in detail. In the future I hope to talk more about some of the research that I’m doing or research directions in that I’m most excited about. Feel free to reach out with questions, comments and especially mistakes I make along the way!
 
 
 {% if page.comments %}
