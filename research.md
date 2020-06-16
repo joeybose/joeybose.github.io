@@ -15,17 +15,22 @@ understanding how these models fail.
 ## Publications and Preprints
 # 2020
 * Adversarial Example Games \\
+(Preprint Under Review)
 **Avishek Joey Bose**, Gauthier Gidel, Hugo Berard, Andre Cianflone, Pascal
 Vincent, Simon Lacoste-Julien, William L. Hamilton \\
 [PDF]({{ "./assets/nobox.pdf" | absolute_url }})
 * Link Prediction from Sparse Data Using Meta Learning \\
+(Preprint Under Review)
 **Avishek Joey Bose**, Ankit Jain, Piero Molino, William L. Hamilton \\
 [PDF]({{ "./assets/metagraph.pdf" | absolute_url }})
 * Latent Variable Modeling with Hyperbolic Normalizing Flows \\
+(International Conference on Machine Learning 2020)\\
 **Avishek Joey Bose**, Ariella Smofsky, Renjie Liao, Prakash Panangaden,
 William L. Hamilton \\
 [PDF]({{ "./assets/hyperflow.pdf" | absolute_url }})
-
+* Bilateral Trade Modeling With Graph Neural Networks \\
+(ICLR 2020 Workshop)\\
+Kobby Panford-Quainoo, **Avishek Joey Bose**, Michaël Defferrard \\
 # 2019
 * Generalizable Adversarial Attacks using Generative Models \\
 **Avishek Joey Bose**, Andre Cianflone, William Hamilton \\
