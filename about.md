@@ -3,7 +3,7 @@ layout: page
 title: About Me
 permalink: /about/
 ---
-![My helpful screenshot]({{ "./assets/joey_final.jpg" | absolute_url }})
+![My helpful screenshot]({{ "./assets/joey_headshot_mila.jpg" | absolute_url }})
 
 Last Updated: Oct 15, 2019
 

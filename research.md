@@ -4,27 +4,30 @@ title: Research
 permalink: /Research/
 ---
 
-My current research interests are primarily in Adversarial Machine Learning
-applied to different domains such as Images, Text and most recently Graphs.
-Specifically, I'm interested in all things related to GAN's, adversarial attacks and adversarial
-disentanglement. More broadly, I'm interested in understanding how to build
+My current research interests are primarily in Adversarial Machine Learning and
+Generative Modeling with a current focus on Normalizing Flows on non-Euclidean
+manifolds. More broadly, I'm interested in understanding how to build
 better machine learning models that can operate in the world around us and
 serve humans better. This entails understanding the data generative process,
 the biases that are reflected within the data and most importantly
 understanding how these models fail.
 
-## Invited talks
-* Adversarial Attacks on Face Detectors using Neural Net based Constrained Optimization \\
-[PDF]({{ "./assets/GeekPwn_Las_Vegas.pdf" | absolute_url }})
-(Best Paper Nominee IEEE MMSP)
-
-* Adversarial Contrastive Estimation. \\
-(Association of Computational Linguistics 2018) ORAL \\
-[PDF]({{ "./assets/adversarial-contrastive-slides.pdf" | absolute_url }})
-
 ## Publications and Preprints
+# 2020
+* Adversarial Example Games \\
+**Avishek Joey Bose**, Gauthier Gidel, Hugo Berard, Andre Cianflone, Pascal
+Vincent, Simon Lacoste-Julien, William L. Hamilton \\
+[PDF]({{ "./assets/nobox.pdf" | absolute_url }})
+* Link Prediction from Sparse Data Using Meta Learning \\
+**Avishek Joey Bose**, Ankit Jain, Piero Molino, William L. Hamilton \\
+[PDF]({{ "./assets/metagraph.pdf" | absolute_url }})
+* Latent Variable Modeling with Hyperbolic Normalizing Flows \\
+**Avishek Joey Bose**, Ariella Smofsky, Renjie Liao, Prakash Panangaden,
+William L. Hamilton \\
+[PDF]({{ "./assets/hyperflow.pdf" | absolute_url }})
+
+# 2019
 * Generalizable Adversarial Attacks using Generative Models \\
-(Submitted to NeurIPS 2019)\\
 **Avishek Joey Bose**, Andre Cianflone, William Hamilton \\
 [PDF]({{ "./assets/Dagaer.pdf" | absolute_url }})
 * Improving Exploration in Soft-Actor-Critic with Normalizing Flows Policies\\
@@ -42,6 +45,7 @@ Yanshuai Cao, Jackie Cheung
 (Reinforcement Learning and Decision Making 2019)\\
 Andre Cianflone, Zafarali Ahmed, Riashat Islam, **Avishek Joey Bose**, William Hamilton \\
 [PDF]({{ "./assets/Gradient_estimator.pdf" | absolute_url }})
+# 2018
 * Compositional Hard Negative Mining for Visual Semantic Embeddings via an Adversary\\
 (NeurIPS 2018 Visually Grounded Language and Interaction Workshop)\\
 **Avishek Joey Bose**, Huan Ling, Yanshuai Cao \\
@@ -58,6 +62,7 @@ Andre Cianflone, Zafarali Ahmed, Riashat Islam, **Avishek Joey Bose**, William H
 (Association of Computational Linguistics 2018) ORAL \\
 **Avishek Joey Bose**, Huan Ling, Yanshuai Cao\\
 [PDF]({{ "./assets/adversarial-contrastive-estimation.pdf" | absolute_url }})
+# 2015
 * Walking through sight: Seeing the ability to see, in a 3-D augmediated reality environment. \\
 (IEEE GEM 2014) \\
 Ryan Janzen, Seyed Nima Yasrebi, **Avishek Joey Bose**, Arjun Subramanian, Steve Mann\\
