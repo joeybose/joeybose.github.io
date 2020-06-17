@@ -230,11 +230,42 @@ follows:
 Here, we move the second set of indices to the orange tangent space before
 using an exp map (green point).
 
-# Density Estimation
-![EX1]({{ "../assets/HyperFlow_15min/hyperflow_animation.gif" | absolute_url }}){: style="display: block; margin: auto;"}
+# Go with the Flow: Experiments and Results
+In this blog I'll focus more on the qualitative results but there are also a
+bunch of quantitative results in the main paper. Also the code is available
+[here](https://github.com/joeybose/HyperbolicNF) so
+anyone reading this should feel free to build even more powerful normalizing flows!
+
+## Density Estimation
+How well does it do? Below are some visualizations of synthetic target densities which are learned by the $$\mathcal{W}\mathbb{H}C$$ Flow.
+$$\mathbb{H}^n_k$$
+![EX1]({{ "../assets/HyperFlow_15min/hyperflow_animation_large.gif" | absolute_url }}){: style="display: block; margin: auto;"}
+
+We can see that the flow does almost a perfect job of learning the Wrapped Gaussian, and a reasonable job at the Checkerboard and Spiral densities.
+In particular multiple closeby is difficult to model but this is a known
+problem of Affine Coupling based flows so its unsurprising that similar trends
+hold in hyperbolic space.
+
+## Graph Generation
+We can also generate random trees and lobster graphs (a specific type of tree
+with a long spine). The generative model is a simple extension of a VAE to the
+graph setting [VGAE](https://arxiv.org/pdf/1611.07308.pdf) and the Normalizing
+Flow is used to learn a more flexible posterior.
+![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.025.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}
+
+Interestingly, the conventional Euclidean Normalizing Flow which happens to be
+an instance of [Graph Normalizing Flow](https://arxiv.org/pdf/1905.13177.pdf)
+but still fails to capture the hierarchical structure in generated samples.
+Both hyperbolic flows do a much better job at learning the actual data
+distribution.
 
 # Conclusion
-
+In conclusion, hyperbolic spaces offer a great way to represent hierarchical
+data and the paper presented in this blog is the first step towards building
+one breed of generative models in Normalizing Flows. There are a bunch of super
+exciting future directions that I hope to try out in the future, such building
+non-Coupling based flows, general flows for product spaces and the great open
+challenge of flows for general Riemannian manifolds.
 
 {% if page.comments %}
 
