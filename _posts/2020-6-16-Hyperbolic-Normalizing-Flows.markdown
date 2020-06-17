@@ -80,7 +80,7 @@ $$
 \mathbb{E}_{q_i(z)}\Big[\log \frac{p(x|z)p(z)}{q_i(z)}\Big] = \mathbb{E}_{q_i(z)}[\log p(x_i|z)] - D_{KL}(q_i || p)
 \end{align*}
 $$
-\\
+
 
 But what have we already implicitly assumed in this formulation? All densities
 are taken to be Euclidean densities even though the data can be highly
@@ -96,7 +96,8 @@ can really be understood in terms of 3 key desiderata:
 * Each function $$f_i$$￼ must be invertible.
 * We must be able to efficiently sample from the final distribution $$z_j = f_j
   \circ f_{j-1} \circ \dots \circ f_1(z_0)$$
-* We must be able to efficiently compute the associated change in volume \\
+* We must be able to efficiently compute the associated change in volume
+
 
 
 $$
@@ -114,7 +115,7 @@ certain types of $$f_i$$'s. A concrete instantiation of this is the now famous
 RealNVP or Affine coupling flow that basically partitions an input vector into
 two sets. The first set undergoes an identity map while the second set is
 pushed through a scale ($$s$$) and translation ($$t$$) transformation conditioned on
-the first. In equations this is:
+the first.
 
 
 ![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.013.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}
@@ -125,7 +126,7 @@ for an efficient calculation of the change in volume.
 Hyperbolic geometry in itself is a vast and rich topic that avid scholars can
 pour years of their life into. For the purposes of this blog post, I’ll outline
 the spark notes version and refer the interested reader to the Appendix of the
-paper.
+[paper](https://arxiv.org/abs/2002.06336).
 
 There are many equivalent models of hyperbolic geometry, but the
 Lorentz model offers the simplest explicit formulas. At its core the
