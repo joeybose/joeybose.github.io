@@ -5,9 +5,9 @@ permalink: /about/
 ---
 ![My helpful screenshot]({{ "./assets/joey_headshot_mila.jpg" | absolute_url }})
 
-Last Updated: Oct 15, 2019
+Last Updated: Sept 26th, 2020
 
-Joey Bose is a second year PhD student at the RLLab at McGill/MILA under the supervision of Prof. Will Hamilton. His research interests are at the intersection of Graph Representation Learning, Generative Modelling and Adversarial Machine Learning with a current emphasis on structured latent spaces. Previously, he completed his Bachelors and Master’s degrees from the University of Toronto working on adversarial attacks against face detection and is the President and CEO of FaceShield Inc an educational platform for digital privacy for facial data. His work has been featuredForbes, CBC, VentureBeat and other media outlets and is generously supported by the IVADO PhD Fellowship.
+Joey Bose is a third year PhD student at the RLLab at McGill/MILA under the supervision of Prof. Will Hamilton. His research interests span Generative Modelling, Differential Geometry for Machine Learning, Adversarial Attacks and  Graph Representation Learning with a current emphasis on understanding symmetries, equivariances and invariances in data. Previously, he completed his Bachelors and Master’s degrees from the University of Toronto working on adversarial attacks against face detection and is the President and CEO of FaceShield Inc an educational platform for digital privacy for facial data. His work has been featuredForbes, CBC, VentureBeat and other media outlets and is generously supported by the IVADO PhD Fellowship.
 
 Quick Links
 ----------
@@ -15,7 +15,7 @@ Quick Links
 [Github](https://github.com/joeybose)
 * You can add me on:
 [linkedin](https://www.linkedin.com/in/avishek-joey-bose)
-* [Resume/Curriculum Vitae]({{ "./assets/updated_cv.pdf" | absolute_url }})
+* [Resume/Curriculum Vitae]({{ "./assets/joey_cv_oct_2020.pdf" | absolute_url }})
 
 
 [jekyll-organization]: https://github.com/jekyll
