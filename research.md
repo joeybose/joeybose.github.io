@@ -15,12 +15,12 @@ understanding how these models fail.
 ## Publications and Preprints
 # 2020
 * Adversarial Example Games \\
-(Neural Information Processing Systems 2020)
+(Neural Information Processing Systems 2020) \\
 **Avishek Joey Bose**, Gauthier Gidel, Hugo Berard, Andre Cianflone, Pascal
 Vincent, Simon Lacoste-Julien, William L. Hamilton \\
 [PDF]({{ "./assets/nobox.pdf" | absolute_url }})
 * Structure Aware Negative Sampling in Knowledge Graphs \\
-(Empirical Methods in Natural Language Processing 2020)
+(Empirical Methods in Natural Language Processing 2020) \\
 Kian Ahrabian, Aarash Feizi, Yasmin Salehi, William L. Hamilton, **Avishek Joey Bose** \\
 [PDF](https://arxiv.org/abs/2009.11355)
 * Link Prediction from Sparse Data Using Meta Learning \\
