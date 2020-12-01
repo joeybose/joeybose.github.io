@@ -48,13 +48,15 @@ produce an adversarial example $$x' \in \mathcal{X}$$, such that $$f(x') \neq y$
 
 A classical way to frame this problem is through the lens of constrained
 optimization [1](https://arxiv.org/abs/1706.06083). That is, given a loss
-function $$\ell$$, used to evaluate $$f$$, an adversarial attack is said to be
-*optimal* if,
+function $$\ell$$, used to evaluate $$f$$, a distance $$d$$, an adversarial
+attack is said to be *optimal* if,
+
 $$
 \begin{equation}
     \textstyle x' \in \arg\!\max_{x'\in \mathcal{X}}\ell(f(x'),y) \,, \quad \text{s.t.} \quad d(x,x') \leq \epsilon \,.
 \end{equation}
 $$
+
 In practice, attack strategies that aim to solve this problem optimize for
 adversarial examples $$x'$$ directly using the gradient of $$f$$ and then
 evaluate the attack success rate (i.e., how often these $$x'$$ successfully
