@@ -10,22 +10,28 @@ In the age of Big data and even Bigger models that readily consume data like a
 V-8 engine in a Dodge Charger guzzles through gas, it is even more critical to
 understand where these large Behemoths of models fail. Research on Adversarial
 Attacks is one of the few areas of Machine Learning which is not only
-mathematically interesting but has immediate direct impact on real world
+mathematically interesting but has direct impact on real world
 systems. However, much of the theoretical interest in Adversarial Attacks has
 been largely focused on "Whitebox" settings where the adversary has complete
 access to the target model. Not only is this not realistic as in the real world
-models are hidden beyond a security layer it also neglects many key aspects of the
+models are often hidden beyond a security layer it also neglects many key aspects of the
 threat model that could promote new types of adversarial attacks.
 
-In this Blogpost we focus on a new kind of threat model that appears in a new
+In this Blogpost I'll focus on a new kind of threat model that appears in a new
 NeurIPS 2020 Paper titled ["Adversarial Example
-Games"](https://arxiv.org/abs/2007.00720). Motivated by real world use cases
+Games"](https://arxiv.org/abs/2007.00720) which is joint work with a few
+amazing co-authors [Gauthier Gidel](https://gauthiergidel.github.io/), [Hugo
+Berard](https://hugobb.github.io/), and other awesome collaborators, [Andre
+Cianflone](https://scholar.google.ca/citations?user=NAS_x_QAAAAJ&hl=en),
+[Pascal Vincent](https://mila.quebec/en/person/pascal-vincent/), [Simon
+Lacoste-Julien](http://www.iro.umontreal.ca/~slacoste/), [William L.
+Hamilton](https://www.cs.mcgill.ca/~wlh/). Motivated by real world use cases
 the paper focuses on a new type of adversary: NoBox Adversary which as the name
 suggests hints at a new attack strategy that works in more stringent threat
 models when compared to Whitebox or even conventional Query-based Blackbox
 threat models. To tease the rest of the blogpost, we will find that even when
-the attacker has no direct access to a target model ---that means no
-queries--- and might not even know the model architecture we can still
+the attacker has no direct access to a target model ---**that means no
+queries**--- and might not even know the model architecture we can still
 construct adversarial attacks. In fact we can make an even stronger claim, we
 will be able to attack "all models" in a known function class simultaneously.
 
