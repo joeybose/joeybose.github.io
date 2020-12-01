@@ -178,7 +178,7 @@ $$
 \end{equation}
 $$
 
-Note that $\lambda=0$ recovers the original AEG formulation.
+Note that $$\lambda=0$$ recovers the original AEG formulation.
 
 # A Word on Theory
 In the AEG paper we prove two main results. The first concerns the conditions
@@ -212,7 +212,11 @@ $$\text{Linear} \subset \text{Poly3} \subset \text{Poly5}$$. For simplicity
 assume that it is possible to compute both the maximization and minimization.
 The figure below illustrates the effect of attacking each type of logistic
 regression classifier.
+
 ![EX1]({{ "../assets/Poly-1.png" | absolute_url }}){: style="display: block; margin: auto;"}
+*For the adversarial dataset, each corresponding clean example is represented
+with a red/blue and is connected to its respective adversarial example red/blue
+dot*
 
 The key observation from these figures is that the way of attacking a dataset
 depends on the class considered.  For instance, when considering linear
@@ -230,12 +234,12 @@ define the $$\mathcal{F}$$-entropy of $$p_g$$ as
 $$
 \begin{equation}
     H_{\mathcal{F}}(p_{g}) := \min_{f_c \in \mathcal{F}} \mathbb{E}_{(x,y) \sim p_g} [ \ell(f_c(x),y)]
-    \qquad \textnormal{where $$\ell$$ is the cross entropy loss.}
 \end{equation}
 $$
 
-Note $$\mathcal{F}$$-entropy is different from the usual definition of Entropy
-found in probability textbooks but it's still a useful analogy. One of the main
+Here $$\ell$$ is the cross entropy loss. Also, note $$\mathcal{F}$$-entropy is
+different from the usual definition of Entropy found in probability textbooks
+but it's still a useful analogy. One of the main
 properties of $$\mathcal{F}$$-entropy ---that we later prove in the paper--- is
 the fact that $$\mathcal{F}$$-entropy is a decreasing function of
 $\mathcal{F}$, i.e., for any $$\mathcal{F}_1 \subset \mathcal{F}_2$$. As an
