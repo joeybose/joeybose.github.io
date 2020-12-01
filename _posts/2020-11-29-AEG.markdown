@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Adversarial Example Games"
-date:   2020-06-16 10:08:27 -0500
+date:   2020-11-29 10:08:27 -0500
 comments: True
 share: True
 categories: Adversarial Attacks
@@ -50,7 +50,7 @@ function $$\ell$$, used to evaluate $$f$$, an adversarial attack is said to be
 *optimal* if,
 $$
 \begin{equation}
-    \textstyle x' \in \argmax_{x'\in \gX}\ell(f(x'),y) \,, \quad \text{s.t.} \quad d(x,x') \leq \epsilon \,.
+    \textstyle x' \in \argmax_{x'\in \mathcal{X}}\ell(f(x'),y) \,, \quad \text{s.t.} \quad d(x,x') \leq \epsilon \,.
 \end{equation}
 $$
 In practice, attack strategies that aim to solve this problem optimize for
@@ -128,7 +128,7 @@ Overall, the generator $$g$$ and the representative classifier $$f_c$$ play the
 following,
 two-player zero-sum game:
 \begin{equation}\label{eq:two_player_game} \tag{AEG}
-     \max_{g \in \mathcal{G}_\epsilon}\min_{f_c \in \mathcal{F}}\mathbb{E}_{(x,y) \sim \gD, z\sim p_{z}}[ \ell(f_c(g(x,y,z)),y)] =: \varphi(f_c,g),
+     \max_{g \in \mathcal{G}_\epsilon}\min_{f_c \in \mathcal{F}}\mathbb{E}_{(x,y) \sim \mathcal{D}, z\sim p_{z}}[ \ell(f_c(g(x,y,z)),y)] =: \varphi(f_c,g),
 \end{equation}
 
 The main insight from such a minimax formulation is that both the attack
@@ -152,7 +152,7 @@ $$\mathcal{E}_x[
 
 $$
 \begin{equation}
-    (x',y) \sim p_{g} \Leftrightarrow x'= g(x,y,z)\,,\;(x,y) \sim \gD  \,,\,z\sim p_z
+    (x',y) \sim p_{g} \Leftrightarrow x'= g(x,y,z)\,,\;(x,y) \sim \mathcal{D}  \,,\,z\sim p_z
     \quad \text{with} \quad
     d(x',x) \leq \epsilon \, .
 \end{equation}
@@ -175,7 +175,7 @@ class $$\mathcal{F}$$ by adding a regularizer to overall AEG objective:
 
 $$
 \begin{equation}\label{eq:two_player_game_plus_clean}
-         \max_{g \in \mathcal{G}_\epsilon}\min_{f_c \in \mathcal{F}}\mathbb{E}_{(x,y) \sim \gD, z\sim p_{z}}[ \ell(f_c(g(x,y,z)),y)] + \lambda \mathbb{E}_{(x,y) \sim \gD_\textrm{ref}}[\ell(f_c(x),y)] =: \varphi_\lambda(f,g).
+         \max_{g \in \mathcal{G}_\epsilon}\min_{f_c \in \mathcal{F}}\mathbb{E}_{(x,y) \sim \mathcal{D}, z\sim p_{z}}[ \ell(f_c(g(x,y,z)),y)] + \lambda \mathbb{E}_{(x,y) \sim \mathcal{D}_\textrm{ref}}[\ell(f_c(x),y)] =: \varphi_\lambda(f,g).
 \end{equation}
 $$
 
@@ -213,7 +213,7 @@ $$\text{Linear} \subset \text{Poly3} \subset \text{Poly5}$$. For simplicity
 assume that it is possible to compute both the maximization and minimization.
 The figure below illustrates the effect of attacking each type of logistic
 regression classifier.
-![EX1]({{ "../assets/Poly.pdf" | absolute_url }}){: style="display: block; margin: auto;"}
+![EX1]({{ "../assets/Poly-1.png" | absolute_url }}){: style="display: block; margin: auto;"}
 
 The key observation from these figures is that the way of attacking a dataset
 depends on the class considered.  For instance, when considering linear
@@ -241,7 +241,7 @@ the fact that $$\mathcal{F}$$-entropy is a decreasing function of
 $\mathcal{F}$, i.e., for any $$\mathcal{F}_1 \subset \mathcal{F}_2$$. As an
 example, we can plot the respective $$\mathcal{F}$$-entropies of the logistic
 regression classifiers considered above throughout the course of training.
-![EX1]({{ "../assets/F_entropy.pdf" | absolute_url }}){: style="display: block; margin: auto;"}
+![EX1]({{ "../assets/F_entropy-1.png" | absolute_url }}){: style="display: block; margin: auto;"}
 
 Unsurprisingly, AEG optimization increases the $$\mathcal{F}$$-entropy and also
 $$\mathcal{F}$$-entropy takes on a smaller value for larger classes of
