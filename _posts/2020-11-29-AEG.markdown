@@ -15,11 +15,7 @@ systems. However, much of the theoretical interest in Adversarial Attacks has
 been largely focused on "Whitebox" settings where the adversary has complete
 access to the target model. Not only is this not realistic as in the real world
 models are hidden beyond a security layer it also neglects many key aspects of the
-threat model that could promote new types of adversarial attacks. In many ways
-Adverssarial Attacks can be modelled as an optimization problem but the
-resources  available to adversar ---i.e. access to model parametrs,
-input/output queries, etc..., are key to understanding the feasibility of any
-type of attack.
+threat model that could promote new types of adversarial attacks.
 
 In this Blogpost we focus on a new kind of threat model that appears in a new
 NeurIPS 2020 Paper titled ["Adversarial Example
@@ -33,7 +29,7 @@ queries--- and might not even know the model architecture we can still
 construct adversarial attacks. In fact we can make an even stronger claim, we
 will be able to attack "all models" in a known function class simultaneously.
 
-# What are adversarial attacks?
+## What are adversarial attacks?
 The Adversarial Attack problem is deliciously simple to state, but for within
 the simplicity lies all the complexity which has resulted in thousands of
 papers. Let's review the fundamentals of this problem here while an even more
@@ -58,7 +54,7 @@ adversarial examples $$x'$$ directly using the gradient of $$f$$ and then
 evaluate the attack success rate (i.e., how often these $$x'$$ successfully
 fool $$f$$).
 
-# The NoBox Threat Model
+## The NoBox Threat Model
 Threat models specify the formal assumptions of an attack (e.g., the
 information the attacker is assumed to have access to), which is a core aspect
 of adversarial attacks. In the NeurIPS 2020 Adversarial Example Games paper, a
@@ -94,7 +90,7 @@ architectures for $$f_t$$.  One can incorporate in $$\mathcal{F}$$ as much prior
 one has on $$f_t$$ e.g., the architecture, dataset, training method, or
 regularization.
 
-# Adversarial Example Games
+## Adversarial Example Games
 The NoBox threat model presents a challenging new setting for adversarial
 attacks. How can one attack an unknown target model if we are unable to query
 it? At first such a proposition appears daunting but the devil is in the
@@ -147,7 +143,7 @@ conditions such an equilibrium does in fact exist and later through experiments
 we empirically validate that attacks using this formulation can succefully
 attacks some of the strongest known defences.
 
-## Objective of the Generator
+# Objective of the Generator
 The goal of the generator can be seen as generating the adversarial
 distribution $$p_{g}$$ with the highest expected conditional entropy
 $$\mathbb{E}_x[
@@ -168,7 +164,7 @@ the optimal generator is primarily determined by the statistics of the target
 dataset $$\mathcal{D}$$ itself, rather any specifics of a target model. In a
 way the attack constructed is an attack on the data distribution itself!
 
-## Regularizing The Game
+# Regularizing The Game
 In practice we can often assume that $$f_t$$ does well on classification on a
 non-adversarial dataset. Thus any representative classifier that the adversary
 samples should correspondingly be biased towards not only robust classification
@@ -184,7 +180,7 @@ $$
 
 Note that $\lambda=0$ recovers the original AEG formulation.
 
-## A word on Theory
+# A Word on Theory
 In the AEG paper we prove two main results. The first concerns the conditions
 for the existance of a Nash Equilibrium of the game and uses standard
 techniques in game theory (Fan's theorem). More concretely, we prove the
@@ -208,7 +204,7 @@ generator is parametrized ---i.e. like a Neural Net, then the inference cost is
 extremely cheap at test time and we can generate adversarial attacks on the fly
 circumventing cumbersome optimization on new unseen samples.
 
-## A Toy Example
+# A Toy Example
 Let's take a simple logistic regression based classifier trained on the two
 moons dataset from sci-kit learn as an example. For features we will take
 linear, polynomials of degree 3 and 5 respectively. Note that we have
@@ -224,7 +220,7 @@ classifiers, the attack is a uniform translation on all the data-points of the
 same class. While when considering polynomial features, the optimal adversarial
 dataset pushes the the corners of the two moons closer together.
 
-## Adversarial attacks as "Entropy"-Maximization
+# Adversarial attacks as "Entropy"-Maximization
 As hinted at earlier in the blog post adversarial attacks in the NoBox threat
 model can be seen as an attack on the data distribution itself. One way to make
 this more concrete is to think about how stronger attacks increases the
@@ -251,8 +247,8 @@ Unsurprisingly, AEG optimization increases the $$\mathcal{F}$$-entropy and also
 $$\mathcal{F}$$-entropy takes on a smaller value for larger classes of
 classifiers.
 
-# Attacking in the Wild
-## AEG Architecture
+## Attacking in the Wild
+# AEG Architecture
 The high-level architecture of the AEG framework is illustrated below.  The
 generator takes the input $$x$$ and encode it into $$\psi(x)$$, then the
 generator uses this encoding to compute a probability vector $$p(\psi(x))$$ in
@@ -267,7 +263,7 @@ adversarial perturbation $$\delta$$ such that $$\|\delta\|\leq \epsilon$$.
 
 ![EX1]({{ "../assets/AEG_arch.png" | absolute_url }}){: style="display: block; margin: auto;"}
 
-## NoBox Attacks between different architectures
+# NoBox Attacks between different architectures
 The main paper investigates many experimental settings but for the purposes of
 this blogpost let us focus on one demonstrative setting: attacking target
 classifiers with different architectures than the representative classifier
@@ -282,7 +278,7 @@ BlackBox transfer methods that are popular in the literature. Without sounding
 too pompous, AEG completely obliterates the previous state of the art
 approaches and achieves impressively high attack success rate!
 
-# Conclusion
+## Conclusion
 In this blogpost we've seen not only a new more realistic threat model (NoBox)
 but also a novel game theoretic framework for crafting attacks in this setting.
 While much of the theoretical and empirical details were glossed over in favor
