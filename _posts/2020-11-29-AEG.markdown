@@ -250,7 +250,7 @@ different from the usual definition of Entropy found in probability textbooks
 but it's still a useful analogy. One of the main
 properties of $$\mathcal{F}$$-entropy ---that we later prove in the paper--- is
 the fact that $$\mathcal{F}$$-entropy is a decreasing function of
-$\mathcal{F}$, i.e., for any $$\mathcal{F}_1 \subset \mathcal{F}_2$$. As an
+$$\mathcal{F}$$, i.e., for any $$\mathcal{F}_1 \subset \mathcal{F}_2$$. As an
 example, we can plot the respective $$\mathcal{F}$$-entropies of the logistic
 regression classifiers considered above throughout the course of training.
 ![EX1]({{ "../assets/F_entropy-1.png" | absolute_url }}){: style="display: block; margin: auto;"}
