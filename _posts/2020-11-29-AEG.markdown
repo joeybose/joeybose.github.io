@@ -21,7 +21,7 @@ resources  available to adversar ---i.e. access to model parametrs,
 input/output queries, etc..., are key to understanding the feasibility of any
 type of attack.
 
-In this Blogpost I'll focus on a new kind of threat model that appears in a new
+In this Blogpost we focus on a new kind of threat model that appears in a new
 NeurIPS 2020 Paper titled ["Adversarial Example
 Games"](https://arxiv.org/abs/2007.00720). Motivated by real world use cases
 the paper focuses on a new type of adversary: NoBox Adversary which as the name
@@ -38,7 +38,7 @@ The Adversarial Attack problem is deliciously simple to state, but for within
 the simplicity lies all the complexity which has resulted in thousands of
 papers. Let's review the fundamentals of this problem here while an even more
 detailed blogpost can be found from the [NeurIPS 2018 Tutorial on Adversarial
-Robustnesst](https://adversarial-ml-tutorial.org/). Suppose we are given a
+Robustness](https://adversarial-ml-tutorial.org/). Suppose we are given a
 classifier $$f : \mathcal{X}\rightarrow \mathcal{Y}$$,
 an input datapoint $$x \in \mathcal{X}$$, and a class label $$y \in
 \mathcal{Y}$$, where $$f(x) = y$$. The goal of an adversarial attack is to
@@ -150,7 +150,7 @@ attacks some of the strongest known defences.
 ## Objective of the Generator
 The goal of the generator can be seen as generating the adversarial
 distribution $$p_{g}$$ with the highest expected conditional entropy
-$$\mathcal{E}_x[
+$$\mathbb{E}_x[
 \sum_y p_{g}(y|x) \log p_{g}(y|x)]$$, where $$p_{g}$$ is defined as
 
 $$
@@ -234,9 +234,10 @@ define the $$\mathcal{F}$$-entropy of $$p_g$$ as
 $$
 \begin{equation}
     H_{\mathcal{F}}(p_{g}) := \min_{f_c \in \mathcal{F}} \mathbb{E}_{(x,y) \sim p_g} [ \ell(f_c(x),y)]
-    \qquad \text{where $\ell$ is the cross entropy loss.}
+    \qquad \textnormal{where $$\ell$$ is the cross entropy loss.}
 \end{equation}
 $$
+
 Note $$\mathcal{F}$$-entropy is different from the usual definition of Entropy
 found in probability textbooks but it's still a useful analogy. One of the main
 properties of $$\mathcal{F}$$-entropy ---that we later prove in the paper--- is
@@ -251,6 +252,22 @@ $$\mathcal{F}$$-entropy takes on a smaller value for larger classes of
 classifiers.
 
 # Attacking in the Wild
+## AEG Architecture
+The high-level architecture of the AEG framework is illustrated below.  The
+generator takes the input $$x$$ and encode it into $$\psi(x)$$, then the
+generator uses this encoding to compute a probability vector $$p(\psi(x))$$ in
+the probability simplex of size $$K$$, the number of classes. Using this
+probability vector, the network then samples a categorical variable $$z$$
+according to a multinomial distribution of parameter $$p(\psi(x))$$.
+Intuitively, this category may correspond to a target for the attack. The
+gradient is backprogated across this categorical variable using the
+[gumble-softmax trick](https://arxiv.org/pdf/1611.01144.pdf). Finally, the
+decoder takes as input $$\psi(x)$$, $$z$$ and the label $$y$$ to output an
+adversarial perturbation $$\delta$$ such that $$\|\delta\|\leq \epsilon$$.
+
+![EX1]({{ "../assets/AEG_arch.png" | absolute_url }}){: style="display: block; margin: auto;"}
+
+## NoBox Attacks between different architectures
 The main paper investigates many experimental settings but for the purposes of
 this blogpost let us focus on one demonstrative setting: attacking target
 classifiers with different architectures than the representative classifier
@@ -266,6 +283,14 @@ too pompous, AEG completely obliterates the previous state of the art
 approaches and achieves impressively high attack success rate!
 
 # Conclusion
+In this blogpost we've seen not only a new more realistic threat model (NoBox)
+but also a novel game theoretic framework for crafting attacks in this setting.
+While much of the theoretical and empirical details were glossed over in favor
+of lighter exposition they can be found in the [full paper](https://arxiv.org/abs/2007.00720).
+Code for AEG is also available on the [github repo](https://github.com/joeybose/Adversarial-Example-Games).
+Looking into the future of adversarial attack research we hope that this new
+NoBox threat model provides a unique sandbox to experiment with newer
+adversarial attacks and also robustness strategies.
 
 {% if page.comments %}
 
