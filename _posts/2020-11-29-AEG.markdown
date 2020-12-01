@@ -215,8 +215,8 @@ regression classifier.
 
 ![EX1]({{ "../assets/Poly-1.png" | absolute_url }}){: style="display: block; margin: auto;"}
 *For the adversarial dataset, each corresponding clean example is represented
-with a red/blue and is connected to its respective adversarial example red/blue
-dot*
+with a red/blue triangle and is connected to its respective adversarial example
+red/blue dot*
 
 The key observation from these figures is that the way of attacking a dataset
 depends on the class considered.  For instance, when considering linear
