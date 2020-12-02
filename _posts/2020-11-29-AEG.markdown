@@ -65,15 +65,14 @@ fool $$f$$).
 ## The NoBox Threat Model
 Threat models specify the formal assumptions of an attack (e.g., the
 information the attacker is assumed to have access to), which is a core aspect
-of adversarial attacks. In the NeurIPS 2020 Adversarial Example Games paper, a
- more challenging setting of **no**n-interactive
+of adversarial attacks. In the NeurIPS 2020 Adversarial Example Games paper, we introduce the challenging setting of **no**n-interactive
 black**Box** (**NoBox**) attacks, intending to generate successful
 attacks against an unknown target crucially without query access. Let's repeat
-what this means, we want to attack unknown target models, that means we won't
+what this means, we want to attack **unknown** target models, that means we won't
 have access to its parameters and cannot take gradients to easily craft attacks
 like the WhiteBox setting. This is also harder than most BlackBox settings
 because the attacker only has **one** chance to attack the target model and
-they cannot adaptively modify their attack strategy based on the output of the
+they cannot adaptively craft their attack strategy based on the output of the
 target model. Given these intuitions, let's formally state the NoBox threat
 model:
 
@@ -106,8 +105,7 @@ details. The NoBox threat model affords two key pieces of knowledge to the
 attacker: 1) A hypothesis class from which the target model is known to belong
 too 2) A representative classifier from this hypothesis class which is easily
 available to the adversary. At a high level one could hope to craft an attack
-on the target model by first crafting it on the representative classifier and
-then transferring it to the target model. Initially there is no reason to
+on the target model by first crafting it on the representative classifier expecting it will transfer well to the target model. Initially there is no reason to
 suspect such a strategy should work at all, but empirically many have found
 such attack strategies termed "BlackBox transfer" attacks
 [2](https://arxiv.org/abs/1904.02884), [3](https://arxiv.org/abs/1611.02770),
@@ -173,12 +171,14 @@ dataset $$\mathcal{D}$$ itself, rather any specifics of a target model. In a
 way the attack constructed is an attack on the data distribution itself!
 
 # Regularizing The Game
-In practice we can often assume that $$f_t$$ does well on classification on a
-non-adversarial dataset. Thus any representative classifier that the adversary
-samples should correspondingly be biased towards not only robust classification
-on the adversarial samples but also on regular vanilla classification. We can
-incorporate this notion and simultaneously reduce the size of the hypothesis
-class $$\mathcal{F}$$ by adding a regularizer to overall AEG objective:
+In practice, we can assume that $$f_t$$ does well on classification on a
+non-adversarial dataset (what would be the point to attack a classifier that
+already performs poorly at the classification task?).  Thus any representative
+classifier that the adversary samples should correspondingly be biased towards
+not only robust classification on the adversarial samples but also on regular
+vanilla classification. We can incorporate this notion and simultaneously
+reduce the size of the hypothesis class $$\mathcal{F}$$ by adding a regularizer
+to overall AEG objective:
 
 $$
 \begin{equation}\label{eq:two_player_game_plus_clean}
@@ -206,17 +206,18 @@ Although a blog post is ill-suited to reproduce the main arguments it's still
 constructive to mention the implications of such a result: At equilibrium we
 arrive at a best in class robust model and a corresponding attack generator
 that dominates all other models from this class. To craft attacks we simply
-take this trained generator and feed it inputs leading to adversarial examples
-that simultaneously work against *all* models in the hypothesis class. If the
-generator is parametrized ---i.e. like a Neural Net, then the inference cost is
-extremely cheap at test time and we can generate adversarial attacks on the fly
-circumventing cumbersome optimization on new unseen samples.
+take this trained generator and feed it inputs, $$x \sim \mathcal{D}$$, leading
+to adversarial examples that simultaneously work against *all* models in the
+hypothesis class. If the generator is parametrized ---i.e. like a Neural Net,
+then the inference cost is extremely cheap at test time and we can generate
+adversarial attacks on the fly circumventing cumbersome optimization on new
+unseen samples.
 
 # A Toy Example
 Let's take a simple logistic regression based classifier trained on the two
 moons dataset from sci-kit learn as an example. For features we will take
 linear, polynomials of degree 3 and 5 respectively. Note that we have
-$$\text{Linear} \subset \text{Poly3} \subset \text{Poly5}$$. For simplicity
+$$\text{Linear} \subset \text{Poly3} \subset \text{Poly5}$$. For simplicity,
 assume that it is possible to compute both the maximization and minimization.
 The figure below illustrates the effect of attacking each type of logistic
 regression classifier.
