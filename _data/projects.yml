@@ -52,7 +52,6 @@
   blog: "/Blog/hyperflow"
   tags:
     - tag: Normalizing Flows
-    - tag: Generative Models
     - tag: Hyperbolic Geometry
 
 - name: Meta-Graph Few Shot Link Prediction Via Meta-Learning
@@ -106,7 +105,7 @@
     - tag: Face Detection
 
 - name: Adversarial Contrastive Estimation
-  conf: ACL 2018
+  conf: ACL 2018 (ORAL)
   authors: A. J. Bose*, Y. Cao*, H. Ling*
   image_link: "./assets/my_assets/kg_ablation.png"
   arxiv: https://arxiv.org/abs/1805.03642
