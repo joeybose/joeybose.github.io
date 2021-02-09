@@ -1,6 +1,33 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/favicon/apple-touch-icon.png" | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon/favicon-32x32.png" | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon/favicon-16x16.png" | prepend: site.baseurl }}">
+  <link rel="manifest" href="{{ "/assets/favicon/site.webmanifest" | prepend: site.baseurl }}">
+
+  <link rel="stylesheet" href="{{ "../assets/css/main.min.css" }}">
+  <link rel="stylesheet" href="{{ "../assets/css/vendors.min.css"}}">
+
+  <script src="{{ "../../assets/js/vendors.min.js"}}"></script>
+  <script src="{{ "../../assets/js/app.min.js"}}"></script>
+</head>
+<body>
+  <div id="preloader">
+    <!--<div class="load">-->
+      <!--<hr />-->
+      <!--<hr />-->
+      <!--<hr />-->
+      <!--<hr />-->
+    <!--</div>-->
+  </div>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
@@ -8,21 +35,51 @@ layout: default
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {%- assign date_format = site.neumorphism.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
   </header>
+    <a class="highlight-link" href="{{site.baseurl}}" style="text-align:right">
+      Home Page
+    </a>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
+  <div class="layout">
+      <section class="card neumorphism-card-big">
+  <!--<div class="post-content" itemprop="articleBody" display:block>-->
+      <!--<section class="card neumorphism-card-big">-->
+        {{ content }}
+      </section>
   </div>
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
+  <!--{%- if site.disqus.shortname -%}-->
+    <!--{%- include disqus_comments.html -%}-->
+  <!--{%- endif -%}-->
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+</body>
+<footer class="footer">
+  <p>
+    &copy; 2020 All Rights Reserved
+    <a class="highlight-link" href="https://joeybose.github.io/" target="_blank" rel="noreferrer">
+      Joey Bose
+    </a>
+  </p>
+  <p>
+    Built with
+    <a class="highlight-link" href="https://jekyllrb.com/"target="_blank" rel="noreferrer">
+      Jekyll
+    </a>
+    and powered by
+    <a class="highlight-link" href="https://pages.github.com/" target="_blank" rel="noreferrer">
+      Github Pages
+    </a>
+    Theme used,
+    <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer">
+      Neumorphism
+    </a>
+  </p>
+</footer>

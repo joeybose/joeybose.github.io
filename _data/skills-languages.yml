@@ -1,0 +1,27 @@
+# > name: Name of your programming language
+# > weight: Describes how good you know the language - values from 1 up to 5
+#
+# Example of a Language
+# - name: Language
+#   weight: 5
+
+- name: Generative Models
+  weight: 5
+
+- name: Normalizing Flows
+  weight: 5
+
+- name: Equivariant Networks
+  weight: 4
+
+- name: Adversarial Attacks
+  weight: 4
+
+- name: Graph Neural Networks
+  weight: 2
+
+- name: KG Embeddings
+  weight: 2
+
+- name: NLP
+  weight: 2

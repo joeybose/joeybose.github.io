@@ -1,0 +1,117 @@
+# > name: Name of your project
+# > descr: Description of your project
+# > demo: Link to your project
+# > tags: List of technologies you used in your projects
+#
+# Example of a project
+# - name: project X
+#   descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+#   demo: https://example.com/
+#   tags:
+#     - tag: MongoDB
+#     - tag: Express
+#     - tag: AngularJS
+#     - tag: Node
+
+- name: Online Adversarial Attacks
+  conf: Preprint
+  authors: A. Mladenović*, A.J. Bose*, H. Berard*, W.L. Hamilton, S. Lacoste-Julien, P. Vincent, G.Gidel
+  image_link: "./assets/my_assets/stochastic_secretary_fixed-1.png"
+  tags:
+    - tag: Adversarial Attacks
+    - tag: Online Algorithms
+    - tag: k-secretary
+
+- name: Adversarial Example Games
+  conf: NeurIPS 2020
+  authors: A.J. Bose*, G. Gidel*, H. Berard*, A. Cianflone, P. Vincent, S. Lacoste-Julien, W.L. Hamilton
+  image_link: "./assets/my_assets/Poly-1.png"
+  arxiv: https://arxiv.org/abs/2007.00720
+  git: https://github.com/joeybose/Adversarial-Example-Games
+  blog: "/Blog/AEG"
+  tags:
+    - tag: Adversarial Attacks
+    - tag: Game Theory
+
+- name: Structure Aware Negative Sampling in Knowledge Graphs
+  conf: EMNLP 2020
+  authors: K. Ahrabian, A. Feizi, Y. Salehi, W. L. Hamilton, A. J. Bose
+  image_link: "./assets/my_assets/sans_arch.png"
+  arxiv: https://arxiv.org/abs/2009.11355
+  git: https://github.com/kahrabian/SANS
+  tags:
+    - tag: Knowledge Graphs
+    - tag: Negative Sampling
+
+- name: Latent Variable Modeling with Hyperbolic Normalizing Flows
+  conf: ICML 2020
+  authors: A. J. Bose, A. Smofsky, R. Liao, P. Panangaden, W. L. Hamilton
+  image_link: "./assets/my_assets/HyperFlow_15min/hyperflow_animation_large.gif"
+  arxiv: https://arxiv.org/abs/2002.06336
+  git: https://github.com/joeybose/HyperbolicNF
+  blog: "/Blog/hyperflow"
+  tags:
+    - tag: Normalizing Flows
+    - tag: Generative Models
+    - tag: Hyperbolic Geometry
+
+- name: Meta-Graph Few Shot Link Prediction Via Meta-Learning
+  conf: Preprint (Unpublished)
+  authors: A. J. Bose, A. Jain, P. Molino, W. L. Hamilton
+  image_link: "./assets/my_assets/Meta-Graph_arch_graphical_model_combined-1.png"
+  arxiv: https://arxiv.org/pdf/1912.09867
+  git: https://github.com/joeybose/Meta-Graph
+  tags:
+    - tag: Link Prediction
+    - tag: Graph Neural Networks
+    - tag: Meta-Learning
+
+- name: Compositional Fairness Constraints for Graph Embeddings
+  conf: ICML 2019
+  authors: A. J. Bose, W. L. Hamilton
+  image_link: "./assets/my_assets/Graph_invariance_ICML_graphic.png"
+  arxiv: https://arxiv.org/abs/1905.10674
+  git: https://github.com/joeybose/Flexible-Fairness-Constraints
+  tags:
+    - tag: Graph Neural Networks
+    - tag: Fairness
+    - tag: Node Embeddings
+
+- name: Discrete off-policy policy gradient using continuous relaxations
+  conf: RLDM 2019
+  authors: A. Cianflone, Z. Ahmed, R. Islam, A. J. Bose, W. L. Hamilton
+  image_link: "./assets/my_assets/CartPole_comparisons.png"
+  arxiv: "./assets/my_assets/Gradient_estimator.pdf"
+  tags:
+    - tag: Policy Gradient
+    - tag: off-policy actor-critic
+    - tag: continuous relaxation
+
+- name: A Cross-Domain Transferable Neural Coherence Model
+  conf: ACL 2019
+  authors: X. Peng, H. Saghir, J. Kang, T. Long, A. J. Bose, Y. Cao, J. Cheung
+  image_link: "./assets/my_assets/coherence_acl.png"
+  arxiv: https://arxiv.org/abs/1905.11912
+  tags:
+    - tag: Coherence Modelling
+    - tag: NLP
+
+- name: Adversarial Attacks on Face Detectors using Neural Net based Constrained Optimization
+  conf: IEEE MMSP (Best Paper Runner-up)
+  authors: A. J. Bose, P. Aarabi
+  image_link: "./assets/my_assets/bose_attack.png"
+  arxiv: https://arxiv.org/abs/1805.12302
+  tags:
+    - tag: Adversarial Attacks
+    - tag: Face Detection
+
+- name: Adversarial Contrastive Estimation
+  conf: ACL 2018
+  authors: A. J. Bose*, Y. Cao*, H. Ling*
+  image_link: "./assets/my_assets/kg_ablation.png"
+  arxiv: https://arxiv.org/abs/1805.03642
+  tags:
+    - tag: Negative Sampling
+    - tag: Embeddings
+    - tag: Adversarial Sampling
+

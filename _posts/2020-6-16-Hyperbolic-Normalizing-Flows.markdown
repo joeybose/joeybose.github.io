@@ -2,7 +2,8 @@
 layout: post
 title:  "Hyperbolic Normalizing Flows!"
 date:   2020-06-16 10:08:27 -0500
-comments: True
+permalink: /Blog/hyperflow
+comments: False
 share: True
 categories: Normalizing Flows
 ---
@@ -29,7 +30,8 @@ To motivate why we might want to care about geometry when doing generative
 modeling we can simply look at different domains that have seen remarkable
 breakthroughs.
 
-![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.002.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}
+<img src="../assets/my_assets/HyperFlow_15min/HyperFlow_15min.002.jpeg" alt="" style="border-radius:0%;height: 50%;width: 90%;margin-left: auto;margin-right: auto;position: relative;display: block; padding-top: 30px; padding-bottom: 30px">
+<!--![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.002.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}-->
 
 But in all these different domains, we can ask the following question: “What do
 we know about the data already?”. For instance, images are known to be very
@@ -47,7 +49,8 @@ tree-like or has a rich hierarchical structure? What is the right geometry here?
 Well to gain intuition we can first see what can go wrong when we naively try
 to embed a tree in Euclidean space.
 
-![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.004.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}
+<img src="../assets/my_assets/HyperFlow_15min/HyperFlow_15min.004.jpeg" alt="" style="border-radius:0%;height: 50%;width: 90%;margin-left: auto;margin-right: auto;position: relative;display: block; padding-top: 30px; padding-bottom: 30px">
+<!--![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.004.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}-->
 In this construction, we evenly place all leaves around the circumference of an
 imaginary circle with radius $$r$$. Observe how the Euclidean distance between
 the pink and green nodes decreases as we increase the depth of the tree but the
@@ -61,7 +64,8 @@ succinctly encapsulates the problem in embedding hierarchies in Euclidean.
 
 
 So lets see how hyperbolic spaces alleviates this problem:
-![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.005.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}
+<img src="../assets/my_assets/HyperFlow_15min/HyperFlow_15min.005.jpeg" alt="" style="border-radius:0%;height: 50%;width: 90%;margin-left: auto;margin-right: auto;position: relative;display: block; padding-top: 30px; padding-bottom: 30px">
+<!--![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.005.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}-->
 
 One important fact to realize is that because hyperbolic spaces are manifolds
 of constant negative curvature many of the geometric intuitions from Euclidean
@@ -118,7 +122,8 @@ pushed through a scale ($$s$$) and translation ($$t$$) transformation conditione
 the first.
 
 
-![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.013.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}
+<img src="../assets/my_assets/HyperFlow_15min/HyperFlow_15min.013.jpeg" alt="" style="border-radius:0%;height: 50%;width: 90%;margin-left: auto;margin-right: auto;position: relative;display: block; padding-top: 30px; padding-bottom: 30px">
+<!--![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.013.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}-->
 Notice how the Jacobian Matrix has a nice lower triangular form, which allows
 for an efficient calculation of the change in volume.
 
@@ -153,7 +158,8 @@ $$
 In laymans terms the tangent space at a point $$\mu$$ is a Euclidean space
 spanned by all tangent vectors to the manifold at $$\mu$$. In pictures this is:
 
-![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.009.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}
+<img src="../assets/my_assets/HyperFlow_15min/HyperFlow_15min.009.jpeg" alt="" style="border-radius:0%;height: 50%;width: 90%;margin-left: auto;margin-right: auto;position: relative;display: block; padding-top: 30px; padding-bottom: 30px">
+<!--![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.009.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}-->
 
 We may also move vectors between tangent spaces. The operation that does
 this but "preserves" the metric is known as parallel transport. We'll see later
@@ -166,7 +172,8 @@ the exponential map, while the inverse operation is called the logarithmic map.
 It's important to note that both maps may not have closed-form solutions for
 arbitrary Riemannian manifolds, but luckily do have nice closed forms in the
 Lorentz model.
-![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.011.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}
+<img src="../assets/my_assets/HyperFlow_15min/HyperFlow_15min.011.jpeg" alt="" style="border-radius:0%;height: 50%;width: 90%;margin-left: auto;margin-right: auto;position: relative;display: block; padding-top: 30px; padding-bottom: 30px">
+<!--![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.011.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}-->
 
 ## Distributions on Hyperbolic Spaces
 Now finally we can talk about one concrete way to define distributions on
@@ -174,7 +181,8 @@ Hyperbolic spaces. This construction follows from the following papers
 [nagano_et_al_2019](http://proceedings.mlr.press/v97/nagano19a/nagano19a.pdf). I think this
 figure does a pretty good job at explaining the idea:
 
-![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.012.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}
+<img src="../assets/my_assets/HyperFlow_15min/HyperFlow_15min.012.jpeg" alt="" style="border-radius:0%;height: 50%;width: 90%;margin-left: auto;margin-right: auto;position: relative;display: block; padding-top: 30px; padding-bottom: 30px">
+<!--![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.012.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}-->
 
 Essentially, we sample from a standard normal distribution with one less
 dimension. Afterwhich, we prepend a $$0$$ element to the sample $$\tilde{v}$$
@@ -197,13 +205,15 @@ between tangent spaces and the actual manifold.
 So given these ideas we can now define a new Normalizing Flow layer termed:
 "Tangent Coupling".
 
-![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.014.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}
+<img src="../assets/my_assets/HyperFlow_15min/HyperFlow_15min.014.jpeg" alt="" style="border-radius:0%;height: 50%;width: 90%;margin-left: auto;margin-right: auto;position: relative;display: block; padding-top: 30px; padding-bottom: 30px">
+<!--![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.014.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}-->
 
 One might think that the change in volume due to a single Tangent Coupling
 layer might be expensive but as it turns out, just like regular Affine coupling
 it is $$\mathcal{O}(n)$$.
 
-![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.015.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}
+<img src="../assets/my_assets/HyperFlow_15min/HyperFlow_15min.015.jpeg" alt="" style="border-radius:0%;height: 50%;width: 90%;margin-left: auto;margin-right: auto;position: relative;display: block; padding-top: 30px; padding-bottom: 30px">
+<!--![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.015.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}-->
 
 The proof for this requires is a bit too heavy handed for a blog post but at a
 high level the only two addition terms that affect the change in volume
@@ -223,7 +233,8 @@ all fine because parallel transport is an invertible operation, much like the
 exponential and logarithmic maps. In equations, one $$\mathcal{W}\mathbb{H}C$$ layer
 is defined as:
 
-![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.016.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}
+<img src="../assets/my_assets/HyperFlow_15min/HyperFlow_15min.016.jpeg" alt="" style="border-radius:0%;height: 50%;width: 90%;margin-left: auto;margin-right: auto;position: relative;display: block; padding-top: 30px; padding-bottom: 30px">
+<!--![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.016.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}-->
 
 The associated change in volume, while a bit more complex than a
 $$\mathcal{T}C$$ layer happens to be still $$\mathcal{O}(n)$$. The proof
@@ -232,7 +243,8 @@ Appendix of the paper. In pictures however, the overall transformation is as
 follows:
 
 
-![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.018.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}
+<img src="../assets/my_assets/HyperFlow_15min/HyperFlow_15min.018.jpeg" alt="" style="border-radius:0%;height: 50%;width: 90%;margin-left: auto;margin-right: auto;position: relative;display: block; padding-top: 30px; padding-bottom: 30px">
+<!--![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.018.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}-->
 Here, we move the second set of indices to the orange tangent space before
 using an exp map (green point).
 
@@ -245,7 +257,8 @@ anyone reading this should feel free to build even more powerful normalizing flo
 ## Density Estimation
 How well does it do? Below are some visualizations of synthetic target densities which are learned by the $$\mathcal{W}\mathbb{H}C$$ Flow.
 $$\mathbb{H}^n_k$$
-![EX1]({{ "../assets/HyperFlow_15min/hyperflow_animation_large.gif" | absolute_url }}){: style="display: block; margin: auto;"}
+<img src="../assets/my_assets/HyperFlow_15min/hyperflow_animation_large.gif" alt="" style="border-radius:0%;height: 50%;width: 90%;margin-left: auto;margin-right: auto;position: relative;display: block; padding-top: 30px; padding-bottom: 30px">
+<!--![EX1]({{ "../assets/HyperFlow_15min/hyperflow_animation_large.gif" | absolute_url }}){: style="display: block; margin: auto;"}-->
 
 We can see that the flow does almost a perfect job of learning the Wrapped Gaussian, and a reasonable job at the Checkerboard and Spiral densities.
 In particular multiple closeby is difficult to model but this is a known
@@ -257,7 +270,8 @@ We can also generate random trees and lobster graphs (a specific type of tree
 with a long spine). The generative model is a simple extension of a VAE to the
 graph setting [VGAE](https://arxiv.org/pdf/1611.07308.pdf) and the Normalizing
 Flow is used to learn a more flexible posterior.
-![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.025.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}
+<img src="../assets/my_assets/HyperFlow_15min/HyperFlow_15min.025.jpeg" alt="" style="border-radius:0%;height: 50%;width: 90%;margin-left: auto;margin-right: auto;position: relative;display: block; padding-top: 30px; padding-bottom: 30px">
+<!--![EX1]({{ "../assets/HyperFlow_15min/HyperFlow_15min.025.jpeg" | absolute_url }}){: style="display: block; margin: auto;"}-->
 
 Interestingly, the conventional Euclidean Normalizing Flow which happens to be
 an instance of [Graph Normalizing Flow](https://arxiv.org/pdf/1905.13177.pdf)

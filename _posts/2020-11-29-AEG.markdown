@@ -2,7 +2,8 @@
 layout: post
 title:  "Adversarial Example Games"
 date:   2020-11-29 10:08:27 -0500
-comments: True
+permalink: /Blog/AEG
+comments: False
 share: True
 categories: Adversarial Attacks
 ---
@@ -222,7 +223,8 @@ assume that it is possible to compute both the maximization and minimization.
 The figure below illustrates the effect of attacking each type of logistic
 regression classifier.
 
-![EX1]({{ "../assets/Poly-1.png" | absolute_url }}){: style="display: block; margin: auto;"}
+<!--![EX1]({{ "../assets/my_assets/Poly-1.png" | absolute_url }} | width=100){: style="display: block; margin: auto;"}-->
+<img src="../assets/my_assets/Poly-1.png" alt="Toy Example" style="border-radius:0%;height: 50%;width: 90%;margin-left: auto;margin-right: auto;position: relative;display: block; padding-top: 30px; padding-bottom: 30px">
 *For the adversarial dataset, each corresponding clean example is represented
 with a red/blue triangle and is connected to its respective adversarial example
 red/blue dot*
@@ -254,7 +256,8 @@ the fact that $$\mathcal{F}$$-entropy is a decreasing function of
 $$\mathcal{F}$$, i.e., for any $$\mathcal{F}_1 \subset \mathcal{F}_2$$. As an
 example, we can plot the respective $$\mathcal{F}$$-entropies of the logistic
 regression classifiers considered above throughout the course of training.
-![EX1]({{ "../assets/F_entropy-1.png" | absolute_url }}){: style="display: block; margin: auto;"}
+<img src="../assets/my_assets/F_entropy-1.png" alt="F-Entropy" style="border-radius:0%;height: 25%;width: 90%;margin-left: auto;margin-right: auto;position: relative;display: block; padding-top: 30px; padding-bottom: 30px">
+<!--![EX1]({{ "../assets/my_assets/F_entropy-1.png" | absolute_url }}){: style="display: block; margin: auto;"}-->
 
 Unsurprisingly, AEG optimization increases the $$\mathcal{F}$$-entropy and also
 $$\mathcal{F}$$-entropy takes on a smaller value for larger classes of
@@ -274,7 +277,8 @@ gradient is backprogated across this categorical variable using the
 decoder takes as input $$\psi(x)$$, $$z$$ and the label $$y$$ to output an
 adversarial perturbation $$\delta$$ such that $$\|\delta\|\leq \epsilon$$.
 
-![EX1]({{ "../assets/AEG_arch.png" | absolute_url }}){: style="display: block; margin: auto;"}
+<img src="../assets/my_assets/AEG_arch.png" alt="AEG_arch" style="border-radius:0%;height: 50%;width: 90%;margin-left: auto;margin-right: auto;position: relative;display: block; padding-top: 30px; padding-bottom: 30px">
+<!--![EX1]({{ "../assets/my_assets/AEG_arch.png" | absolute_url }}){: style="display: block; margin: auto;"}-->
 
 # NoBox Attacks between different architectures
 The main paper investigates many experimental settings but for the purposes of
@@ -282,7 +286,8 @@ this blogpost let us focus on one demonstrative setting: attacking target
 classifiers with different architectures than the representative classifier
 used to train the generator.
 
-![EX1]({{ "../assets/AEG_table2.png" | absolute_url }}){: style="display: block; margin: auto;"}
+<img src="../assets/my_assets/AEG_table2.png" alt="AEG_arch" style="border-radius:0%;height: 50%;width: 90%;margin-left: auto;margin-right: auto;position: relative;display: block; padding-top: 30px; padding-bottom: 30px">
+<!--![EX1]({{ "../assets/my_assets/AEG_table2.png" | absolute_url }}){: style="display: block; margin: auto;"}-->
 
 In this experiment we use the CIFAR-10 dataset and train $$10$$ instances of
 VGG-16, ResNet-18 (RN-18), Wide ResNet (WR), DenseNet-121 (DN-121) and

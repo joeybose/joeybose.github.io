@@ -1,0 +1,70 @@
+# > title: Name of your timeline entry, university or work place
+# > title-url: Link to your timeline entry, university or work place
+# > date: Time span
+# > subtitle: The description under the title
+# > tags: List of tags you want to associate with the entry
+# > timeline-side: The side on which you want to display the entry: left or right
+
+# Example of a timeline entry
+# - title: airbnb
+#   title-url: https://example.com/
+#   date: Sep 2019 - Present
+#   subtitle: Fullstack Developer
+#   tags:
+#     - tag: React
+#     - tag: Javascript
+#     - tag: Ruby
+#     - tag: Rails
+#   timeline-side: right
+
+- title: McGill and Mila
+  title-url: https://scholar.google.com/citations?user=ybPyI7IAAAAJ&hl=en
+  date: Sept 2018 - Present
+  subtitle: Phd Student
+  tags:
+    - tag: Geometric Deep Learning
+    - tag: Normalizing Flows
+    - tag: Equivariant Networks
+    - tag: Adversarial Attacks
+  timeline-side: right
+
+- title: FaceShield.ai (acquired)
+  #title-url: https://example.com/
+  date: August 2018 - June 2020
+  subtitle: Founder and CEO
+  tags:
+    - tag: Adversarial Attacks on Face Detection
+  timeline-side: left
+
+- title: Uber AI
+  #title-url: https://example.com/
+  date: May 2019 - Aug 2019
+  subtitle: Research Intern
+  tags:
+    - tag: Graph Neural Networks
+    - tag: Meta-Learning
+  timeline-side: right
+
+- title: University of Toronto
+  #title-url: https://example.com/
+  date: Sept 2017 - Aug 2018
+  tags:
+    - tag: Adversarial Attacks on Face Detection
+  subtitle: Masters of Applied Science Computer Engineering
+  timeline-side: left
+
+- title: Borealis AI
+  title-url: https://www.borealisai.com/en/
+  date: May 2017 - Jul 2018
+  subtitle: Resarch Intern
+  tags:
+    - tag: NLP
+    - tag: Embeddings
+    - tag: Negative Sampling
+  timeline-side: right
+
+- title: University of Toronto
+  #title-url: https://example.com/
+  date: 2012 - 2017
+  subtitle: Bachelors of Applied Science in Computer Engineering and Minor in Mechatronics
+  timeline-side: left

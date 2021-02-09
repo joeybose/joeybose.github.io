@@ -2,7 +2,8 @@
 layout: post
 title:  "Adversarial Attacks Part1!"
 date:   2018-03-29 10:08:27 -0500
-comments: True
+permalink: /Blog/AdvAttacks
+comments: False
 share: True
 categories: Adversarial Attacks
 ---
@@ -26,7 +27,8 @@ Net misclassifies the central object in the image. If pictures are worth a
 thousand words then examples are worth a million right? Here's an illustrative example taken
 from the FGSM paper.
 
-![EX1]({{ "../assets/adv_attacks/adv_example1.png" | absolute_url }}){: style="display: block; margin: auto;"}
+<img src="../assets/my_assets/adv_attacks/adv_example1.png" alt="" style="border-radius:0%;height: 50%;width: 90%;margin-left: auto;margin-right: auto;position: relative;display: block; padding-top: 30px; padding-bottom: 30px">
+<!--![EX1]({{ "../assets/adv_attacks/adv_example1.png" | absolute_url }}){: style="display: block; margin: auto;"}-->
 
 By adding a small amount of noise to the original image the attack was able to
 change the classification of the original image of a panda with high confidence
