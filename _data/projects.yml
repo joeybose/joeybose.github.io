@@ -13,9 +13,9 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: Neural Path Hunter: Reducing Hallucination in Dialogue Systems via Path Grounding
+- name: Neural Path Hunter, Reducing Hallucination in Dialogue Sytems via Path Grounding
   conf: Preprint
-  authors: N. Dziri, A. Madotto, O. Zaiane, A.J, Bose
+  authors: N. Dziri, A. Madotto, O. Zaiane, A.J. Bose
   image_link: "./assets/my_assets/main_img.png"
   arxiv: https://arxiv.org/pdf/2104.08455
   tags:
