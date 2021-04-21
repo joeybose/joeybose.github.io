@@ -13,6 +13,16 @@
 #     - tag: AngularJS
 #     - tag: Node
 
+- name: Neural Path Hunter: Reducing Hallucination in Dialogue Systems via Path Grounding
+  conf: Preprint
+  authors: N. Dziri, A. Madotto, O. Zaiane, A.J, Bose
+  image_link: "./assets/my_assets/main_img.png"
+  arxiv: https://arxiv.org/pdf/2104.08455
+  tags:
+    - tag: Hallucination
+    - tag: Dialogue Systems
+    - tag: Knowledge Graphs
+
 - name: Online Adversarial Attacks
   conf: Preprint
   authors: A. Mladenović*, A.J. Bose*, H. Berard*, W.L. Hamilton, S. Lacoste-Julien, P. Vincent, G.Gidel
