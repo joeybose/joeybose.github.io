@@ -26,6 +26,14 @@
     - tag: Normalizing Flows
     - tag: Equivariant Networks
     - tag: Adversarial Attacks
+  timeline-side: left
+
+- title: Facebook AI Research
+  date: May 2021 - Present
+  subtitle: Research Intern
+  tags:
+    - tag: Generative Models
+    - tag: Causality
   timeline-side: right
 
 - title: FaceShield.ai (acquired)
