@@ -13,8 +13,18 @@
 #     - tag: AngularJS
 #     - tag: Node
 
+- name: Online Adversarial Attacks
+  conf: NeurIPS 2021
+  authors: A. Mladenović*, A.J. Bose*, H. Berard*, W.L. Hamilton, S. Lacoste-Julien, P. Vincent, G.Gidel
+  image_link: "./assets/my_assets/stochastic_secretary_fixed-1.png"
+  arxiv: https://arxiv.org/abs/2103.02014
+  tags:
+    - tag: Adversarial Attacks
+    - tag: Online Algorithms
+    - tag: k-secretary
+
 - name: Neural Path Hunter, Reducing Hallucination in Dialogue Sytems via Path Grounding
-  conf: Preprint
+  conf: EMNLP 2021
   authors: N. Dziri, A. Madotto, O. Zaiane, A.J. Bose
   image_link: "./assets/my_assets/main_img.png"
   arxiv: https://arxiv.org/pdf/2104.08455
@@ -23,15 +33,6 @@
     - tag: Dialogue Systems
     - tag: Knowledge Graphs
 
-- name: Online Adversarial Attacks
-  conf: Preprint
-  authors: A. Mladenović*, A.J. Bose*, H. Berard*, W.L. Hamilton, S. Lacoste-Julien, P. Vincent, G.Gidel
-  image_link: "./assets/my_assets/stochastic_secretary_fixed-1.png"
-  arxiv: https://arxiv.org/abs/2103.02014
-  tags:
-    - tag: Adversarial Attacks
-    - tag: Online Algorithms
-    - tag: k-secretary
 
 - name: Adversarial Example Games
   conf: NeurIPS 2020
