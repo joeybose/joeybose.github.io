@@ -14,7 +14,7 @@
 #     - tag: Node
 
 - name: Online Adversarial Attacks
-  conf: NeurIPS 2021
+  conf: Preprint
   authors: A. Mladenović*, A.J. Bose*, H. Berard*, W.L. Hamilton, S. Lacoste-Julien, P. Vincent, G.Gidel
   image_link: "./assets/my_assets/stochastic_secretary_fixed-1.png"
   arxiv: https://arxiv.org/abs/2103.02014
