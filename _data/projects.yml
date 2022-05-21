@@ -13,6 +13,14 @@
 #     - tag: AngularJS
 #     - tag: Node
 
+- name: Matching Normalizing Flows and Probablity Paths on Manifolds
+  conf: ICML 2022
+  authors: H. Ben-Hamu, S. Cohen, A.J. Bose*, B. Amos, M. Nickel, A. Grover, R. Chen, Y. Lipman
+  image_link: "./assets/my_assets/gt_and_s15_3.jpg"
+  tags:
+    - tag: Continuous Normalizing Flows
+    - tag: Generative Models
+
 - name: Online Adversarial Attacks
   conf: ICLR 2022
   authors: A. Mladenović*, A.J. Bose*, H. Berard*, W.L. Hamilton, S. Lacoste-Julien, P. Vincent, G.Gidel
