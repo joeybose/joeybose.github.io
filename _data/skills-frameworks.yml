@@ -11,5 +11,3 @@
 - name: Pytorch-Geometric
   weight: 3
 
-- name: Tensorflow
-  weight: 2

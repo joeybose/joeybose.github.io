@@ -5,15 +5,7 @@
 # - name: Git
 #   weight: 5
 
-- name: Git
-  weight: 5
-
-- name: Latex
-  weight: 4
-
-- name: Bash
-  weight: 3
-
-- name: Slurm
+- name: Fall 2022 COMP760 Geometry and Generative Models
   weight: 2
+  blog: "/Blog/GenCourse"
 

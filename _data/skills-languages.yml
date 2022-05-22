@@ -6,10 +6,10 @@
 #   weight: 5
 
 - name: Generative Models
-  weight: 5
+  weight: 4
 
 - name: Normalizing Flows
-  weight: 5
+  weight: 4
 
 - name: Equivariant Networks
   weight: 4
@@ -20,8 +20,8 @@
 - name: Graph Neural Networks
   weight: 2
 
-- name: KG Embeddings
-  weight: 2
+#- name: KG Embeddings
+  #weight: 2
 
-- name: NLP
-  weight: 2
+#- name: NLP
+  #weight: 2
