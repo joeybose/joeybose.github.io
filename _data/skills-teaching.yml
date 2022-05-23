@@ -1,0 +1,10 @@
+# > name: Name of your Dev Tool
+# > weight: Describes how good you know the tool - values from 1 up to 5
+#
+# Example of a Dev Tool
+# - name: Git
+#   weight: 5
+
+- name: Fall 2022 COMP760 Geometry and Generative Models
+  weight: 4
+  blog: "/Blog/GenCourse"

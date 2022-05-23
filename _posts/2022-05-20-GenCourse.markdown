@@ -7,7 +7,7 @@ comments: False
 share: True
 categories: Course
 ---
-# Co-Instructors:  Joey Bose and Prakash Panangaden
+# Co-Instructors:  [Joey Bose](https://joeybose.github.io/) and [Prakash Panangaden](https://www.cs.mcgill.ca/~prakash/)
 
 # Course Overview
 <img src="../assets/my_assets/HyperFlow_15min/hyperflow_animation_large.gif" alt="" style="border-radius:0%;height: 30%;width: 70%;margin-left: auto;margin-right: auto;position: relative;display: block; padding-top: 10px; padding-bottom: 10px">
