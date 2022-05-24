@@ -12,14 +12,15 @@ categories: Course
 # Course Overview
 <img src="../assets/my_assets/HyperFlow_15min/hyperflow_animation_large.gif" alt="" style="border-radius:0%;height: 30%;width: 70%;margin-left: auto;margin-right: auto;position: relative;display: block; padding-top: 10px; padding-bottom: 10px">
 
-<span style="font-family:Helvetica; font-size:1.25em;">
+<!--<span style="font-family:Helvetica; font-size:1.25em;">-->
 In recent years Deep Generative Models have seen remarkable success over a variety of data domains such as images, text, and audio to name a few. However, the predominant approach in many of these models (e.g. GANS, VAE, Normalizing Flows) is to treat data as fixed-dimensional continuous vectors in some Euclidean space, despite significant evidence to the contrary (e.g. 3D molecules). This course places a direct emphasis on learning generative models for complex geometries described via manifolds, such as spheres, tori, hyperbolic spaces, implicit surfaces, and homogeneous spaces. The purpose of this seminar course is to understand the key design principles that underpin the new wave of geometry-aware generative models that treat the rich geometric structure in data as a first-class citizen. This seminar course will also serve to develop extensions to these approaches at the leading edge of research and as a result, a major component of the course will focus on class participation through presenting papers and a thematically-relevant course project.
-</span>
+<!--</span>-->
 
 * Location: Mila Auditorium 1
 * Time: Fridays 1-4pm
 * Office Hours: TBD
 * Capacity: 25-30 **(Registration is first come first serve)**
+
 # Prerequisites
 This course is designed to bring students to the current frontier of knowledge on geometric generative models so that ideally, their course projects can make a novel contribution that can either be algorithmic, theoretical, or empirical. A previous background in machine learning is strongly recommended. Linear algebra, basic multivariate calculus, basics of working with probability, and programming skills are required. No background in geometry or generative models is needed for the course but any such knowledge may aid in a deeper engagement with the course material. However, it is strongly recommended that this course is not the first—or even second—Machine Learning course, and if there are any specific doubts please contact the instructor for special permission or equivalency of prerequisites.
 
