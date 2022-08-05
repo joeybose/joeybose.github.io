@@ -112,22 +112,19 @@ Disentanglement is perhaps one of the key goals of unsupervised learning. For ge
 * [Learning mixed-curvature representations in product spaces](https://openreview.net/forum?id=HJxeWnCcF7)
 * [Mixed-curvature Variational Autoencoders](https://arxiv.org/abs/1911.08411)
 
-## Week 9: Normalizing Flows on Riemannian Manifolds Part I
+## Week 9: Normalizing Flows on Riemannian Manifolds
 How can we define flexible probability distributions on general Riemannian manifolds? Turns out one natural way to do so is to define an easy-to-sample prior distribution and a time-evolving vector field that transports this density to the desired target. This effectively generalizes the continuous normalizing flow approach previously seen in week 3 to Riemannian manifolds and this week we will cover 3 papers that were published concurrently on this very topic.
+Extending the CNF’s to manifolds typically requires backpropping through an ODE solver which is computationally expensive. In this week we will cover a series of normalizing flows that sidestep this expensive computation by using various methodological innovations such as using convex potentials from Riemannian optimal transport to neural implementation of Moser’s trick which led to MoserFlow (NeurIPS 2021 outstanding paper).
 
 * [Riemannian Continuous Normalizing Flows](https://arxiv.org/abs/2006.10605)
 * [Neural Manifold Ordinary Differential Equations](https://arxiv.org/abs/2006.10254)
 * [Neural Ordinary Differential Equations on Manifolds](https://arxiv.org/abs/2006.06663)
-* [The Riemannian Geometry of Deep Generative Models](https://ieeexplore.ieee.org/document/8575533)
-
-## Week 10: Normalizing Flows on Riemannian Manifolds Part II
-Extending the CNF’s to manifolds typically requires backpropping through an ODE solver which is computationally expensive. In this week we will cover a series of normalizing flows that sidestep this expensive computation by using various methodological innovations such as using convex potentials from Riemannian optimal transport to neural implementation of Moser’s trick which led to MoserFlow (NeurIPS 2021 outstanding paper).
-
-* [Flows for simultaneous manifold learning and density estimation](https://arxiv.org/abs/2003.13913)
-* [Riemannian Convex Potential Maps](https://arxiv.org/abs/2106.10272)
 * [Moser Flow: Divergence-based Generative Modeling on Manifolds](https://arxiv.org/abs/2108.08052)
+* [Matching Normalizing Flows and Probability Paths on Manifolds](https://arxiv.org/pdf/2207.04711)
+* [The Riemannian Geometry of Deep Generative Models](https://ieeexplore.ieee.org/document/8575533)
+* [Riemannian Convex Potential Maps](https://arxiv.org/abs/2106.10272)
 
-## Week 11: Equivariant Generative Models
+## Week 10: Equivariant Generative Models
 Much of observed data is a result of physical processes which have symmetries. These symmetries manifest themselves as equivariances and invariances to certain transformation groups, e.g. translation, rotation, scaling, etc …, and imbuing generative models with these structural inductive biases is a core design principle. In this week we will cover many types of equivariant generative models and their application to physics, molecular dynamics, and many more practical domains.
 
 * [Equivariant Flows: exact likelihood generative learning for symmetric densities](https://arxiv.org/abs/2006.02425)
@@ -136,6 +133,14 @@ Much of observed data is a result of physical processes which have symmetries. T
 * [Equivariant Discrete Normalizing Flows](https://arxiv.org/abs/2110.08649)
 * [Implicit Riemannian Concave Potential Maps](https://arxiv.org/abs/2110.01288)
 * [Sampling SU(N) with gauge equivariant flows](https://arxiv.org/abs/2008.05456)
+
+## Week 11: Geometric Score and Diffusion Models
+Score and Diffusion models are the current state of the art generative models for both likelihood estimation as well sample quality. Given their performance for images
+it is a natural question on whether these models can be adapted to more complex geometries. A recent influx of papers definitively answer this question with compelling samples ranging from spherical, hyperbolic and toroidal geometry but also practical use cases in molecular simulations.
+
+* [Equivariant Diffusion for Molecule Generation in 3D](https://arxiv.org/abs/2203.17003)
+* [Riemannian Score-Based Generative Modeling](https://arxiv.org/abs/2202.02763)
+* [Riemannian Diffusion Models]()
 
 ## Week 12: Student Presentations Part I
 
