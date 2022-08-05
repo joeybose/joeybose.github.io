@@ -13,10 +13,45 @@
 #     - tag: AngularJS
 #     - tag: Node
 
+- name: A General Framework For Proving The Equivariant Strong Lottery Ticket Hypothesis
+  conf: Preprint 2022
+  authors: D. Ferbach*, C. Tsirigotis*, G. Gidel, A.J. Bose
+  image_link: "./assets/my_assets/General_Equivariant_Pruning_Fig.pdf"
+  tags:
+    - tag: Strong Lottery Tickets
+    - tag: Equivariant Networks
+    - tag: Pruning
+
+- name: Riemannian Diffusion Models
+  conf: Preprint 2022
+  authors: C.W. Huang*, M. Aghajohari*, A.J. Bose, P. Panangaden, A. Courville
+  image_link: "./assets/my_assets/rdm_fig.png"
+  tags:
+    - tag: Diffusion Models
+    - tag: Riemmanian Geometry
+    - tag: Generative Models
+
+- name: Controllable Generative Modeling via Causal Reasoning
+  conf: Preprint 2022
+  authors: A.J. Bose, R. Monti, A. Grover
+  image_link: "./assets/my_assets/Cage_diff_fig.pdf"
+  tags:
+    - tag: Causality
+    - tag: Generative Models
+
+- name: Equivariant Finite Normalizing Flows
+  conf: Preprint 2022
+  authors: A.J. Bose, I. Kobyzev, M. Brubaker
+  image_link: "./assets/my_assets/equivariant_flows_toy.pdf"
+  tags:
+    - tag: Equivariant Normalizing Flows
+    - tag: Generative Models
+
 - name: Matching Normalizing Flows and Probablity Paths on Manifolds
   conf: ICML 2022
-  authors: H. Ben-Hamu, S. Cohen, A.J. Bose*, B. Amos, M. Nickel, A. Grover, R. Chen, Y. Lipman
+  authors: H. Ben-Hamu*, S. Cohen*, A.J. Bose, B. Amos, M. Nickel, A. Grover, R. Chen, Y. Lipman
   image_link: "./assets/my_assets/gt_and_s15_3.jpg"
+  arxiv: https://arxiv.org/pdf/2207.04711
   tags:
     - tag: Continuous Normalizing Flows
     - tag: Generative Models
@@ -40,7 +75,6 @@
     - tag: Hallucination
     - tag: Dialogue Systems
     - tag: Knowledge Graphs
-
 
 - name: Adversarial Example Games
   conf: NeurIPS 2020
