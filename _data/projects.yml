@@ -16,7 +16,7 @@
 - name: A General Framework For Proving The Equivariant Strong Lottery Ticket Hypothesis
   conf: Preprint 2022
   authors: D. Ferbach*, C. Tsirigotis*, G. Gidel, A.J. Bose
-  image_link: "./assets/my_assets/General_Equivariant_Pruning_Fig.pdf"
+  image_link: "./assets/my_assets/General_equivariant_pruning.png"
   tags:
     - tag: Strong Lottery Tickets
     - tag: Equivariant Networks
@@ -34,7 +34,7 @@
 - name: Controllable Generative Modeling via Causal Reasoning
   conf: Preprint 2022
   authors: A.J. Bose, R. Monti, A. Grover
-  image_link: "./assets/my_assets/Cage_diff_fig.pdf"
+  image_link: "./assets/my_assets/CAGE_diff_fig.png"
   tags:
     - tag: Causality
     - tag: Generative Models
@@ -42,7 +42,7 @@
 - name: Equivariant Finite Normalizing Flows
   conf: Preprint 2022
   authors: A.J. Bose, I. Kobyzev, M. Brubaker
-  image_link: "./assets/my_assets/equivariant_flows_toy.pdf"
+  image_link: "./assets/my_assets/equivariant_toy.png"
   tags:
     - tag: Equivariant Normalizing Flows
     - tag: Generative Models
