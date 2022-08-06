@@ -17,6 +17,7 @@
   conf: Preprint 2022
   authors: D. Ferbach*, C. Tsirigotis*, G. Gidel, A.J. Bose
   image_link: "./assets/my_assets/General_equivariant_pruning.png"
+  arxiv: https://arxiv.org/abs/2206.04270
   tags:
     - tag: Strong Lottery Tickets
     - tag: Equivariant Networks
