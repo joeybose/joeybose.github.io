@@ -19,7 +19,7 @@ In recent years Deep Generative Models have seen remarkable success over a varie
 * Location: Mila Auditorium 1
 * Time: Fridays 1-4pm
 * Office Hours: TBD
-* Capacity: 25-30 **(Registration will be approved late August---e.g. Aug 22nd)**
+* Capacity: 25-30 **(Registration will need instructor approval. Please email us)**
 
 # Prerequisites
 This course is designed to bring students to the current frontier of knowledge on geometric generative models so that ideally, their course projects can make a novel contribution that can either be algorithmic, theoretical, or empirical. A previous background in machine learning is strongly recommended. Linear algebra, basic multivariate calculus, basics of working with probability, and programming skills are required. No background in geometry or generative models is needed for the course but any such knowledge may aid in a deeper engagement with the course material. However, it is strongly recommended that this course is not the first—or even second—Machine Learning course, and if there are any specific doubts please contact the instructor for special permission or equivalency of prerequisites.
@@ -39,12 +39,12 @@ In-class discussion will center around:
 * Extensions or applications of these methods.
 * Experiments that might better illuminate their properties.
 
-# Tentative Grading
+# Grading
 * 20% In-class paper presentations
 * 30% Student project presentation
 * 50% Student project report
 
-# Tentative Reading List:
+# Reading List:
 ## Textbooks
 There is no required textbook for this course but the ["Geometric Deep Learning proto book"](https://geometricdeeplearning.com/) is a good reference for much of the technical foundations covered in this course.
 
@@ -55,6 +55,7 @@ There is no required textbook for this course but the ["Geometric Deep Learning 
 * [Normalizing Flows for Probabilistic Modeling and Inference](https://www.jmlr.org/papers/volume22/19-1028/19-1028.pdf)
 
 ## Week 1: Geometry Primer Part I (Prakash Lectures):
+* [Lecture Notes](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week_1__Geometry_Primer_Part_I.pdf)
 * Topology: open and closed sets, continuous functions, convergence, metrics, compactness.
 * Manifolds: smoothness, charts, tangent vectors, tensors, tangent bundle.
 
