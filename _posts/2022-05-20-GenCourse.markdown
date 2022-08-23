@@ -46,7 +46,7 @@ In-class discussion will center around:
 
 # Reading List:
 ## Textbooks
-There is no required textbook for this course but the ["Geometric Deep Learning proto book"](https://geometricdeeplearning.com/) is a good reference for much of the technical foundations covered in this course.
+There is no required textbook for this course but the ["Geometric Deep Learning proto book"](https://geometricdeeplearning.com/) is a good reference for much of the technical foundations covered in this course. Another fantastic resource is the ["Differential Geometry for Generative Modeling"](http://www2.compute.dtu.dk/~sohau/weekendwithbernie/Differential_geometry_for_generative_modeling.pdf) textbook.
 
 **Reading List is subject to change**
 
@@ -85,23 +85,32 @@ In recent years there has been a resurgence of old ideas but repackaged for a mo
 ## Week 5: Distributions on Manifolds
 Defining probability distributions on manifolds requires specific care as many familiar notions in Euclidean geometry become incompatible for general manifolds. For example, the classical Gaussian distribution has at least three different instantiations in the manifold setting, e.g. Restricted, Wrapped, and the Riemannian normal distribution. We will focus on covering mainly the Riemannian normal distribution as well as the Von Mises Fisher distribution which is typically used in Spherical geometry.
 
+### Core Readings
 * [Reparameterizing Distributions on Lie Groups](https://arxiv.org/abs/1903.02958)
-* [Directional data analysis under the general projected normal distribution](https://www.sciencedirect.com/science/article/pii/S1572312712000457)
-* [Dispersion on a Sphere](https://www.jstor.org/stable/99186)
 * [Intrinsic Statistics on Riemannian Manifolds: Basic Tools for Geometric Measurements](https://hal.inria.fr/inria-00614994/PDF/Pennec.JMIV06.pdf)
+* [Dispersion on a Sphere](http://palaeo.spb.ru/pmlibrary/pmpapers/fisher_1953.pdf)
+
+
+### Extra Readings
+* [Directional data analysis under the general projected normal distribution](https://www.sciencedirect.com/science/article/pii/S1572312712000457)
 * [Riemannian Gaussian Distributions on the Space of Symmetric Positive Definite Matrices](https://arxiv.org/abs/1507.01760)
 
 ## Week 6: Spherical Geometry
 The first wave of geometry-aware deep generative models focused largely on spherical geometry—i.e. Riemannian manifolds with positive curvature—as it is perhaps most accessible after Euclidean geometry. As a result, there are a few prominent work that exploit this structure to define hyperspherical latent spaces, or more complex distributions on the Sphere using Normalizing Flows or even GANs.
 
+### Core Readings
 * [Hyperspherical Variational Auto-Encoders](https://arxiv.org/abs/1804.00891)
 * [Normalizing Flows on Tori and Spheres](https://arxiv.org/abs/2002.02428)
 * [The Power Spherical distribution](https://arxiv.org/abs/2006.04437)
+
+### Extra Readings
+* [Variational Autoencoders with Riemannian Brownian Motion Priors](https://arxiv.org/pdf/2002.05227)
 * [Sphere Generative Adversarial Network Based on Geometric Moment Matching](https://openaccess.thecvf.com/content_CVPR_2019/papers/Park_Sphere_Generative_Adversarial_Network_Based_on_Geometric_Moment_Matching_CVPR_2019_paper.pdf)
 
 ## Week 7: Hyperbolic Geometry
 Hyperbolic spaces—i.e. manifolds with constant negative curvature—have become an increasingly useful geometry in the modern machine learning toolkit. From modelling social networks, trees, biological networks, to hierarchical diffusion processes hyperbolic spaces have found tremendous practical advantages over Euclidean counterparts. Naturally, extending generative models to hyperbolic space requires taking into account manifold specific operations like the exponential and logarithmic maps, parallel transport all of which are key design decisions when constructing neural architectures that operate on these spaces.
 
+### Core Readings
 * [Continuous Hierarchical Representations with Poincaré Variational Auto-Encoders](https://arxiv.org/abs/1901.06033)
 * [A Wrapped Normal Distribution on Hyperbolic Space for Gradient-Based Learning](https://arxiv.org/abs/1902.02992)
 * [Latent Variable Modelling with Hyperbolic Normalizing Flows](https://arxiv.org/abs/2002.06336)
@@ -109,6 +118,7 @@ Hyperbolic spaces—i.e. manifolds with constant negative curvature—have becom
 ## Week 8: Product Manifolds
 Disentanglement is perhaps one of the key goals of unsupervised learning. For generative models, this effectively means isolating the main generative factors that give rise to observed data. Modeling such generative factors as latent variables in VAE like the setup is the dominant paradigm to infuse geometric priors about the data into practical modeling inductive biases. This week we will turn our attention to the various types of geometric structure that one can attach to a latent space such as group structure and product manifolds.
 
+### Core Readings
 * [Towards a definition of disentangled representations](https://arxiv.org/abs/1812.02230)
 * [Learning mixed-curvature representations in product spaces](https://openreview.net/forum?id=HJxeWnCcF7)
 * [Mixed-curvature Variational Autoencoders](https://arxiv.org/abs/1911.08411)
@@ -117,21 +127,27 @@ Disentanglement is perhaps one of the key goals of unsupervised learning. For ge
 How can we define flexible probability distributions on general Riemannian manifolds? Turns out one natural way to do so is to define an easy-to-sample prior distribution and a time-evolving vector field that transports this density to the desired target. This effectively generalizes the continuous normalizing flow approach previously seen in week 3 to Riemannian manifolds and this week we will cover 3 papers that were published concurrently on this very topic.
 Extending the CNF’s to manifolds typically requires backpropping through an ODE solver which is computationally expensive. In this week we will cover a series of normalizing flows that sidestep this expensive computation by using various methodological innovations such as using convex potentials from Riemannian optimal transport to neural implementation of Moser’s trick which led to MoserFlow (NeurIPS 2021 outstanding paper).
 
+### Core Readings
 * [Riemannian Continuous Normalizing Flows](https://arxiv.org/abs/2006.10605)
-* [Neural Manifold Ordinary Differential Equations](https://arxiv.org/abs/2006.10254)
-* [Neural Ordinary Differential Equations on Manifolds](https://arxiv.org/abs/2006.06663)
 * [Moser Flow: Divergence-based Generative Modeling on Manifolds](https://arxiv.org/abs/2108.08052)
 * [Matching Normalizing Flows and Probability Paths on Manifolds](https://arxiv.org/pdf/2207.04711)
+
+### Extra Readings
+* [Neural Manifold Ordinary Differential Equations](https://arxiv.org/abs/2006.10254)
+* [Neural Ordinary Differential Equations on Manifolds](https://arxiv.org/abs/2006.06663)
 * [The Riemannian Geometry of Deep Generative Models](https://ieeexplore.ieee.org/document/8575533)
 * [Riemannian Convex Potential Maps](https://arxiv.org/abs/2106.10272)
 
 ## Week 10: Equivariant Generative Models
 Much of observed data is a result of physical processes which have symmetries. These symmetries manifest themselves as equivariances and invariances to certain transformation groups, e.g. translation, rotation, scaling, etc …, and imbuing generative models with these structural inductive biases is a core design principle. In this week we will cover many types of equivariant generative models and their application to physics, molecular dynamics, and many more practical domains.
 
+### Core Readings
 * [Equivariant Flows: exact likelihood generative learning for symmetric densities](https://arxiv.org/abs/2006.02425)
 * [Equivariant Manifold Flows](https://arxiv.org/abs/2107.08596)
 * [E(n) Equivariant Normalizing Flows](https://arxiv.org/abs/2105.09016)
-* [Equivariant Discrete Normalizing Flows](https://arxiv.org/abs/2110.08649)
+
+### Extra Readings
+* [Equivariant Finite Normalizing Flows](https://arxiv.org/abs/2110.08649)
 * [Implicit Riemannian Concave Potential Maps](https://arxiv.org/abs/2110.01288)
 * [Sampling SU(N) with gauge equivariant flows](https://arxiv.org/abs/2008.05456)
 
@@ -139,6 +155,7 @@ Much of observed data is a result of physical processes which have symmetries. T
 Score and Diffusion models are the current state of the art generative models for both likelihood estimation as well sample quality. Given their performance for images
 it is a natural question on whether these models can be adapted to more complex geometries. A recent influx of papers definitively answer this question with compelling samples ranging from spherical, hyperbolic and toroidal geometry but also practical use cases in molecular simulations.
 
+### Core Readings
 * [Equivariant Diffusion for Molecule Generation in 3D](https://arxiv.org/abs/2203.17003)
 * [Riemannian Score-Based Generative Modeling](https://arxiv.org/abs/2202.02763)
 * [Riemannian Diffusion Models](https://arxiv.org/pdf/2208.07949)
