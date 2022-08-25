@@ -30,7 +30,7 @@ This course is designed to bring students to the current frontier of knowledge o
 * Math 222 (Calculus 3) or equivalent
 
 
-# Tentative Course Structure
+# Course Structure
 The first third of the course will consist of lectures covering necessary background material in geometric deep learning and generative models, after which every week will focus on student presentations on a pre-selected topic, using a couple of papers as reference. Each student must prepare one presentation individually or as a pair for the semester which is independent of their course project. The final two weeks will be reserved for course project presentations.
 In-class discussion will center around:
 
@@ -40,6 +40,10 @@ In-class discussion will center around:
 * Experiments that might better illuminate their properties.
 
 # Grading
+There will be an ungraded but mandatory project extended abstract submission on Week 6 of the course.
+The course project, including extended abstract, must be formatted in Latex using the NeurIPS 2022 (Preprint
+option) template. [Latex Template](https://neurips.cc/Conferences/2022/CallForPapers)
+
 * 20% In-class paper presentations
 * 30% Student project presentation
 * 50% Student project report
@@ -57,13 +61,18 @@ There is no required textbook for this course but the ["Geometric Deep Learning 
 ## Week 1: Geometry Primer Part I (Prakash Lectures):
 * [Lecture Notes](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week_1__Geometry_Primer_Part_I.pdf)
 * Topology: open and closed sets, continuous functions, convergence, metrics, compactness.
-* Manifolds: smoothness, charts, tangent vectors, tensors, tangent bundle.
+* Manifolds I
+* Smoothness
+* Charts
 
 ## Week 2: Geometry Primer Part II (Prakash Lectures):
-* Riemannian metrics
+* Manifolds II
+* Tangent Vectors
+* Tensors
+* Tangent Bundle
+* Metrics
 * Affine connections
 * Lie groups
-* Symmetric spaces.
 
 ## Week 3: Deep Generative Models Primer Part I (Joey Lectures)
 Deep generative models learn to transform unstructured noise to highly structured data like natural images. While these models may come in various forms but they can be broadly classified as either likelihood-based or implicit models. The former model class is already quite rich with popular modeling families such as VAE’s, and Normalizing Flows and will be the starting point for this week's topics.
@@ -96,6 +105,8 @@ Defining probability distributions on manifolds requires specific care as many f
 * [Riemannian Gaussian Distributions on the Space of Symmetric Positive Definite Matrices](https://arxiv.org/abs/1507.01760)
 
 ## Week 6: Spherical Geometry
+**Extended Abstract Due**
+
 The first wave of geometry-aware deep generative models focused largely on spherical geometry—i.e. Riemannian manifolds with positive curvature—as it is perhaps most accessible after Euclidean geometry. As a result, there are a few prominent work that exploit this structure to define hyperspherical latent spaces, or more complex distributions on the Sphere using Normalizing Flows or even GANs.
 
 ### Core Readings
@@ -115,13 +126,20 @@ Hyperbolic spaces—i.e. manifolds with constant negative curvature—have becom
 * [A Wrapped Normal Distribution on Hyperbolic Space for Gradient-Based Learning](https://arxiv.org/abs/1902.02992)
 * [Latent Variable Modelling with Hyperbolic Normalizing Flows](https://arxiv.org/abs/2002.06336)
 
-## Week 8: Product Manifolds
+## Week 8: Product and Latent Manifolds
 Disentanglement is perhaps one of the key goals of unsupervised learning. For generative models, this effectively means isolating the main generative factors that give rise to observed data. Modeling such generative factors as latent variables in VAE like the setup is the dominant paradigm to infuse geometric priors about the data into practical modeling inductive biases. This week we will turn our attention to the various types of geometric structure that one can attach to a latent space such as group structure and product manifolds.
 
 ### Core Readings
 * [Towards a definition of disentangled representations](https://arxiv.org/abs/1812.02230)
 * [Learning mixed-curvature representations in product spaces](https://openreview.net/forum?id=HJxeWnCcF7)
 * [Mixed-curvature Variational Autoencoders](https://arxiv.org/abs/1911.08411)
+
+### Extra Readings
+* [Latent Space Oddity: on the Curvature of Deep Generative Models](https://arxiv.org/abs/1710.11379)
+* [Metrics for deep generative models](https://arxiv.org/abs/1711.01204)
+* [Variational Autoencoders with Riemannian Brownian Motion Priors](https://arxiv.org/abs/2002.05227)
+* [Pulling back information geometry](https://arxiv.org/abs/2106.05367)
+
 
 ## Week 9: Normalizing Flows on Riemannian Manifolds
 How can we define flexible probability distributions on general Riemannian manifolds? Turns out one natural way to do so is to define an easy-to-sample prior distribution and a time-evolving vector field that transports this density to the desired target. This effectively generalizes the continuous normalizing flow approach previously seen in week 3 to Riemannian manifolds and this week we will cover 3 papers that were published concurrently on this very topic.
