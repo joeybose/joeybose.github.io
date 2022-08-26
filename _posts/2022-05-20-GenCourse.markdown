@@ -41,12 +41,24 @@ In-class discussion will center around:
 
 # Grading
 There will be an ungraded but mandatory project extended abstract submission on Week 6 of the course.
-The course project, including extended abstract, must be formatted in Latex using the NeurIPS 2022 (Preprint
+The course project, including project proposal, must be formatted in Latex using the NeurIPS 2022 (Preprint
 option) template. [Latex Template](https://neurips.cc/Conferences/2022/CallForPapers)
 
 * 20% In-class paper presentations
 * 30% Student project presentation
 * 50% Student project report
+
+# Course Project
+The course project can be done individually, in pairs, or in rare cases teams
+of 3. The project will be evaluated wholistically, on a number of
+criterias---not unsimilar to an actual review of a conference paper. The grading will take into account the number of people on a project.
+Some of these include: novelty of the idea, how well you present them in the report, how clearly you position your work relative to existing literature, how illuminating your experiments are, and well-supported your conclusions are.
+
+
+Each course project will require a 2 page project proposal which can be thought of as an extended abstract. The actual project report will need to be 4-8 pages in length in the format of a NeurIPS paper in Preprint mode [Latex template](https://neurips.cc/Conferences/2022/PaperInformation/StyleFiles). The report should include
+an abstract, introduction, coverage of related work, a minimum viable project with some demonstration either theoretical or empirical of the ideas soundness, and if needed some future looking thoughts on how to proceed if given more time.
+
+
 
 # Reading List:
 ## Textbooks
