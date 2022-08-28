@@ -64,9 +64,9 @@ an abstract, introduction, coverage of related work, a minimum viable project wi
 ## Textbooks
 There is no required textbook for this course but the ["Geometric Deep Learning proto book"](https://geometricdeeplearning.com/) is a good reference for much of the technical foundations covered in this course. Another fantastic resource is the ["Differential Geometry for Generative Modeling"](http://www2.compute.dtu.dk/~sohau/weekendwithbernie/Differential_geometry_for_generative_modeling.pdf) textbook.
 
-**Reading List is subject to change**
 
-## Prerequisite readings:
+## Prerequisite readings/material:
+* [Self-Assessment Quiz](https://github.com/joeybose/comp760_lecturenotes/blob/master/COMP760___Self_Assessment_Quiz.pdf)
 * [Automatic Differentiation and Variational Inference](http://arxiv.org/pdf/1603.00788v1.pdf)
 * [Normalizing Flows for Probabilistic Modeling and Inference](https://www.jmlr.org/papers/volume22/19-1028/19-1028.pdf)
 
@@ -90,6 +90,7 @@ There is no required textbook for this course but the ["Geometric Deep Learning 
 ## Sept 16th - Week 3: Deep Generative Models Primer Part I (Joey Lectures)
 Deep generative models learn to transform unstructured noise to highly structured data like natural images. While these models may come in various forms but they can be broadly classified as either likelihood-based or implicit models. The former model class is already quite rich with popular modeling families such as VAE’s, and Normalizing Flows and will be the starting point for this week's topics.
 
+* [Lecture Notes](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week_3__Generative_Models_I.pdf)
 * [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114)
 * [Variational Inference with Normalizing Flows](http://proceedings.mlr.press/v37/rezende15.pdf)
 * [Density Estimation with RealNVP](https://arxiv.org/abs/1605.08803)
@@ -136,6 +137,8 @@ The first wave of geometry-aware deep generative models focused largely on spher
 Hyperbolic spaces—i.e. manifolds with constant negative curvature—have become an increasingly useful geometry in the modern machine learning toolkit. From modelling social networks, trees, biological networks, to hierarchical diffusion processes hyperbolic spaces have found tremendous practical advantages over Euclidean counterparts. Naturally, extending generative models to hyperbolic space requires taking into account manifold specific operations like the exponential and logarithmic maps, parallel transport all of which are key design decisions when constructing neural architectures that operate on these spaces.
 
 ### Core Readings
+* [Lecture Notes](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week_7__Hyperbolic_Geometry.pdf)
+* [Google Collab Wrapped Normal Tutorial](https://colab.research.google.com/drive/1kSdmi2r6QMO7gI8YPqeiWoW2ayxcu1MY)
 * [Continuous Hierarchical Representations with Poincaré Variational Auto-Encoders](https://arxiv.org/abs/1901.06033)
 * [A Wrapped Normal Distribution on Hyperbolic Space for Gradient-Based Learning](https://arxiv.org/abs/1902.02992)
 * [Latent Variable Modelling with Hyperbolic Normalizing Flows](https://arxiv.org/abs/2002.06336)
