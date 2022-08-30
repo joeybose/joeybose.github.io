@@ -40,7 +40,7 @@ In-class discussion will center around:
 * Experiments that might better illuminate their properties.
 
 # Grading
-There will be an ungraded but mandatory project extended abstract submission on Week 6 of the course.
+There will be an ungraded but mandatory project extended abstract/project proposal submission on Week 6 of the course.
 The course project, including project proposal, must be formatted in Latex using the NeurIPS 2022 (Preprint
 option) template. [Latex Template](https://neurips.cc/Conferences/2022/CallForPapers)
 
@@ -125,6 +125,7 @@ Defining probability distributions on manifolds requires specific care as many f
 The first wave of geometry-aware deep generative models focused largely on spherical geometry—i.e. Riemannian manifolds with positive curvature—as it is perhaps most accessible after Euclidean geometry. As a result, there are a few prominent work that exploit this structure to define hyperspherical latent spaces, or more complex distributions on the Sphere using Normalizing Flows or even GANs.
 
 ### Core Readings
+* [Lecture Notes](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week_6__Spherical_Geometry.pdf)
 * [Hyperspherical Variational Auto-Encoders](https://arxiv.org/abs/1804.00891)
 * [Normalizing Flows on Tori and Spheres](https://arxiv.org/abs/2002.02428)
 * [The Power Spherical distribution](https://arxiv.org/abs/2006.04437)
