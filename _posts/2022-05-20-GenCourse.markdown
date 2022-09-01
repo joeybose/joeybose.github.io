@@ -17,9 +17,9 @@ In recent years Deep Generative Models have seen remarkable success over a varie
 <!--</span>-->
 
 * Location: Mila Auditorium 1
-* Time: Fridays 1-4pm
-* Office Hours: TBD
-* Capacity: 25-30 **(Registration will need instructor approval. Please email us)**
+* Time: Fridays 1pm - 4pm
+* Office Hours: By email correspondance.
+* [Anonymous Feedback Form](https://forms.gle/g4xns6vizBsSKCq39)
 
 # Prerequisites
 This course is designed to bring students to the current frontier of knowledge on geometric generative models so that ideally, their course projects can make a novel contribution that can either be algorithmic, theoretical, or empirical. A previous background in machine learning is strongly recommended. Linear algebra, basic multivariate calculus, basics of working with probability, and programming skills are required. No background in geometry or generative models is needed for the course but any such knowledge may aid in a deeper engagement with the course material. However, it is strongly recommended that this course is not the first—or even second—Machine Learning course, and if there are any specific doubts please contact the instructor for special permission or equivalency of prerequisites.
