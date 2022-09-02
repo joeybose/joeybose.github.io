@@ -72,6 +72,7 @@ There is no required textbook for this course but the ["Geometric Deep Learning 
 
 ## Sept 2nd - Week 1: Geometry Primer Part I (Prakash Lectures):
 * [Lecture Notes](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week_1__Geometry_Primer_Part_I_fixed.pdf)
+* [Week 1 Administrative Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/COMP760%20Week%201_slides.pdf)
 * Topology: open and closed sets, continuous functions, convergence, metrics, compactness.
 * Manifolds I
 * Smoothness
