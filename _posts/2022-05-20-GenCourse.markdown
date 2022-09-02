@@ -71,7 +71,7 @@ There is no required textbook for this course but the ["Geometric Deep Learning 
 * [Normalizing Flows for Probabilistic Modeling and Inference](https://www.jmlr.org/papers/volume22/19-1028/19-1028.pdf)
 
 ## Sept 2nd - Week 1: Geometry Primer Part I (Prakash Lectures):
-* [Lecture Notes](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week_1__Geometry_Primer_Part_I.pdf)
+* [Lecture Notes](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week_1__Geometry_Primer_Part_I_fixed.pdf)
 * Topology: open and closed sets, continuous functions, convergence, metrics, compactness.
 * Manifolds I
 * Smoothness
