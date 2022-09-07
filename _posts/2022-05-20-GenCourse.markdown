@@ -111,6 +111,7 @@ In recent years there has been a resurgence of old ideas but repackaged for a mo
 Defining probability distributions on manifolds requires specific care as many familiar notions in Euclidean geometry become incompatible for general manifolds. For example, the classical Gaussian distribution has at least three different instantiations in the manifold setting, e.g. Restricted, Wrapped, and the Riemannian normal distribution. We will focus on covering mainly the Riemannian normal distribution as well as the Von Mises Fisher distribution which is typically used in Spherical geometry.
 
 ### Core Readings
+* [Lecture Notes](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week_5__Distributions_on_Manifolds.pdf)
 * [Reparameterizing Distributions on Lie Groups](https://arxiv.org/abs/1903.02958)
 * [Intrinsic Statistics on Riemannian Manifolds: Basic Tools for Geometric Measurements](https://hal.inria.fr/inria-00614994/PDF/Pennec.JMIV06.pdf)
 * [Dispersion on a Sphere](http://palaeo.spb.ru/pmlibrary/pmpapers/fisher_1953.pdf)
