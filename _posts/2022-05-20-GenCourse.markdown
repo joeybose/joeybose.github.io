@@ -198,6 +198,7 @@ it is a natural question on whether these models can be adapted to more complex 
 * [Equivariant Diffusion for Molecule Generation in 3D](https://arxiv.org/abs/2203.17003)
 * [Riemannian Score-Based Generative Modeling](https://arxiv.org/abs/2202.02763)
 * [Riemannian Diffusion Models](https://arxiv.org/pdf/2208.07949)
+* [GeoDiff: A Geometric Diffusion Model For Molecular Conformation Generation](https://arxiv.org/pdf/2203.02923)
 
 ## Nov 18th - Week 12: Student Presentations Part I
 
