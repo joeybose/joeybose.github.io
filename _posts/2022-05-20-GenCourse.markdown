@@ -92,6 +92,7 @@ There is no required textbook for this course but the ["Geometric Deep Learning 
 Deep generative models learn to transform unstructured noise to highly structured data like natural images. While these models may come in various forms but they can be broadly classified as either likelihood-based or implicit models. The former model class is already quite rich with popular modeling families such as VAE’s, and Normalizing Flows and will be the starting point for this week's topics.
 
 * [Lecture Notes](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week_3__Generative_Models_I.pdf)
+* [Week 3 Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week%203%20-%20Generative%20Models%20Primer%20I.pdf)
 * [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114)
 * [Variational Inference with Normalizing Flows](http://proceedings.mlr.press/v37/rezende15.pdf)
 * [Density Estimation with RealNVP](https://arxiv.org/abs/1605.08803)

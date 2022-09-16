@@ -24,7 +24,7 @@
     - tag: Pruning
 
 - name: Riemannian Diffusion Models
-  conf: Preprint 2022
+  conf: NeurIPS 2022
   authors: C.W. Huang*, M. Aghajohari*, A.J. Bose, P. Panangaden, A. Courville
   image_link: "./assets/my_assets/rdm_fig.png"
   arxiv: https://arxiv.org/pdf/2208.07949.pdf
