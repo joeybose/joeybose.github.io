@@ -44,6 +44,7 @@ There will be an ungraded but mandatory project extended abstract/project propos
 The course project, including project proposal, must be formatted in Latex using the NeurIPS 2022 (Preprint
 option) template. [Latex Template](https://neurips.cc/Conferences/2022/CallForPapers)
 
+* Weekly Paper Reviews (1-page) on any **Core** paper from that week. (Ungraded)
 * 20% In-class paper presentations
 * 30% Student project presentation
 * 50% Student project report
