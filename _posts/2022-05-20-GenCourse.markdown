@@ -115,6 +115,7 @@ Defining probability distributions on manifolds requires specific care as many f
 
 ### Core Readings
 * [Lecture Notes](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week_5__Distributions_on_Manifolds.pdf)
+* [Week 5 Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week%205-Integration%20On%20Manifolds.pdf)
 * [Reparameterizing Distributions on Lie Groups](https://arxiv.org/abs/1903.02958)
 * [Intrinsic Statistics on Riemannian Manifolds: Basic Tools for Geometric Measurements](https://hal.inria.fr/inria-00614994/PDF/Pennec.JMIV06.pdf)
 * [Dispersion on a Sphere](http://palaeo.spb.ru/pmlibrary/pmpapers/fisher_1953.pdf)
