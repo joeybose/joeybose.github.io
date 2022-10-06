@@ -132,6 +132,7 @@ The first wave of geometry-aware deep generative models focused largely on spher
 
 ### Core Readings
 * [Lecture Notes](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week_6__Spherical_Geometry.pdf)
+* [Week 6 Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week%206%20-%20Extrinsic%20view%20of%20Riemannian%20Geometry.pdf)
 * [Hyperspherical Variational Auto-Encoders](https://arxiv.org/abs/1804.00891)
 * [Normalizing Flows on Tori and Spheres](https://arxiv.org/abs/2002.02428)
 * [The Power Spherical distribution](https://arxiv.org/abs/2006.04437)
