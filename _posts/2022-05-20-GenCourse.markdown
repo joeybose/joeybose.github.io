@@ -133,9 +133,9 @@ The first wave of geometry-aware deep generative models focused largely on spher
 ### Core Readings
 * [Lecture Notes](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week_6__Spherical_Geometry.pdf)
 * [Week 6 Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week%206%20-%20Extrinsic%20view%20of%20Riemannian%20Geometry.pdf)
-* [Hyperspherical Variational Auto-Encoders](https://arxiv.org/abs/1804.00891)
-* [Normalizing Flows on Tori and Spheres](https://arxiv.org/abs/2002.02428)
-* [The Power Spherical distribution](https://arxiv.org/abs/2006.04437)
+* [Hyperspherical Variational Auto-Encoders](https://arxiv.org/abs/1804.00891)[Presentation Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/comp760_paper_ppt_hypersphericalvae.pptx)
+* [Normalizing Flows on Tori and Spheres](https://arxiv.org/abs/2002.02428) [Presentation Slides](https://docs.google.com/presentation/d/1bcDYgDjXxGc_sskvRS6mNz8crlBUtmhqJU7jQrdaPx4/edit#slide=id.p)
+* [The Power Spherical distribution](https://arxiv.org/abs/2006.04437) [Presentation Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Presentation3.pptx)
 
 ### Extra Readings
 * [Variational Autoencoders with Riemannian Brownian Motion Priors](https://arxiv.org/pdf/2002.05227)
