@@ -102,8 +102,8 @@ Deep generative models learn to transform unstructured noise to highly structure
 ## Sept 23rd - Week 4: Deep Generative Models Primer Part II (Joey Lectures)
 In recent years there has been a resurgence of old ideas but repackaged for a modern time. Specifically, score matching and diffusion models have existed in some form or other prior to their recent renaissance but the main technical novelties lie—beyond new techniques that allow for fast training, inference, and impressive sampling quality—in their connection to Stochastic Differential Equations, VAE’s and Continuous Normalizing Flows. This week will focus on exploring these connections in detail and as we will see many new ideas are old ideas in disguise.
 
-* [Lecture Notes](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week_4__Generative_Models_II_fixed.pdf)
-* [Week 4 Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week%204%20-%20Generative%20Models%20Primer%20II.pdf)
+* [Lecture Notes](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week_4__Generative_Models_II_refixed.pdf)
+* [Week 4 Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week_4__Generative_Models_II%20(1).pdf)
 * [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661)
 * [Generative Modeling by Estimating Gradients of the Data Distribution](https://arxiv.org/abs/1907.05600)
 * [Denoising diffusion probabilistic models](https://arxiv.org/abs/2006.11239)
