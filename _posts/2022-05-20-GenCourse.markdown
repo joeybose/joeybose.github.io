@@ -146,6 +146,7 @@ Hyperbolic spaces—i.e. manifolds with constant negative curvature—have becom
 
 ### Core Readings
 * [Lecture Notes](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week_7__Hyperbolic_Geometry.pdf)
+* [Week 7 Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week%207%20-%20Hyperbolic%20Geometry.pdf)
 * [Google Collab Wrapped Normal Tutorial](https://colab.research.google.com/drive/1kSdmi2r6QMO7gI8YPqeiWoW2ayxcu1MY)
 * [Continuous Hierarchical Representations with Poincaré Variational Auto-Encoders](https://arxiv.org/abs/1901.06033)
 * [A Wrapped Normal Distribution on Hyperbolic Space for Gradient-Based Learning](https://arxiv.org/abs/1902.02992)
