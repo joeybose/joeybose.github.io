@@ -156,6 +156,7 @@ Hyperbolic spaces—i.e. manifolds with constant negative curvature—have becom
 Disentanglement is perhaps one of the key goals of unsupervised learning. For generative models, this effectively means isolating the main generative factors that give rise to observed data. Modeling such generative factors as latent variables in VAE like the setup is the dominant paradigm to infuse geometric priors about the data into practical modeling inductive biases. This week we will turn our attention to the various types of geometric structure that one can attach to a latent space such as group structure and product manifolds.
 
 ### Core Readings
+* [Lecture Notes: Read Chapter 1-6, and 8-10](http://www2.compute.dtu.dk/~sohau/weekendwithbernie/Differential_geometry_for_generative_modeling.pdf)
 * [Towards a definition of disentangled representations](https://arxiv.org/abs/1812.02230)
 * [Learning mixed-curvature representations in product spaces](https://openreview.net/forum?id=HJxeWnCcF7)
 * [Mixed-curvature Variational Autoencoders](https://arxiv.org/abs/1911.08411)
