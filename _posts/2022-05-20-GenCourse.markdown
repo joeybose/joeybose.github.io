@@ -133,7 +133,7 @@ The first wave of geometry-aware deep generative models focused largely on spher
 ### Core Readings
 * [Lecture Notes](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week_6__Spherical_Geometry.pdf)
 * [Week 6 Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week%206%20-%20Extrinsic%20view%20of%20Riemannian%20Geometry.pdf)
-* [Hyperspherical Variational Auto-Encoders](https://arxiv.org/abs/1804.00891)[Presentation Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/comp760_paper_ppt_hypersphericalvae.pptx)
+* [Hyperspherical Variational Auto-Encoders](https://arxiv.org/abs/1804.00891) [Presentation Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/comp760_paper_ppt_hypersphericalvae.pptx)
 * [Normalizing Flows on Tori and Spheres](https://arxiv.org/abs/2002.02428) [Presentation Slides](https://docs.google.com/presentation/d/1bcDYgDjXxGc_sskvRS6mNz8crlBUtmhqJU7jQrdaPx4/edit#slide=id.p)
 * [The Power Spherical distribution](https://arxiv.org/abs/2006.04437) [Presentation Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Presentation3.pptx)
 
@@ -148,15 +148,16 @@ Hyperbolic spaces—i.e. manifolds with constant negative curvature—have becom
 * [Lecture Notes](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week_7__Hyperbolic_Geometry.pdf)
 * [Week 7 Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week%207%20-%20Hyperbolic%20Geometry.pdf)
 * [Google Collab Wrapped Normal Tutorial](https://colab.research.google.com/drive/1kSdmi2r6QMO7gI8YPqeiWoW2ayxcu1MY)
-* [Continuous Hierarchical Representations with Poincaré Variational Auto-Encoders](https://arxiv.org/abs/1901.06033)
+* [Continuous Hierarchical Representations with Poincaré Variational Auto-Encoders](https://arxiv.org/abs/1901.06033) [Presentation Slides](https://docs.google.com/presentation/d/1wYBSA5yGp_DuwTcDxTbQFfOCAuVkcbtgAyBvYtXypnY/edit#slide=id.p)
 * [A Wrapped Normal Distribution on Hyperbolic Space for Gradient-Based Learning](https://arxiv.org/abs/1902.02992)
-* [Latent Variable Modelling with Hyperbolic Normalizing Flows](https://arxiv.org/abs/2002.06336)
+* [Latent Variable Modelling with Hyperbolic Normalizing Flows](https://arxiv.org/abs/2002.06336) [Presentation Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/COMP%20760%20presentation%20-%20Latent%20Variable%20Modelling%20with%20Hyperbolic%20Normalizing%20Flows.pdf)
 
 ## Oct 21st - Week 8: Product and Latent Manifolds
 Disentanglement is perhaps one of the key goals of unsupervised learning. For generative models, this effectively means isolating the main generative factors that give rise to observed data. Modeling such generative factors as latent variables in VAE like the setup is the dominant paradigm to infuse geometric priors about the data into practical modeling inductive biases. This week we will turn our attention to the various types of geometric structure that one can attach to a latent space such as group structure and product manifolds.
 
 ### Core Readings
 * [Lecture Notes: Read Chapter 1-6, and 8-10](http://www2.compute.dtu.dk/~sohau/weekendwithbernie/Differential_geometry_for_generative_modeling.pdf)
+* [Week 8 Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week%208%20-%20Product%20and%20Latent%20Geometry.pdf)
 * [Towards a definition of disentangled representations](https://arxiv.org/abs/1812.02230)
 * [Learning mixed-curvature representations in product spaces](https://openreview.net/forum?id=HJxeWnCcF7)
 * [Mixed-curvature Variational Autoencoders](https://arxiv.org/abs/1911.08411)
