@@ -149,7 +149,7 @@ Hyperbolic spaces—i.e. manifolds with constant negative curvature—have becom
 * [Week 7 Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week%207%20-%20Hyperbolic%20Geometry.pdf)
 * [Google Collab Wrapped Normal Tutorial](https://colab.research.google.com/drive/1kSdmi2r6QMO7gI8YPqeiWoW2ayxcu1MY)
 * [Continuous Hierarchical Representations with Poincaré Variational Auto-Encoders](https://arxiv.org/abs/1901.06033) [Presentation Slides](https://docs.google.com/presentation/d/1wYBSA5yGp_DuwTcDxTbQFfOCAuVkcbtgAyBvYtXypnY/edit#slide=id.p)
-* [A Wrapped Normal Distribution on Hyperbolic Space for Gradient-Based Learning](https://arxiv.org/abs/1902.02992)
+* [A Wrapped Normal Distribution on Hyperbolic Space for Gradient-Based Learning](https://arxiv.org/abs/1902.02992) [Presentation Slides](https://hackmd.io/@alorozco53/rkIqdVfQj#/)
 * [Latent Variable Modelling with Hyperbolic Normalizing Flows](https://arxiv.org/abs/2002.06336) [Presentation Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/COMP%20760%20presentation%20-%20Latent%20Variable%20Modelling%20with%20Hyperbolic%20Normalizing%20Flows.pdf)
 
 ## Oct 21st - Week 8: Product and Latent Manifolds
@@ -158,8 +158,8 @@ Disentanglement is perhaps one of the key goals of unsupervised learning. For ge
 ### Core Readings
 * [Lecture Notes: Read Chapter 1-6, and 8-10](http://www2.compute.dtu.dk/~sohau/weekendwithbernie/Differential_geometry_for_generative_modeling.pdf)
 * [Week 8 Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week%208%20-%20Product%20and%20Latent%20Geometry.pdf)
-* [Towards a definition of disentangled representations](https://arxiv.org/abs/1812.02230)
-* [Learning mixed-curvature representations in product spaces](https://openreview.net/forum?id=HJxeWnCcF7)
+* [Towards a definition of disentangled representations](https://arxiv.org/abs/1812.02230) [Presentation Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/disentangled_representations_slides_final.pdf)
+* [Learning mixed-curvature representations in product spaces](https://openreview.net/forum?id=HJxeWnCcF7) [Presentation Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Siba%20Smarak%20Panigrahi_COMP760_%20Learning%20Mixed-Curvature%20Representations%20in%20Products%20of%20Model%20Spaces.pdf)
 * [Mixed-curvature Variational Autoencoders](https://arxiv.org/abs/1911.08411)
 
 ### Extra Readings
@@ -174,6 +174,7 @@ How can we define flexible probability distributions on general Riemannian manif
 Extending the CNF’s to manifolds typically requires backpropping through an ODE solver which is computationally expensive. In this week we will cover a series of normalizing flows that sidestep this expensive computation by using various methodological innovations such as using convex potentials from Riemannian optimal transport to neural implementation of Moser’s trick which led to MoserFlow (NeurIPS 2021 outstanding paper).
 
 ### Core Readings
+* [Week 9 Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Equivariant%20Networks%20Lecture.pdf)
 * [Riemannian Continuous Normalizing Flows](https://arxiv.org/abs/2006.10605)
 * [Moser Flow: Divergence-based Generative Modeling on Manifolds](https://arxiv.org/abs/2108.08052)
 * [Matching Normalizing Flows and Probability Paths on Manifolds](https://arxiv.org/pdf/2207.04711)
