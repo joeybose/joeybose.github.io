@@ -189,6 +189,7 @@ Extending the CNF’s to manifolds typically requires backpropping through an OD
 Much of observed data is a result of physical processes which have symmetries. These symmetries manifest themselves as equivariances and invariances to certain transformation groups, e.g. translation, rotation, scaling, etc …, and imbuing generative models with these structural inductive biases is a core design principle. In this week we will cover many types of equivariant generative models and their application to physics, molecular dynamics, and many more practical domains.
 
 ### Core Readings
+* [Week 10 Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week%209%20-%20%20Equivariant%20Networks.pdf)
 * [Equivariant Flows: exact likelihood generative learning for symmetric densities](https://arxiv.org/abs/2006.02425)
 * [Equivariant Manifold Flows](https://arxiv.org/abs/2107.08596)
 * [Group Equivariant Generative Adversarial Networks](https://arxiv.org/pdf/2005.01683)
