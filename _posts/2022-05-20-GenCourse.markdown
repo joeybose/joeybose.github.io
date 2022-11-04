@@ -177,7 +177,7 @@ Extending the CNF’s to manifolds typically requires backpropping through an OD
 * [Week 9 Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Equivariant%20Networks%20Lecture.pdf)
 * [Riemannian Continuous Normalizing Flows](https://arxiv.org/abs/2006.10605)
 * [Moser Flow: Divergence-based Generative Modeling on Manifolds](https://arxiv.org/abs/2108.08052) [Presentation Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/pre_riemannian_cnf.pptx)
-* [Matching Normalizing Flows and Probability Paths on Manifolds](https://arxiv.org/pdf/2207.04711)
+* [Matching Normalizing Flows and Probability Paths on Manifolds](https://arxiv.org/pdf/2207.04711) [Presentation Slides](https://docs.google.com/presentation/d/1o_HbvVp-Wpllqt5HNsj5Pn8SMhHXW37DPa1Fr13L4No/edit?usp=sharing)
 
 ### Extra Readings
 * [Neural Manifold Ordinary Differential Equations](https://arxiv.org/abs/2006.10254)
