@@ -59,7 +59,7 @@ Some of these include: novelty of the idea, how well you present them in the rep
 Each course project will require a 2 page project proposal which can be thought of as an extended abstract. The actual project report will need to be 4-8 pages in length in the format of a NeurIPS paper in Preprint mode [Latex template](https://neurips.cc/Conferences/2022/PaperInformation/StyleFiles). The report should include
 an abstract, introduction, coverage of related work, a minimum viable project with some demonstration either theoretical or empirical of the ideas soundness, and if needed some future looking thoughts on how to proceed if given more time.
 
-
+The Due Date for the Course Project is December 16th, 2022 at midnight.
 
 # Reading List:
 ## Textbooks
@@ -190,10 +190,10 @@ Much of observed data is a result of physical processes which have symmetries. T
 
 ### Core Readings
 * [Week 10 Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week%209%20-%20%20Equivariant%20Networks.pdf)
-* [Equivariant Flows: exact likelihood generative learning for symmetric densities](https://arxiv.org/abs/2006.02425)
+* [Equivariant Flows: exact likelihood generative learning for symmetric densities](https://arxiv.org/abs/2006.02425) [Presentation Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/paperpresentation3.pptx)
 * [Equivariant Manifold Flows](https://arxiv.org/abs/2107.08596)
-* [Group Equivariant Generative Adversarial Networks](https://arxiv.org/pdf/2005.01683)
-* [E(n) Equivariant Normalizing Flows](https://arxiv.org/abs/2105.09016)
+* [Group Equivariant Generative Adversarial Networks](https://arxiv.org/pdf/2005.01683) [Presentation Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/2022_Equivariant_GANs.pdf)
+* [E(n) Equivariant Normalizing Flows](https://arxiv.org/abs/2105.09016) [Presentation Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week10%20Presentation%20-%20Prashant.pdf)
 
 ### Extra Readings
 * [Equivariant Finite Normalizing Flows](https://arxiv.org/abs/2110.08649)
