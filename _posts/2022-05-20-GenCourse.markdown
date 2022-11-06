@@ -191,7 +191,7 @@ Much of observed data is a result of physical processes which have symmetries. T
 ### Core Readings
 * [Week 10 Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week%209%20-%20%20Equivariant%20Networks.pdf)
 * [Equivariant Flows: exact likelihood generative learning for symmetric densities](https://arxiv.org/abs/2006.02425) [Presentation Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/paperpresentation3.pptx)
-* [Equivariant Manifold Flows](https://arxiv.org/abs/2107.08596)
+* [Equivariant Manifold Flows](https://arxiv.org/abs/2107.08596) [Presentation Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/presentation.pdf)
 * [Group Equivariant Generative Adversarial Networks](https://arxiv.org/pdf/2005.01683) [Presentation Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/2022_Equivariant_GANs.pdf)
 * [E(n) Equivariant Normalizing Flows](https://arxiv.org/abs/2105.09016) [Presentation Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week10%20Presentation%20-%20Prashant.pdf)
 
