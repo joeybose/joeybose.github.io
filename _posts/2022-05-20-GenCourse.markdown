@@ -205,6 +205,7 @@ Score and Diffusion models are the current state of the art generative models fo
 it is a natural question on whether these models can be adapted to more complex geometries. A recent influx of papers definitively answer this question with compelling samples ranging from spherical, hyperbolic and toroidal geometry but also practical use cases in molecular simulations.
 
 ### Core Readings
+* [A short note on the Feynmann-Kac Representation](https://github.com/joeybose/comp760_lecturenotes/blob/master/feynman_kac_exposition.pdf)
 * [Equivariant Diffusion for Molecule Generation in 3D](https://arxiv.org/abs/2203.17003)
 * [Riemannian Score-Based Generative Modeling](https://arxiv.org/abs/2202.02763)
 * [Riemannian Diffusion Models](https://arxiv.org/pdf/2208.07949)
