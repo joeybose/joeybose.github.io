@@ -164,7 +164,7 @@ Disentanglement is perhaps one of the key goals of unsupervised learning. For ge
 
 ### Extra Readings
 * [Latent Space Oddity: on the Curvature of Deep Generative Models](https://arxiv.org/abs/1710.11379)
-* [Metrics for deep generative models](https://arxiv.org/abs/1711.01204)
+* [Metrics for deep generative models](https://arxiv.org/abs/1711.01204) [Presentation Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/2022_ChenSmagt_metric_generative_models.pdf)
 * [Variational Autoencoders with Riemannian Brownian Motion Priors](https://arxiv.org/abs/2002.05227)
 * [Pulling back information geometry](https://arxiv.org/abs/2106.05367)
 
