@@ -214,8 +214,7 @@ it is a natural question on whether these models can be adapted to more complex 
 ## Nov 18th - Week 12: Student Presentations Part I
 
 ## Nov 25th - Week 13: Student Presentations Part II
-** Last class of the semester. Projects reports due 1 week after this class on
-Dec 2nd**
+**Last class of the semester. Projects reports are due on Dec 16th**
 
 {% if page.comments %}
 
