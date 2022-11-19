@@ -205,9 +205,9 @@ Score and Diffusion models are the current state of the art generative models fo
 it is a natural question on whether these models can be adapted to more complex geometries. A recent influx of papers definitively answer this question with compelling samples ranging from spherical, hyperbolic and toroidal geometry but also practical use cases in molecular simulations.
 
 ### Core Readings
-* [Week 10: Presentation and Course Project Guidelines](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week%2010%20-%20Project%20Guidelines.pdf)
+* [Week 11: Presentation and Course Project Guidelines](https://github.com/joeybose/comp760_lecturenotes/blob/master/Week%2010%20-%20Project%20Guidelines.pdf)
 * [A short note on the Feynmann-Kac Representation](https://github.com/joeybose/comp760_lecturenotes/blob/master/feynman_kac_exposition.pdf)
-* [Equivariant Diffusion for Molecule Generation in 3D](https://arxiv.org/abs/2203.17003)
+* [Equivariant Diffusion for Molecule Generation in 3D](https://arxiv.org/abs/2203.17003) [Presentation Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/equivariant_diffusion_will_hua.pdf)
 * [Riemannian Score-Based Generative Modeling](https://arxiv.org/abs/2202.02763) [Presentation Slides](https://docs.google.com/presentation/d/1KZz_GbqwbWBWu1UJZbQjn5CY3sgMTzxOq7CSFzxMSE8/edit?usp=sharing)
 * [Riemannian Diffusion Models](https://arxiv.org/pdf/2208.07949) [Presentation Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Riemannian_Diffusion_Slides.pdf)
 * [GeoDiff: A Geometric Diffusion Model For Molecular Conformation Generation](https://arxiv.org/pdf/2203.02923) [Presentation Slides](https://github.com/joeybose/comp760_lecturenotes/blob/master/Geodiff.pdf)
