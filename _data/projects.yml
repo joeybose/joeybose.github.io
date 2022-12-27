@@ -34,9 +34,10 @@
     - tag: Generative Models
 
 - name: Controllable Generative Modeling via Causal Reasoning
-  conf: Preprint 2022
+  conf: TMLR 2022
   authors: A.J. Bose, R. Monti, A. Grover
   image_link: "./assets/my_assets/CAGE_diff_fig.png"
+  arxiv: https://openreview.net/pdf?id=Z44YAcLaGw
   tags:
     - tag: Causality
     - tag: Generative Models

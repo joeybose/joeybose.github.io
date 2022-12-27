@@ -28,6 +28,22 @@
     - tag: Adversarial Attacks
   timeline-side: left
 
+- title: Qualcomm AI Research
+  date: Oct 2022 - Present
+  subtitle: Research Intern
+  tags:
+    - tag: Generative Models
+    - tag: Geometry
+  timeline-side: right
+
+- title: Co-Instructor at McGill
+  date: Sept 2022 - Dec 2022
+  subtitle: Teaching COMP760
+  tags:
+    - tag: Generative Models
+    - tag: Geometry
+  timeline-side: left
+
 - title: Facebook AI Research
   date: May 2021 - Dec 2021
   subtitle: Research Intern
