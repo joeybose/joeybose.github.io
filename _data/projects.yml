@@ -14,10 +14,10 @@
 #     - tag: Node
 
 - name: A General Framework For Proving The Equivariant Strong Lottery Ticket Hypothesis
-  conf: Preprint 2022
+  conf: ICLR 2023
   authors: D. Ferbach*, C. Tsirigotis*, G. Gidel, A.J. Bose
   image_link: "./assets/my_assets/General_equivariant_pruning.png"
-  arxiv: https://arxiv.org/abs/2206.04270
+  arxiv: https://openreview.net/forum?id=vVJZtlZB9D
   tags:
     - tag: Strong Lottery Tickets
     - tag: Equivariant Networks
