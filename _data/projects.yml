@@ -13,14 +13,15 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: EDGI: Equivariant diffusion for planning with embodied agents
+- name: EDGI, Equivariant diffusion for planning with embodied agents
   conf: Preprint
   authors: J. Bremer*, A. J. Bose*, P. de Haan, T. Cohen
   image_link: "./assets/my_assets/edgi_sketch.pdf"
   tags:
     - tag: Generative Models
+    - tag: Equivariance
 
-- name: Feature Likelihood Score: Evaluating Generalization of Generative Models Using Samples
+- name: Feature Likelihood Score, Evaluating Generalization of Generative Models Using Samples
   conf: Preprint
   authors: M. Jiralerspong, A. J. Bose, G. Gidel
   image_link: "./assets/my_assets/headline_plot.png"
