@@ -16,7 +16,7 @@
 - name: EDGI, Equivariant diffusion for planning with embodied agents
   conf: Preprint
   authors: J. Bremer*, A. J. Bose*, P. de Haan, T. Cohen
-  image_link: "./assets/my_assets/edgi_sketch.pdf"
+  image_link: "./assets/my_assets/edgi_sketch.png"
   tags:
     - tag: Generative Models
     - tag: Equivariance
