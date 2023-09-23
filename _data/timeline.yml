@@ -19,11 +19,11 @@
 
 - title: McGill and Mila
   title-url: https://scholar.google.com/citations?user=ybPyI7IAAAAJ&hl=en
-  date: Sept 2018 - Present
+  date: Sept 2018 - Sept 2023
   subtitle: Phd Student
   tags:
     - tag: Geometric Deep Learning
-    - tag: Normalizing Flows
+    - tag: Generative Models
     - tag: Equivariant Networks
     - tag: Adversarial Attacks
   timeline-side: left

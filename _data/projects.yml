@@ -14,7 +14,7 @@
 #     - tag: Node
 
 - name: EDGI, Equivariant diffusion for planning with embodied agents
-  conf: Preprint
+  conf: NeurIPS 2023
   authors: J. Bremer*, A. J. Bose*, P. de Haan, T. Cohen
   image_link: "./assets/my_assets/edgi_sketch.png"
   tags:
@@ -22,7 +22,7 @@
     - tag: Equivariance
 
 - name: Feature Likelihood Score, Evaluating Generalization of Generative Models Using Samples
-  conf: Preprint
+  conf: NeurIPS 2023
   authors: M. Jiralerspong, A. J. Bose, G. Gidel
   image_link: "./assets/my_assets/headline_plot.png"
   arxiv: https://arxiv.org/abs/2302.04440
