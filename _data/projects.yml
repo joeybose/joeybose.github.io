@@ -16,17 +16,13 @@
   conf: Preprint 2023
   authors: A. J. Bose*, T. Akhound-Sadegh*, K. Fatras, G. Huguet, J. Rector-Brooks, C.H. Liu, A.C. Nica, M. Korablyov, M. Bronstein, A. Tong
   image_link: "./assets/my_assets/protein_intro_fig.png"
-  tags:
-    - tag: Generative Models
-    - tag: Equivariance
+  arxiv: https://arxiv.org/abs/2310.02391
 
 - name: On the Stability of Iterative Retraining of Generative Models on their own Data
   conf: Preprint 2023
   authors: Q. Bertrand, A. J. Bose, A. Duplessis, M. Jiralerspong, G. Gidel
   image_link: "./assets/my_assets/2D_toy.png"
   arxiv: https://arxiv.org/pdf/2310.00429.pdf
-  tags:
-    - tag: Generative Models
 
 - name: EDGI, Equivariant diffusion for planning with embodied agents
   conf: NeurIPS 2023
