@@ -12,6 +12,11 @@
 #     - tag: Express
 #     - tag: AngularJS
 #     - tag: Node
+- name: A Geometric Perspective to Deep Generative Models
+  conf: Phd Thesis 2023
+  authors: A. J. Bose
+  arxiv: https://drive.google.com/file/d/1HmdOUU09D6VGja7AipT1a2lAcaCOc0oz/view
+
 - name: SE(3) Stochastic Flow Matching for Protein For Protein Backbone Generation
   conf: Preprint 2023
   authors: A. J. Bose*, T. Akhound-Sadegh*, K. Fatras, G. Huguet, J. Rector-Brooks, C.H. Liu, A.C. Nica, M. Korablyov, M. Bronstein, A. Tong
