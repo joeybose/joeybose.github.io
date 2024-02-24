@@ -12,6 +12,12 @@
 #     - tag: Express
 #     - tag: AngularJS
 #     - tag: Node
+- name: Iterated Denoising Energy Matching for Sampling from Boltzmann Densities
+  conf: Preprint
+  authors: T. Akhound-Sadegh*, J. Rector-Brooks*, A.J. Bose*, S. Mittal, P. Lemos, C.H. Liu, M. Sendera, S. Ravanbaksh, G. Gidel, Y. Bengio, N. Malkin, A. Tong
+  image_link: "./assets/my_assets/dem2_cut.png"
+  arxiv: https://arxiv.org/pdf/2402.06121
+
 - name: A Geometric Perspective to Deep Generative Models
   conf: Phd Thesis 2023
   authors: A. J. Bose
