@@ -17,6 +17,15 @@
 #     - tag: Rails
 #   timeline-side: right
 
+- title: University of Oxford
+  title-url: https://scholar.google.com/citations?user=ybPyI7IAAAAJ&hl=en
+  date: Jan 2024 - Present
+  subtitle: Post-doc
+  tags:
+    - tag: Geometric Deep Learning
+    - tag: Generative Models
+  timeline-side: right
+
 - title: McGill and Mila
   title-url: https://scholar.google.com/citations?user=ybPyI7IAAAAJ&hl=en
   date: Sept 2018 - Sept 2023
