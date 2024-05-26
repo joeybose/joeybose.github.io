@@ -12,8 +12,29 @@
 #     - tag: Express
 #     - tag: AngularJS
 #     - tag: Node
-- name: Iterated Denoising Energy Matching for Sampling from Boltzmann Densities
+- name: Sequence-Augmented SE(3)-Flow Matching For Conditional Protein Backbone Generation
   conf: Preprint
+  authors: G. Huguet*, J. Vuckovic*, K. Fatras, E. Thibodeau-Laufer, P. Lemos, R. Islam, C. Liu, J. Rector-Brooks, T. Akhound-Sadegh, M. Bronstein, A. Tong, A. J. Bose
+  image_link: "./assets/my_assets/main_v3.png"
+
+- name: Self-Consuming Generative Models with Curated Data Provably Optimize Human Preferences
+  conf: Preprint
+  authors: D. Ferbach, Q. Bertrand, A. J. Bose, G. Gidel
+
+- name: Metric Flow Matching for Smooth Interpolations on the Data Manifold
+  conf: Preprint
+  authors: K. Kapusniak, P. Potaptchik, T. Reu, L. Zhang, A. Tong, M. Bronstein, A. J. Bose, F. D. Giovanni
+  image_link: "./assets/my_assets/MFM.png"
+  arxiv: https://arxiv.org/pdf/2405.14780
+
+- name: Fisher Flow Matching for Generative Modeling over Discrete Data
+  conf: Preprint
+  authors: O. Davis, S. Kessler, M. Petrache, I. I. Ceylan, M. Bronstein, A. J. Bose
+  image_link: "./assets/my_assets/fisher_flows.png"
+  arxiv: https://arxiv.org/pdf/2405.14664
+
+- name: Iterated Denoising Energy Matching for Sampling from Boltzmann Densities
+  conf: ICML 2024
   authors: T. Akhound-Sadegh*, J. Rector-Brooks*, A.J. Bose*, S. Mittal, P. Lemos, C.H. Liu, M. Sendera, S. Ravanbaksh, G. Gidel, Y. Bengio, N. Malkin, A. Tong
   image_link: "./assets/my_assets/dem2_cut.png"
   arxiv: https://arxiv.org/pdf/2402.06121
