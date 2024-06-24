@@ -16,6 +16,7 @@
   conf: Preprint
   authors: G. Huguet*, J. Vuckovic*, K. Fatras, E. Thibodeau-Laufer, P. Lemos, R. Islam, C. Liu, J. Rector-Brooks, T. Akhound-Sadegh, M. Bronstein, A. Tong, A. J. Bose
   image_link: "./assets/my_assets/main_v3.png"
+  arxiv: https://arxiv.org/abs/2405.20313
 
 - name: Self-Consuming Generative Models with Curated Data Provably Optimize Human Preferences
   conf: Preprint
