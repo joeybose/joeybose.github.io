@@ -24,6 +24,14 @@
   tags:
     - tag: Geometric Deep Learning
     - tag: Generative Models
+  timeline-side: left
+
+- title: Dreamfold
+  date: July 2023 - Present
+  subtitle: Distinguished Research Scientist
+  tags:
+    - tag: Proteins
+    - tag: Generative models and Sampling
   timeline-side: right
 
 - title: McGill and Mila
