@@ -46,7 +46,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: Joey Bose is a Post-Doctoral Fellow at University of Oxford working with Michael Bronstein and an ML scientist at Dreamfold. He completed his PhD at McGill/Mila under the supervision of Will Hamilton, Gauthier Gidel, and Prakash Panagaden. His research interests span Generative Modelling, Differential Geometry for Machine Learning with a current emphasis on understanding symmetries, equivariances and invariances in data. Previously, he completed his Bachelors and Master’s degrees from the University of Toronto working on adversarial attacks against face detection and is the President and CEO of FaceShield Inc an educational platform for digital privacy for facial data. His work has been featured in Forbes, CBC, VentureBeat and other media outlets and is generously supported by the IVADO PhD Fellowship.
+about_me_description: Joey Bose is a Post-Doctoral Fellow at University of Oxford working with Michael Bronstein, a Distinguished Research scientist at Dreamfold, and an Affiliate member of Mila. He completed his PhD at McGill/Mila under the supervision of Will Hamilton, Gauthier Gidel, and Prakash Panagaden. His research interests span Generative Modelling, Differential Geometry for Machine Learning with a current emphasis on understanding symmetries, equivariances and invariances in data. Previously, he completed his Bachelors and Master’s degrees from the University of Toronto working on adversarial attacks against face detection and is the President and CEO of FaceShield Inc an educational platform for digital privacy for facial data. His work has been featured in Forbes, CBC, VentureBeat and other media outlets and is generously supported by the IVADO PhD Fellowship.
 
 # SKILLS SECTION
 # show_skills_card:
@@ -93,7 +93,7 @@ show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
-contact_description: If you like what I do and want to potentially collaborate feel free to reach out via email. Note for prospective students interested in joining Mila/McGill I cannot assess your candidacy and will not be able to help you get an interview with my advisor. But, I can offer general advice about applying to grad school and the culture of our lab.
+contact_description: If you like what I do and want to potentially collaborate feel free to reach out via email. Note for prospective students interested in joining Mila/McGill/Oxford I cannot assess your candidacy and will not be able to help you get an interview with my advisor. But, I can offer general advice about applying to grad school and the culture of our lab.
 
 # GITHUB-METADATA
 # Set this to your forked repository
