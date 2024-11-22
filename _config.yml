@@ -46,7 +46,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: Joey Bose is a Post-Doctoral Fellow at University of Oxford working with Michael Bronstein, a Distinguished Research scientist at Dreamfold, and an Affiliate member of Mila. He completed his PhD at McGill/Mila under the supervision of Will Hamilton, Gauthier Gidel, and Prakash Panagaden. His research interests span Generative Modelling, Differential Geometry for Machine Learning with a current emphasis on understanding symmetries, equivariances and invariances in data. Previously, he completed his Bachelors and Master’s degrees from the University of Toronto working on adversarial attacks against face detection and is the President and CEO of FaceShield Inc an educational platform for digital privacy for facial data. His work has been featured in Forbes, CBC, VentureBeat and other media outlets and is generously supported by the IVADO PhD Fellowship.
+about_me_description: Joey Bose is a Post-Doctoral Fellow at University of Oxford working with Michael Bronstein, a Distinguished Research scientist at Dreamfold, and an Affiliate member of Mila. He completed his PhD at McGill/Mila under the supervision of Will Hamilton, Gauthier Gidel, and Prakash Panagaden. His research interests span Generative Modelling, Differential Geometry for Machine Learning with a current emphasis on geometric generative models for scientific applications. Previously, he completed his Bachelors and Master’s degrees from the University of Toronto working on adversarial attacks against face detection and is the President and CEO of FaceShield Inc an educational platform for digital privacy for facial data. His work has been featured in Forbes, New York Times, CBC, VentureBeat and other media outlets and was generously supported by the IVADO PhD Fellowship, and NSERC Post-doc Fellowship.
 
 # SKILLS SECTION
 # show_skills_card:
@@ -65,7 +65,7 @@ show_timeline_card: true
 timeline_title: Education & Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: "./assets/my_assets/joey_cv_sept_2024.pdf"
+cv_download_link: "./assets/my_assets/joey_cv_dec_2024.pdf"
 
 # PROJECTS SECTION
 # show_projects_card:
