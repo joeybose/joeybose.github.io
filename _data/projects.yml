@@ -13,13 +13,13 @@
 #     - tag: AngularJS
 #     - tag: Node
 - name: The Superposition of Diffusion Models
-  conf: Preprint 2024
+  conf: ICLR 2025
   authors: M. Skreta, L. Atanackovic, A. J. Bose, A. Tong, K. Neklyudov
   image_link: "./assets/my_assets/superdiff_headline_fig.png"
   arxiv: https://openreview.net/pdf?id=2o58Mbqkd2
 
 - name: Steering Masked Discrete Diffusion Models via Discrete Denoising Posterior Prediction
-  conf: Preprint 2024
+  conf: ICLR 2025
   authors: J. Rector-Brooks, M. Hasan, Z. Peng, Z. Quinn, C. Liu, S. Mittal, N. Dziri, M. Bronstein, Y. Bengio, P. Chatterjee, A. Tong*, A. J. Bose*
   image_link: "./assets/my_assets/ddpp_beta_sheet.png"
   arxiv: https://arxiv.org/pdf/2410.08134
