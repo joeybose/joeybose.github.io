@@ -12,9 +12,17 @@
 #     - tag: Express
 #     - tag: AngularJS
 #     - tag: Node
+
+  arxiv: https://arxiv.org/pdf/2502.18462
+- name: Scalable Equilibrium Sampling with Sequential Boltzmann Generators
+  conf: Preprint 2025
+  authors: C. B. Tan*, A. J. Bose*, C. Lin, L. Klein, M. Bronstein, A. Tong
+  image_link: "./assets/my_assets/sbg_headline_fig.png"
+  arxiv: https://arxiv.org/pdf/2502.18462
+
 - name: The Superposition of Diffusion Models
-  conf: ICLR 2025
-  authors: M. Skreta, L. Atanackovic, A. J. Bose, A. Tong, K. Neklyudov
+  conf: ICLR 2025 Spotlight
+  authors: M. Skreta*, L. Atanackovic*, A. J. Bose, A. Tong, K. Neklyudov
   image_link: "./assets/my_assets/superdiff_headline_fig.png"
   arxiv: https://openreview.net/pdf?id=2o58Mbqkd2
 
