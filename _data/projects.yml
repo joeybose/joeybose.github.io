@@ -13,7 +13,6 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-  arxiv: https://arxiv.org/pdf/2502.18462
 - name: Scalable Equilibrium Sampling with Sequential Boltzmann Generators
   conf: Preprint 2025
   authors: C. B. Tan*, A. J. Bose*, C. Lin, L. Klein, M. Bronstein, A. Tong
