@@ -24,12 +24,12 @@
   image_link: "./assets/my_assets/p2_neurips.jpg"
   arxiv: https://arxiv.org/pdf/2502.03540
 
-- name: RETRO SYNFLOW: Discrete Flow-Matching for Accurate and Diverse Single-Step Retrosynthesis
+- name: RETRO SYNFLOW, Discrete Flow-Matching for Accurate and Diverse Single-Step Retrosynthesis
   conf: Preprint 2025
   authors:  R. Yadav, Q. Yan, G. Wolf, A. J. Bose, R. Liao
   image_link: "./assets/my_assets/retrosynflow_neurips.png"
 
-- name: FORT: Forward-Only Regression Training of Normalizing Flows
+- name: FORT, Forward-Only Regression Training of Normalizing Flows
   conf: Preprint 2025
   authors: D. Rehman, O. Davis, J. Lu, J. Tang, M. Bronstein, Y. Bengio, A. Tong†, A. J. Bose†
   image_link: "./assets/my_assets/fort_neurips.png"
