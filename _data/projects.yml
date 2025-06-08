@@ -13,8 +13,35 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: Scalable Equilibrium Sampling with Sequential Boltzmann Generators
+- name: Progressive Inference-Time Annealing of Diffusion Models for Sampling from Boltzmann Densities
   conf: Preprint 2025
+  authors: T. Akhound-Sadegh*, J. Lee*, A. J. Bose, V. De Bortoli, A. Doucet, M. Bronstein, D. Beaini, S. Ravanbakhsh, K. Neklyudov†, A. Tong†
+  image_link: "./assets/my_assets/pita_neurips.png"
+
+- name: Path Planning for Masked Diffusion Models with Applications to Biological Sequence Generation
+  conf: Preprint 2025
+  authors:  F. Z. Peng*, Z. Bezemek*, S. Patel, J. Rector-Brooks, A. J. Bose, A. Tong†, P Chatterjee†
+  image_link: "./assets/my_assets/p2_neurips.jpg"
+  arxiv: https://arxiv.org/pdf/2502.03540
+
+- name: RETRO SYNFLOW: Discrete Flow-Matching for Accurate and Diverse Single-Step Retrosynthesis
+  conf: Preprint 2025
+  authors:  R. Yadav, Q. Yan, G. Wolf, A. J. Bose, R. Liao
+  image_link: "./assets/my_assets/retrosynflow_neurips.png"
+
+- name: FORT: Forward-Only Regression Training of Normalizing Flows
+  conf: Preprint 2025
+  authors: D. Rehman, O. Davis, J. Lu, J. Tang, M. Bronstein, Y. Bengio, A. Tong†, A. J. Bose†
+  image_link: "./assets/my_assets/fort_neurips.png"
+  arxiv: https://arxiv.org/pdf/2502.03540
+
+- name: Curly Flow Matching For Learning Non-Gradient Field Dynamics
+  conf: Preprint 2025
+  authors: K. Petrović, L. Atanackovic, V. Morro, K. Kapusniak, M. Bronstein, A. J. Bose†, A Tong†
+  image_link: "./assets/my_assets/curly_neurips.png"
+
+- name: Scalable Equilibrium Sampling with Sequential Boltzmann Generators
+  conf: ICML 2025
   authors: C. B. Tan*, A. J. Bose*, C. Lin, L. Klein, M. Bronstein, A. Tong
   image_link: "./assets/my_assets/sbg_headline_fig.png"
   arxiv: https://arxiv.org/pdf/2502.18462
@@ -27,13 +54,13 @@
 
 - name: Steering Masked Discrete Diffusion Models via Discrete Denoising Posterior Prediction
   conf: ICLR 2025
-  authors: J. Rector-Brooks, M. Hasan, Z. Peng, Z. Quinn, C. Liu, S. Mittal, N. Dziri, M. Bronstein, Y. Bengio, P. Chatterjee, A. Tong*, A. J. Bose*
+  authors: J. Rector-Brooks, M. Hasan, Z. Peng, Z. Quinn, C. Liu, S. Mittal, N. Dziri, M. Bronstein, Y. Bengio, P. Chatterjee, A. Tong†, A. J. Bose†
   image_link: "./assets/my_assets/ddpp_beta_sheet.png"
   arxiv: https://arxiv.org/pdf/2410.08134
 
 - name: Sequence-Augmented SE(3)-Flow Matching For Conditional Protein Backbone Generation
   conf: NeurIPS 2024
-  authors: G. Huguet*, J. Vuckovic*, K. Fatras, E. Thibodeau-Laufer, P. Lemos, R. Islam, C. Liu, J. Rector-Brooks, T. Akhound-Sadegh, M. Bronstein, A. Tong, A. J. Bose
+  authors: G. Huguet*, J. Vuckovic*, K. Fatras, E. Thibodeau-Laufer, P. Lemos, R. Islam, C. Liu, J. Rector-Brooks, T. Akhound-Sadegh, M. Bronstein, A. Tong†, A. J. Bose†
   image_link: "./assets/my_assets/main_v3.png"
   arxiv: https://arxiv.org/abs/2405.20313
 

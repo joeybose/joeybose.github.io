@@ -5,9 +5,9 @@
 # - name: Framework
 #   weight: 5
 
-- name: Pytorch
-  weight: 4
+#- name: Pytorch
+  #weight: 4
 
-- name: Pytorch-Geometric
-  weight: 3
+#- name: Pytorch-Geometric
+  #weight: 3
 
