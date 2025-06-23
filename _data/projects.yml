@@ -17,6 +17,7 @@
   conf: Preprint 2025
   authors: T. Akhound-Sadegh*, J. Lee*, A. J. Bose, V. De Bortoli, A. Doucet, M. Bronstein, D. Beaini, S. Ravanbakhsh, K. Neklyudov†, A. Tong†
   image_link: "./assets/my_assets/pita_neurips.png"
+  arxiv: https://www.arxiv.org/pdf/2506.16471
 
 - name: Path Planning for Masked Diffusion Models with Applications to Biological Sequence Generation
   conf: Preprint 2025
@@ -28,6 +29,7 @@
   conf: Preprint 2025
   authors:  R. Yadav, Q. Yan, G. Wolf, A. J. Bose, R. Liao
   image_link: "./assets/my_assets/retrosynflow_neurips.png"
+  arxiv: https://arxiv.org/abs/2506.04439
 
 - name: FORT, Forward-Only Regression Training of Normalizing Flows
   conf: Preprint 2025
@@ -39,6 +41,7 @@
   conf: Preprint 2025
   authors: K. Petrović, L. Atanackovic, V. Morro, K. Kapusniak, M. Bronstein, A. J. Bose†, A Tong†
   image_link: "./assets/my_assets/curly_neurips.png"
+  arxiv: https://openreview.net/pdf?id=ol3Ps2J8S9
 
 - name: Scalable Equilibrium Sampling with Sequential Boltzmann Generators
   conf: ICML 2025
