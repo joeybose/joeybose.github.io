@@ -18,7 +18,7 @@ If you're still here and interested please read more below to find out whether w
 
 My research supervision style is best characterized as working in a small
 startup environment where instead of reaching shipping velocity for products we care about (uncompromisingly) scientific excellence. This also means that I envision a mostly flat hierarchy where
-you are free bring your own exciting ideas, openly challenge my own ideas that
+you are free to bring your own exciting ideas, openly challenge my own ideas that
 I give you, and also respectfully mold your collaborative ideas with lab
 members.
 
