@@ -42,6 +42,11 @@
         {% include section-skills.html %}
       </section>
     {% endif %}
+    {% if site.show_prospective_students_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-prospective-students.html %}
+      </section>
+    {% endif %}
     {%if site.show_timeline_card %}
       <section class="card neumorphism-card-big">
         {% include section-timeline.html %}
