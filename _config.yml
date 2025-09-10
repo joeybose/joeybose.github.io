@@ -14,7 +14,7 @@ baseurl: ""
 username: Joey Bose
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Incoming Assisstant Professor at Imperial College London
+typing_text: Assistant Professor at Imperial College London
 # email: Your E-Mail address for the email button.
 email: joey.bose@mail.mcgill.ca
 # For every social button you want to display, set your username or userid
@@ -46,7 +46,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: Joey Bose is an incoming Assisstant Professor of Computing at Imperial College London starting January 2026, and an Affiliate member Mila. Previously, he was a Post-Doctoral Fellow at University of Oxford working with Michael Bronstein. He completed his PhD at McGill/Mila under the supervision of Will Hamilton, Gauthier Gidel, and Prakash Panagaden. His research interests span Generative Modelling, Differential Geometry for Machine Learning with a current emphasis on geometric generative models for scientific applications. Previously, he completed his Bachelors and Master’s degrees from the University of Toronto working on adversarial attacks against face detection and is the President and CEO of FaceShield Inc an educational platform for digital privacy for facial data. His work has been featured in Forbes, New York Times, CBC, VentureBeat and other media outlets and was generously supported by the IVADO PhD Fellowship, and NSERC Post-doc Fellowship.
+about_me_description: Joey Bose is an incoming Assistant Professor of Computing at Imperial College London starting January 2026, and an Affiliate member Mila. Previously, he was a Post-Doctoral Fellow at University of Oxford working with Michael Bronstein. He completed his PhD at McGill/Mila under the supervision of Will Hamilton, Gauthier Gidel, and Prakash Panagaden. His research interests span Generative Modelling, Differential Geometry for Machine Learning with a current emphasis on geometric generative models for scientific applications. Previously, he completed his Bachelors and Master’s degrees from the University of Toronto working on adversarial attacks against face detection and is the President and CEO of FaceShield Inc an educational platform for digital privacy for facial data. His work has been featured in Forbes, New York Times, CBC, VentureBeat and other media outlets and was generously supported by the IVADO PhD Fellowship, and NSERC Post-doc Fellowship.
 
 # SKILLS SECTION
 # show_skills_card:
@@ -93,7 +93,7 @@ show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
-contact_description: If you like what I do and want to potentially collaborate feel free to reach out via email. Note for prospective students interested in joining Mila/McGill/Oxford I cannot assess your candidacy and will not be able to help you get an interview with my advisor. But, I can offer general advice about applying to grad school and the culture of our lab.
+contact_description: I am actively looking for new Phd students, Post-docs, and academic visitors at Imperial College London. In addition, I am open to industrial collaborations/consultancy on topics that overlap with my research interests. Please do reach out via email.
 
 # GITHUB-METADATA
 # Set this to your forked repository
