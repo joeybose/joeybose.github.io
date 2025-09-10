@@ -56,6 +56,10 @@ show_skills_card: true
 # about_me_title: The will be displayed as the title in the Skills section
 skills_title: Research Interests, Students, Teaching
 
+# PROSPECTIVE STUDENTS SECTION
+show_prospective_students_card: true
+prospective_students_title: Prospective Students
+
 # TIMELINE SECTION
 # show_timeline_card:
 # > setting this to true, will display the Timeline section
