@@ -409,10 +409,6 @@ a {
     color: #e84a5f;
   }
 
-  div[skill-type="framework"] {
-    color: #ff847c;
-  }
-
   div[skill-type="tool"] {
     color: #fecea8;
   }
@@ -746,18 +742,11 @@ a {
       @include neumorphism-button-pressed();
     }
 
-    input[id="language"]:checked ~ div[skill-type="framework"],
     input[id="language"]:checked ~ div[skill-type="tool"] {
       @include filter-out;
     }
 
-    input[id="framework"]:checked ~ div[skill-type="language"],
-    input[id="framework"]:checked ~ div[skill-type="tool"] {
-      @include filter-out;
-    }
-
-    input[id="tool"]:checked ~ div[skill-type="language"],
-    input[id="tool"]:checked ~ div[skill-type="framework"] {
+    input[id="tool"]:checked ~ div[skill-type="language"] {
       @include filter-out;
     }
   }
