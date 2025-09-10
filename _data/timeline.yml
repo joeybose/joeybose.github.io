@@ -17,6 +17,11 @@
 #     - tag: Rails
 #   timeline-side: right
 
+- title: Imperial College London
+  date: Jan 2026 - Present
+  subtitle: Assistant Professor of Computing
+  timeline-side: left
+
 - title: Mila
   date: Sept 2024 - Present
   subtitle: Affiliate Member
@@ -24,7 +29,7 @@
 
 - title: University of Oxford
   title-url: https://scholar.google.com/citations?user=ybPyI7IAAAAJ&hl=en
-  date: Jan 2024 - Present
+  date: Jan 2024 - Dec 2025
   subtitle: Post-doc
   tags:
     - tag: Geometric Deep Learning
@@ -32,7 +37,7 @@
   timeline-side: left
 
 - title: Dreamfold
-  date: July 2023 - Present
+  date: July 2023 - Jan 2025
   subtitle: Distinguished Research Scientist
   tags:
     - tag: Proteins
