@@ -1,73 +1,33 @@
 <h1 class="title">{{site.skills_title}}</h1>
 
 <div id="skills">
-  <input type="radio" id="all" name="filter" checked />
-  <label class="filter-button neumorphism-button" for="all">All</label>
-  <input type="radio" id="language" name="filter" />
-  <label class="filter-button neumorphism-button" for="language">Area</label>
-  <input type="radio" id="framework" name="filter" />
-  <label class="filter-button neumorphism-button" for="framework">Frameworks</label>
-  <input type="radio" id="tool" name="filter" />
-  <label class="filter-button neumorphism-button" for="tool">Teaching</label>
+  <input type="radio" id="research" name="filter" checked />
+  <label class="filter-button neumorphism-button" for="research">Research Interests</label>
+  <input type="radio" id="students" name="filter" />
+  <label class="filter-button neumorphism-button" for="students">Students</label>
+  <input type="radio" id="teaching" name="filter" />
+  <label class="filter-button neumorphism-button" for="teaching">Teaching</label>
+  <input type="radio" id="prospective" name="filter" />
+  <label class="filter-button neumorphism-button" for="prospective">{{ site.prospective_students_title }}</label>
 
   {% for language in site.data.skills-languages %}
-    <div skill-type="language" skill-weight="{{language.weight}}" data-aos="zoom-in">
+    <div skill-type="research" skill-weight="{{language.weight}}" data-aos="zoom-in">
       {{language.name}}
     </div>
   {% endfor %}
-  {% for framework in site.data.skills-frameworks %}
-    <div skill-type="framework" skill-weight="{{framework.weight}}" data-aos="zoom-in">
-      {{framework.name}}
+  {% for student in site.data.skills-students %}
+    <div skill-type="students" skill-weight="{{student.weight}}" data-aos="zoom-in">
+      {{student.name}}
     </div>
   {% endfor %}
-  {% for tool in site.data.skills-tools %}
-    <div skill-type="tool" skill-weight="{{tool.weight}}" data-aos="zoom-in">
-	  <a class="highlight-link" href="{{tool.blog}}" target="_blank" rel="noreferrer">
-      {{tool.name}}
-	  </a>
+  {% for teaching in site.data.skills-teaching %}
+    <div skill-type="teaching" skill-weight="{{teaching.weight}}" data-aos="zoom-in">
+      <a class="highlight-link" href="{{teaching.blog}}" target="_blank" rel="noreferrer">
+        {{teaching.name}}
+      </a>
     </div>
   {% endfor %}
+  <div skill-type="prospective" data-aos="zoom-in">
+    <a class="highlight-link" href="{{ '/phd-positions/' | prepend: site.baseurl }}">Prospective Phd Students</a>
+  </div>
 </div>
-
-<!--<h1 class="title">{{site.skills_title}}</h1>-->
-
-<!--<div id="skills">-->
-  <!--<input type="radio" id="all" name="filter" checked />-->
-  <!--<label class="filter-button neumorphism-button" for="all">All</label>-->
-  <!--[><input type="radio" id="teaching" name="filter" checked /><]-->
-  <!--[><label class="filter-button neumorphism-button" for="language">Area</label><]-->
-  <!--[><input type="radio" id="framework" name="filter" /><]-->
-  <!--[><label class="filter-button neumorphism-button" for="framework">Frameworks</label><]-->
-  <!--<input type="radio" id="teaching" name="filter" />-->
-  <!--<label class="filter-button neumorphism-button" for="teaching">Teaching</label>-->
-  <!--<input type="radio" id="language" name="filter" />-->
-  <!--<label class="filter-button neumorphism-button" for="language">Language</label>-->
-  <!--[><input type="radio" id="tool" name="filter" /><]-->
-  <!--[><label class="filter-button neumorphism-button" for="tool">Tools</label><]-->
-
-  <!--[>{% for framework in site.data.skills-frameworks %}<]-->
-    <!--[><div skill-type="framework" skill-weight="{{framework.weight}}" data-aos="zoom-in"><]-->
-      <!--[>{{framework.name}}<]-->
-    <!--[></div><]-->
-  <!--[>{% endfor %}<]-->
-  <!--{% for teaching in site.data.skills-teaching %}-->
-    <!--<div skill-type="teaching" skill-weight="{{teaching.weight}}" data-aos="zoom-in">-->
-      <!--{{teaching.name}}-->
-    <!--</div>-->
-    <!--{% if teaching.name %}-->
-    <!--<a class="highlight-link" href="{{teaching.blog | prepend: site.baseurl}}"  target="_blank" rel="noreferrer">-->
-        <!--blog-->
-      <!--</a>-->
-    <!--{% endif %}-->
-  <!--{% endfor %}-->
-  <!--{% for language in site.data.skills-languages %}-->
-    <!--<div skill-type="language" skill-weight="{{language.weight}}" data-aos="zoom-in">-->
-      <!--{{language.name}}-->
-    <!--</div>-->
-  <!--{% endfor %}-->
-  <!--[>{% for tool in site.data.skills-tools %}<]-->
-    <!--[><div skill-type="tool" skill-weight="{{tool.weight}}" data-aos="zoom-in"><]-->
-      <!--[>{{tool.name}}<]-->
-    <!--[></div><]-->
-  <!--[>{% endfor %}<]-->
-<!--</div>-->

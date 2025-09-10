@@ -1,6 +1,3 @@
----
----
-
 /* Imports */
 @charset "utf-8";
 
@@ -405,16 +402,20 @@ a {
     transition: opacity 0.5s;
   }
 
-  div[skill-type="language"] {
+  div[skill-type="research"] {
     color: #e84a5f;
   }
 
-  div[skill-type="framework"] {
-    color: #ff847c;
+  div[skill-type="students"] {
+    color: #8d9db6;
   }
 
-  div[skill-type="tool"] {
+  div[skill-type="teaching"] {
     color: #fecea8;
+  }
+
+  div[skill-type="prospective"] {
+    color: #99b898;
   }
 
   div[skill-weight="1"] {
@@ -746,18 +747,19 @@ a {
       @include neumorphism-button-pressed();
     }
 
-    input[id="language"]:checked ~ div[skill-type="framework"],
-    input[id="language"]:checked ~ div[skill-type="tool"] {
+    input[id="research"]:checked ~ div[skill-type]:not([skill-type="research"]) {
       @include filter-out;
     }
 
-    input[id="framework"]:checked ~ div[skill-type="language"],
-    input[id="framework"]:checked ~ div[skill-type="tool"] {
+    input[id="students"]:checked ~ div[skill-type]:not([skill-type="students"]) {
       @include filter-out;
     }
 
-    input[id="tool"]:checked ~ div[skill-type="language"],
-    input[id="tool"]:checked ~ div[skill-type="framework"] {
+    input[id="teaching"]:checked ~ div[skill-type]:not([skill-type="teaching"]) {
+      @include filter-out;
+    }
+
+    input[id="prospective"]:checked ~ div[skill-type]:not([skill-type="prospective"]) {
       @include filter-out;
     }
   }

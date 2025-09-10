@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync');
-var sass = require('gulp-sass');
+var sass = require('gulp-sass')(require('sass'));
 var cssnano = require('gulp-cssnano');
 var prefix = require('gulp-autoprefixer');
 var concat = require('gulp-concat');
@@ -129,6 +129,12 @@ function watch() {
 var compile = gulp.parallel(styles, stylesVendors, scripts, scriptsVendors);
 var serve = gulp.series(compile, jekyll, browserSyncServe);
 var watch = gulp.parallel(watchData, watchMarkup, watchScripts, watchStyles);
+
+gulp.task('styles', styles);
+gulp.task('stylesVendors', stylesVendors);
+gulp.task('scripts', scripts);
+gulp.task('scriptsVendors', scriptsVendors);
+gulp.task('jekyll', jekyll);
 
 /**
  * Default task, running just `gulp` will compile the sass,

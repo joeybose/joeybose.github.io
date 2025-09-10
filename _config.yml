@@ -54,7 +54,10 @@ about_me_description: Joey Bose is an incoming Assisstant Professor of Computing
 # > setting this to false, will omit the Skills section
 show_skills_card: true
 # about_me_title: The will be displayed as the title in the Skills section
-skills_title: Research Interests, Students, Teaching
+skills_title: Research Interests, Students, Teaching & Prospective Students
+
+# PROSPECTIVE STUDENTS SECTION
+prospective_students_title: Prospective Students
 
 # TIMELINE SECTION
 # show_timeline_card:
