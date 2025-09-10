@@ -405,7 +405,6 @@ a {
   div[skill-type="research"] {
     color: #e84a5f;
   }
-
   div[skill-type="students"] {
     color: #8d9db6;
   }
@@ -746,7 +745,6 @@ a {
       font-weight: $font-weight-strong;
       @include neumorphism-button-pressed();
     }
-
     input[id="research"]:checked ~ div[skill-type]:not([skill-type="research"]) {
       @include filter-out;
     }
