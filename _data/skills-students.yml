@@ -1,3 +1,6 @@
 # List of supervised students
- - name: [Oscar Davis (DPhil at Oxford)](https://olsdavis.github.io/), co-supervised with Michael Bronstein and Ismail Ceylan
-   weight: 1
+# - name: Student Name
+#   weight: 1
+- name: Oscar Davis
+  weight: 1
+  url: https://olsdavis.github.io

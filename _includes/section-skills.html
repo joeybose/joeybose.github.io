@@ -17,7 +17,13 @@
   {% endfor %}
   {% for student in site.data.skills-students %}
     <div skill-type="students" skill-weight="{{student.weight}}" data-aos="zoom-in">
-      {{student.name}}
+      {% if student.url %}
+        <a class="highlight-link" href="{{student.url}}" target="_blank" rel="noreferrer">
+          {{student.name}}
+        </a>
+      {% else %}
+        {{student.name}}
+      {% endif %}
     </div>
   {% endfor %}
   {% for teaching in site.data.skills-teaching %}
