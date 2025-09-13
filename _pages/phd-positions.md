@@ -12,7 +12,7 @@ most challenging scientific questions of our time that are unlocked through AI
 based solutions. Consequently, the Bose lab in particular welcomes applications
 from students with non-traditional backgrounds, underrepresented groups, and
 other diverse groups that go beyond simply mainstream ML. Please see my
-supervision style for a better overview to determine if your as enthusiastic
+[supervision style](/supervision-style/) for a better overview to determine if you're as enthusiastic
 about me as I'm likely about you (and your future sucess).
 
 
