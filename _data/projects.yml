@@ -14,7 +14,7 @@
 #     - tag: Node
 
 - name: Progressive Inference-Time Annealing of Diffusion Models for Sampling from Boltzmann Densities
-  conf: Preprint 2025
+  conf: NeurIPS 2025 (Spotlight)
   authors: T. Akhound-Sadegh*, J. Lee*, A. J. Bose, V. De Bortoli, A. Doucet, M. Bronstein, D. Beaini, S. Ravanbakhsh, K. Neklyudov†, A. Tong†
   image_link: "./assets/my_assets/pita_neurips.png"
   arxiv: https://www.arxiv.org/pdf/2506.16471
@@ -26,19 +26,19 @@
   arxiv: https://arxiv.org/pdf/2502.03540
 
 - name: RETRO SYNFLOW, Discrete Flow-Matching for Accurate and Diverse Single-Step Retrosynthesis
-  conf: Preprint 2025
+  conf: NeurIPS 2025
   authors:  R. Yadav, Q. Yan, G. Wolf, A. J. Bose, R. Liao
   image_link: "./assets/my_assets/retrosynflow_neurips.png"
   arxiv: https://arxiv.org/abs/2506.04439
 
 - name: FORT, Forward-Only Regression Training of Normalizing Flows
-  conf: Preprint 2025
+  conf: ICML GenBio Workshop 2025 (Best Paper)
   authors: D. Rehman, O. Davis, J. Lu, J. Tang, M. Bronstein, Y. Bengio, A. Tong†, A. J. Bose†
   image_link: "./assets/my_assets/fort_neurips.png"
   arxiv: https://arxiv.org/pdf/2502.03540
 
 - name: Curly Flow Matching For Learning Non-Gradient Field Dynamics
-  conf: Preprint 2025
+  conf: NeurIPS 2025
   authors: K. Petrović, L. Atanackovic, V. Morro, K. Kapusniak, M. Bronstein, A. J. Bose†, A Tong†
   image_link: "./assets/my_assets/curly_neurips.png"
   arxiv: https://openreview.net/pdf?id=ol3Ps2J8S9
