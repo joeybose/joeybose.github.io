@@ -5,23 +5,14 @@
 # - name: Language
 #   weight: 5
 
-#- name: Generative Models
-  #weight: 4
-
-#- name: Normalizing Flows
-  #weight: 4
-
-#- name: Equivariant Networks
-  #weight: 4
-
-#- name: Adversarial Attacks
-  #weight: 4
-
-#- name: Graph Neural Networks
-  #weight: 2
-
-#- name: KG Embeddings
-  #weight: 2
-
-#- name: NLP
-  #weight: 2
+- name: Sampling from Unnormalized Densities
+- name: Boltzmann Generators
+- name: Generative models such as Diffusion and Flow Matching
+- name: Discrete Generative models, e.g., Discrete Diffusion
+- name: Molecular Dynamics
+- name: Neural Net Potentials
+- name: Protein design with generative models
+- name: Adversarial machine learning for generative models
+- name: Red teaming LLMs and Discrete Diffusion
+- name: Deep Learning theory for synthetic data
+- name: Posterior sampling and Bayesian Inference
