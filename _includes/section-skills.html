@@ -10,11 +10,15 @@
   <input type="radio" id="prospective" name="filter" />
   <label class="filter-button neumorphism-button" for="prospective">{{ site.prospective_students_title }}</label>
 
-  {% for language in site.data.skills-languages %}
-    <div skill-type="research" skill-weight="{{language.weight}}" data-aos="zoom-in">
-      {{language.name}}
+  {% if site.data.skills-languages %}
+    <div skill-type="research" data-aos="zoom-in">
+      <ul class="research-interests-list">
+        {% for language in site.data.skills-languages %}
+          <li>{{ language.name }}</li>
+        {% endfor %}
+      </ul>
     </div>
-  {% endfor %}
+  {% endif %}
   {% for student in site.data.skills-students %}
     <div skill-type="students" skill-weight="{{student.weight}}" data-aos="zoom-in">
       {% if student.url %}
