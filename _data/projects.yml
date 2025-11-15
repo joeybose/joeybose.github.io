@@ -13,6 +13,24 @@
 #     - tag: AngularJS
 #     - tag: Node
 
+- name: OXtal, An All-Atom Diffusion Model for Organic Crystal Structure Prediction
+  conf: Preprint 2025
+  authors: E. Jin, A. Nica, K. Lee, A. J. Bose, M. Galkin, S. Miret, J. Rector-Brooks, A. Tong, M. Bronstein, F. H. Arnold, C.H. Liu
+  image_link: "./assets/my_assets/oxtal_fig.png"
+  arxiv: https://openreview.net/pdf?id=6Jd5aBml0y
+
+- name: Generalised Flow Maps for Few-Step Generative Modelling on Riemannian Manifolds
+  conf: Preprint 2025
+  authors:  O. Davis, M. Albergo, N. Boffi, M. Bronstein, A. J. Bose
+  image_link: "./assets/my_assets/gfm_fig.png"
+  arxiv: https://arxiv.org/pdf/2510.21609
+
+- name: Planner Aware Path Learning In Diffusion Language Models Training
+  conf: Preprint 2025
+  authors:  F. Z.  Peng*, Z. Bezemek*, J. Rector-Brooks, S. Zhang, Anru R. Zhang, J, M. Bronstein, A. J. Bose†, A. Tong†
+  image_link: "./assets/my_assets/papl_fig.jpg"
+  arxiv: https://arxiv.org/pdf/2510.21609
+
 - name: Progressive Inference-Time Annealing of Diffusion Models for Sampling from Boltzmann Densities
   conf: NeurIPS 2025 (Spotlight)
   authors: T. Akhound-Sadegh*, J. Lee*, A. J. Bose, V. De Bortoli, A. Doucet, M. Bronstein, D. Beaini, S. Ravanbakhsh, K. Neklyudov†, A. Tong†

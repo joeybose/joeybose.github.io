@@ -16,7 +16,7 @@ username: Joey Bose
 # > set this to your job title, e.g. Fullstack Developer
 typing_text: Assistant Professor at Imperial College London
 # email: Your E-Mail address for the email button.
-email: joey.bose@mail.mcgill.ca
+email: joey.bose@imperial.ac.uk
 # For every social button you want to display, set your username or userid
 # If you do not use one of the following websites, then leave it empty
 # > twitter_username:
@@ -72,7 +72,7 @@ show_timeline_card: true
 timeline_title: Education & Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: "./assets/my_assets/joey_cv_oct_2025_short.pdf"
+cv_download_link: "./assets/my_assets/joey_cv_nov_2025_short.pdf"
 
 # PROJECTS SECTION
 # show_projects_card:
