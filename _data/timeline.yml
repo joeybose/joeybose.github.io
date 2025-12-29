@@ -18,8 +18,14 @@
 #   timeline-side: right
 
 - title: Imperial College London
+  title-url: https://scholar.google.com/citations?user=ybPyI7IAAAAJ&hl=en
   date: Jan 2026 - Present
   subtitle: Assistant Professor of Computing
+  timeline-side: right
+
+- title: ELLIS
+  date: Nov 2025 - Present
+  subtitle: Member
   timeline-side: left
 
 - title: Mila
