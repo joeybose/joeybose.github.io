@@ -14,20 +14,20 @@
 #     - tag: Node
 
 - name: OXtal, An All-Atom Diffusion Model for Organic Crystal Structure Prediction
-  conf: Preprint 2025
+  conf: ICLR 2026
   authors: E. Jin, A. Nica, K. Lee, A. J. Bose, M. Galkin, S. Miret, J. Rector-Brooks, A. Tong, M. Bronstein, F. H. Arnold, C.H. Liu
   image_link: "./assets/my_assets/oxtal_fig.png"
   arxiv: https://openreview.net/pdf?id=6Jd5aBml0y
 
 - name: Generalised Flow Maps for Few-Step Generative Modelling on Riemannian Manifolds
-  conf: Preprint 2025
+  conf: ICLR 2026
   authors:  O. Davis, M. Albergo, N. Boffi, M. Bronstein, A. J. Bose
   image_link: "./assets/my_assets/gfm_fig.png"
-  arxiv: https://arxiv.org/pdf/2510.21609
+  arxiv: https://arxiv.org/abs/2510.21608
 
 - name: Planner Aware Path Learning In Diffusion Language Models Training
-  conf: Preprint 2025
-  authors:  F. Z.  Peng*, Z. Bezemek*, J. Rector-Brooks, S. Zhang, Anru R. Zhang, J, M. Bronstein, A. J. Bose†, A. Tong†
+  conf: ICLR 2026
+  authors:  F. Z.  Peng*, Z. Bezemek*, J. Rector-Brooks, S. Zhang, Anru R. Zhang, J, M. Bronstein, A. Tong†, A. J. Bose†
   image_link: "./assets/my_assets/papl_fig.jpg"
   arxiv: https://arxiv.org/pdf/2510.21609
 
@@ -49,11 +49,11 @@
   image_link: "./assets/my_assets/retrosynflow_neurips.png"
   arxiv: https://arxiv.org/abs/2506.04439
 
-- name: FORT, Forward-Only Regression Training of Normalizing Flows
+- name: Efficient Regression-Based Training of Normalizing Flows for Boltzmann Generators
   conf: ICML GenBio Workshop 2025 (Best Paper)
   authors: D. Rehman, O. Davis, J. Lu, J. Tang, M. Bronstein, Y. Bengio, A. Tong†, A. J. Bose†
   image_link: "./assets/my_assets/fort_neurips.png"
-  arxiv: https://arxiv.org/pdf/2502.03540
+  arxiv: https://arxiv.org/abs/2506.01158
 
 - name: Curly Flow Matching For Learning Non-Gradient Field Dynamics
   conf: NeurIPS 2025
