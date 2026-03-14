@@ -26,7 +26,7 @@
   arxiv: https://arxiv.org/abs/2510.21608
 
 - name: Planner Aware Path Learning In Diffusion Language Models Training
-  conf: ICLR 2026
+  conf: ICLR 2026 (Oral)
   authors:  F. Z.  Peng*, Z. Bezemek*, J. Rector-Brooks, S. Zhang, Anru R. Zhang, J, M. Bronstein, A. Tong†, A. J. Bose†
   image_link: "./assets/my_assets/papl_fig.jpg"
   arxiv: https://arxiv.org/pdf/2510.21609
@@ -50,7 +50,7 @@
   arxiv: https://arxiv.org/abs/2506.04439
 
 - name: Efficient Regression-Based Training of Normalizing Flows for Boltzmann Generators
-  conf: ICML GenBio Workshop 2025 (Best Paper)
+  conf: ICLR 2026 + ICML GenBio Workshop 2025 (Best Paper)
   authors: D. Rehman, O. Davis, J. Lu, J. Tang, M. Bronstein, Y. Bengio, A. Tong†, A. J. Bose†
   image_link: "./assets/my_assets/fort_neurips.png"
   arxiv: https://arxiv.org/abs/2506.01158
