@@ -12,10 +12,38 @@
 #     - tag: Express
 #     - tag: AngularJS
 #     - tag: Node
+#
+- name: Few-step Cofolding with All-Atom Flow Maps
+  conf: Prepring 2026
+  authors: G. Scarpellini, R. Shprints, P. Holderrieth, J. Nam, P. Murugan, R. Gomez-Bombarelli, T. Jaakola, M. Al-Shedivat, N. M. Boffi,  A.J. Bose
+  image_link: "./assets/my_assets/decaf.png"
+
+- name: Aligning Flow Map Policies with Optimal Q-Guidance
+  conf: Prepring 2026
+  authors: C. Ziakas, A. Russo, A.J. Bose
+  image_link: "./assets/my_assets/fmq.png"
+  arxiv: https://arxiv.org/abs/2605.12416
+
+- name: Coupling Models for One-Step Discrete Generation
+  conf: Prepring 2026
+  authors: F. Z. Peng, A.J. Bose, A.R. Zhang, A. Tong
+  image_link: "./assets/my_assets/coupling_models.png"
+  arxiv: https://arxiv.org/abs/2605.07193
+
+- name: Autoregressive Boltzmann Generators
+  conf: ICML 2026 (Spotlight)
+  authors: D. Rehman, C. Tan, A.J. Bose†, A. Tong†
+  image_link: "./assets/my_assets/arbg_scaling.png"
+
+- name: General Multimodal Protein Design Enables DNA-Encoding of Chemistry
+  conf: Prepring 2026
+  authors: J. Rector-Brooks*, T. Lambert*, M. Skreta*, D. Roth*, ..., C.H. Liu*
+  image_link: "./assets/my_assets/disco.png"
+  arxiv: https://arxiv.org/abs/2604.05181
 
 - name: OXtal, An All-Atom Diffusion Model for Organic Crystal Structure Prediction
   conf: ICLR 2026
-  authors: E. Jin, A. Nica, K. Lee, A. J. Bose, M. Galkin, S. Miret, J. Rector-Brooks, A. Tong, M. Bronstein, F. H. Arnold, C.H. Liu
+  authors: E. Jin*, A. Nica*, K. Lee, A. J. Bose, M. Galkin, S. Miret, J. Rector-Brooks, A. Tong, M. Bronstein, F. H. Arnold, C.H. Liu
   image_link: "./assets/my_assets/oxtal_fig.png"
   arxiv: https://openreview.net/pdf?id=6Jd5aBml0y
 
