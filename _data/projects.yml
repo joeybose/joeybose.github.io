@@ -14,18 +14,19 @@
 #     - tag: Node
 #
 - name: Few-step Cofolding with All-Atom Flow Maps
-  conf: Prepring 2026
+  conf: NeurIPS 2026 (Spotlight)
   authors: G. Scarpellini, R. Shprints, P. Holderrieth, J. Nam, P. Murugan, R. Gomez-Bombarelli, T. Jaakola, M. Al-Shedivat, N. M. Boffi,  A.J. Bose
   image_link: "./assets/my_assets/decaf.png"
+  arxiv: https://arxiv.org/abs/2606.08375
 
 - name: Aligning Flow Map Policies with Optimal Q-Guidance
-  conf: Prepring 2026
+  conf: NeurIPS 2026
   authors: C. Ziakas, A. Russo, A.J. Bose
   image_link: "./assets/my_assets/fmq.png"
   arxiv: https://arxiv.org/abs/2605.12416
 
 - name: Coupling Models for One-Step Discrete Generation
-  conf: Prepring 2026
+  conf: NeurIPS 2026
   authors: F. Z. Peng, A.J. Bose, A.R. Zhang, A. Tong
   image_link: "./assets/my_assets/coupling_models.png"
   arxiv: https://arxiv.org/abs/2605.07193
@@ -34,9 +35,10 @@
   conf: ICML 2026 (Spotlight)
   authors: D. Rehman, C. Tan, A.J. Bose†, A. Tong†
   image_link: "./assets/my_assets/arbg_scaling.png"
+  arxiv: https://arxiv.org/abs/2606.27361
 
 - name: General Multimodal Protein Design Enables DNA-Encoding of Chemistry
-  conf: Prepring 2026
+  conf: Preprint 2026
   authors: J. Rector-Brooks*, T. Lambert*, M. Skreta*, D. Roth*, ..., C.H. Liu*
   image_link: "./assets/my_assets/disco.png"
   arxiv: https://arxiv.org/abs/2604.05181
@@ -57,7 +59,7 @@
   conf: ICLR 2026 (Oral)
   authors:  F. Z.  Peng*, Z. Bezemek*, J. Rector-Brooks, S. Zhang, Anru R. Zhang, J, M. Bronstein, A. Tong†, A. J. Bose†
   image_link: "./assets/my_assets/papl_fig.jpg"
-  arxiv: https://arxiv.org/pdf/2510.21609
+  arxiv: https://arxiv.org/abs/2509.23405
 
 - name: Progressive Inference-Time Annealing of Diffusion Models for Sampling from Boltzmann Densities
   conf: NeurIPS 2025 (Spotlight)
@@ -87,7 +89,7 @@
   conf: NeurIPS 2025
   authors: K. Petrović, L. Atanackovic, V. Morro, K. Kapusniak, M. Bronstein, A. J. Bose†, A Tong†
   image_link: "./assets/my_assets/curly_neurips.png"
-  arxiv: https://openreview.net/pdf?id=ol3Ps2J8S9
+  arxiv: https://arxiv.org/abs/2510.26645
 
 - name: Scalable Equilibrium Sampling with Sequential Boltzmann Generators
   conf: ICML 2025
@@ -142,7 +144,7 @@
   authors: A. J. Bose
   arxiv: https://drive.google.com/file/d/1HmdOUU09D6VGja7AipT1a2lAcaCOc0oz/view
 
-- name: SE(3) Stochastic Flow Matching for Protein For Protein Backbone Generation
+- name: SE(3) Stochastic Flow Matching for Protein Backbone Generation
   conf: ICLR 2024 (Spotlight)
   authors: A. J. Bose*, T. Akhound-Sadegh*, K. Fatras, G. Huguet, J. Rector-Brooks, C.H. Liu, A.C. Nica, M. Korablyov, M. Bronstein, A. Tong
   image_link: "./assets/my_assets/protein_intro_fig.png"
@@ -208,7 +210,7 @@
     - tag: Equivariant Normalizing Flows
     - tag: Generative Models
 
-- name: Matching Normalizing Flows and Probablity Paths on Manifolds
+- name: Matching Normalizing Flows and Probability Paths on Manifolds
   conf: ICML 2022
   authors: H. Ben-Hamu*, S. Cohen*, A.J. Bose, B. Amos, M. Nickel, A. Grover, R. Chen, Y. Lipman
   image_link: "./assets/my_assets/gt_and_s15_3.jpg"
@@ -227,7 +229,7 @@
     - tag: Online Algorithms
     - tag: k-secretary
 
-- name: Neural Path Hunter, Reducing Hallucination in Dialogue Sytems via Path Grounding
+- name: Neural Path Hunter, Reducing Hallucination in Dialogue Systems via Path Grounding
   conf: EMNLP 2021
   authors: N. Dziri, A. Madotto, O. Zaiane, A.J. Bose
   image_link: "./assets/my_assets/main_img.png"
