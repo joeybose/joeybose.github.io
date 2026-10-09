@@ -19,17 +19,21 @@
       </ul>
     </div>
   {% endif %}
-  {% for student in site.data.skills-students %}
-    <div skill-type="students" skill-weight="{{student.weight}}" data-aos="zoom-in">
-      {% if student.url %}
-        <a class="highlight-link" href="{{student.url}}" target="_blank" rel="noreferrer">
-          {{student.name}}
-        </a>
-      {% else %}
-        {{student.name}}
-      {% endif %}
-    </div>
-  {% endfor %}
+  <div skill-type="students" data-aos="zoom-in">
+    <ul class="students-list">
+      {% for student in site.data.skills-students %}
+        <li>
+          {% if student.url %}
+            <a class="highlight-link" href="{{student.url}}" target="_blank" rel="noreferrer">
+              {{student.name}}
+            </a>
+          {% else %}
+            {{student.name}}
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
   {% for teaching in site.data.skills-teaching %}
     <div skill-type="teaching" skill-weight="{{teaching.weight}}" data-aos="zoom-in">
       <a class="highlight-link" href="{{teaching.blog}}" target="_blank" rel="noreferrer">
