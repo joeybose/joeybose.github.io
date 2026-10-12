@@ -16,21 +16,25 @@
 - name: Normalizing Flow Maps
   conf: NeurIPS 2026 STODY Workshop (Oral)
   authors: F. M. Ruscio, T. J. Hitge, Z. Peng, D. Rehman, Z. W. Blasingame, M. M. Bronstein, N. M. Boffi, A. Tong, A. J. Bose
+  image_link: "./assets/my_assets/normalizing-flow-maps.jpg"
   arxiv: https://openreview.net/forum?id=guBm2gNlxU
 
 - name: Fixed-Point Rates for Self-Distillation of Flow Maps
   conf: NeurIPS 2026 STODY Workshop
   authors: T. Stanic, Q. Bertrand, A. J. Bose, G. Gidel
+  image_link: "./assets/my_assets/fixed-point-rates.jpg"
   arxiv: https://openreview.net/forum?id=sWVDqeX4ux
 
 - name: On the Stability and Convergence of Flow Map Training
   conf: NeurIPS 2026 STODY Workshop
   authors: I. Nath, M. Massias, A. J. Bose, G. Gidel, Q. Bertrand
+  image_link: "./assets/my_assets/stability-convergence-flow-maps.jpg"
   arxiv: https://openreview.net/forum?id=gRvMLsNENT
 
 - name: Steered Not Stirred, Effective Tilting in Generative Models using Surrogate Reward Mixing
   conf: NeurIPS 2026 STODY Workshop
   authors: A. Sargood, O. Gallup, G. Maierhofer, N. Ghenassia, P. Duckworth, K. Sinkovics, A. J. Bose
+  image_link: "./assets/my_assets/steered-not-stirred.jpg"
   arxiv: https://openreview.net/forum?id=9Ysy6qcUWm
 
 - name: Few-step Cofolding with All-Atom Flow Maps
