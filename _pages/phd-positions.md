@@ -5,6 +5,11 @@ permalink: /phd-positions/
 date: 2025-09-01
 ---
 
+> **Update — November 2026:**
+>
+> - The lab is **not hosting interns from outside Imperial** over the next year.
+> - PhD openings this year are for candidates who are able to secure funding through competitive scholarship schemes such as **QRT labs**, **Thomson Reuters**, the **President's PhD Scholarship**, etc. These schemes are highly competitive, which unfortunately often means that a competitive CV requires **1–2 first-author publications at top-tier venues** (e.g. NeurIPS, ICML, ICLR).
+
 I am starting as an Assistant Professor of Computing at Imperial College London in January 2026. I am looking for highly motivated PhD students to join my group working on generative modelling, differentional geometry for machine learning, and AI4Science applications. If you're interested in working with me, please send your CV and a brief description of your research interests to my email. This last step can be done via the Expression of Interest Form below as well.
 
 As research is quite challenging, with my lab I will be aiming to pursue the
